@@ -57,7 +57,18 @@ function mailtoMiddleware(mailto: string): Middleware {
 class HeartbeatApi extends BaseAPI {
   async heartbeat(): Promise<{ status?: string; url: string }> {
     const response = await this.request({ path: '/heartbeat', method: 'GET', headers: {} });
-    const body = (await response.json()) as { 'overall-status'?: string };
+    let body: { 'overall-status'?: string };
+    try {
+      body = await response.json();
+    } catch (error) {
+      throw new CrossrefApiError({
+        message: `Could not read the heartbeat response: ${(error as Error)?.message}`,
+        method: 'GET',
+        url: response.url,
+        status: response.status,
+        cause: error,
+      });
+    }
     return { status: body['overall-status'], url: response.url };
   }
 }

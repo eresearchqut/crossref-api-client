@@ -1,4 +1,5 @@
 import { CrossrefApiError, createCrossrefClient } from '../src';
+import { BodyType } from 'wiremock-captain';
 import { MAILTO, origin, wiremock } from './Config';
 
 const emptyWorks = {
@@ -64,6 +65,21 @@ describe('createCrossrefClient', () => {
     await wiremock.clearAll();
     await wiremock.register({ method: 'GET', endpoint: '/heartbeat' }, { status: 503 });
     await expect(health()).rejects.toMatchObject({ status: 503 });
+  });
+
+  test('health rejects with a CrossrefApiError when the heartbeat body is not JSON', async () => {
+    await wiremock.register(
+      { method: 'GET', endpoint: '/heartbeat' },
+      { status: 200, body: '{"overall-status"', headers: { 'Content-Type': 'application/json' } },
+      { responseBodyType: BodyType.Body },
+    );
+    const { health } = createCrossrefClient({ url: origin });
+
+    const error = await health().catch((e) => e);
+
+    expect(error).toBeInstanceOf(CrossrefApiError);
+    expect(error).toMatchObject({ method: 'GET', url: `${origin}/heartbeat`, status: 200 });
+    expect(error.cause).toMatchObject({ name: 'SyntaxError' });
   });
 
   test('a JSON error body is parsed', async () => {
