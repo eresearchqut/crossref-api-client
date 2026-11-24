@@ -68,6 +68,8 @@ jobs:
         env:
           CROSSREF_SPEC_URL: ${{ vars.CROSSREF_SPEC_URL }}
         run: npm run build
+      - name: Test
+        run: npm test
       - name: Release
         run: npx semantic-release
         id: release
