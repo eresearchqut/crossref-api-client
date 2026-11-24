@@ -1,0 +1,4112 @@
+{
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+        "facets": {},
+        "total-results": 28,
+        "items": [
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2024,
+                            12,
+                            13
+                        ]
+                    ],
+                    "date-time": "2024-12-13T05:15:25Z",
+                    "timestamp": 1734066925827,
+                    "version": "3.30.2"
+                },
+                "reference-count": 0,
+                "publisher": "University of Washington Press",
+                "isbn-type": [
+                    {
+                        "value": "9780295804323",
+                        "type": "electronic"
+                    }
+                ],
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2012,
+                            12,
+                            31
+                        ]
+                    ]
+                },
+                "DOI": "10.1515/9780295804323-012",
+                "type": "book-chapter",
+                "created": {
+                    "date-parts": [
+                        [
+                            2024,
+                            12,
+                            12
+                        ]
+                    ],
+                    "date-time": "2024-12-12T05:53:07Z",
+                    "timestamp": 1733982787000
+                },
+                "page": "56-63",
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "8 How to Make Them Glad That You Are There"
+                ],
+                "prefix": "10.1515",
+                "member": "374",
+                "container-title": [
+                    "How to Work in Someone Else's Country"
+                ],
+                "link": [
+                    {
+                        "URL": "https://www.degruyter.com/document/doi/10.1515/9780295804323-012/xml",
+                        "content-type": "application/xml",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    },
+                    {
+                        "URL": "https://www.degruyter.com/document/doi/10.1515/9780295804323-012/pdf",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "similarity-checking"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2024,
+                            12,
+                            12
+                        ]
+                    ],
+                    "date-time": "2024-12-12T05:53:30Z",
+                    "timestamp": 1733982810000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.degruyter.com/document/doi/10.1515/9780295804323-012/html"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2012,
+                            12,
+                            31
+                        ]
+                    ]
+                },
+                "ISBN": [
+                    "9780295804323"
+                ],
+                "references-count": 0,
+                "alternative-id": [
+                    "10.1515/9780295804323-012",
+                    "10.1515/9780295804323"
+                ],
+                "URL": "https://doi.org/10.1515/9780295804323-012",
+                "published": {
+                    "date-parts": [
+                        [
+                            2012,
+                            12,
+                            31
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2024,
+                            5,
+                            6
+                        ]
+                    ],
+                    "date-time": "2024-05-06T16:11:17Z",
+                    "timestamp": 1715011877664
+                },
+                "reference-count": 12,
+                "publisher": "Elsevier",
+                "isbn-type": [
+                    {
+                        "value": "9780081005743",
+                        "type": "print"
+                    }
+                ],
+                "license": [
+                    {
+                        "start": {
+                            "date-parts": [
+                                [
+                                    2016,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "date-time": "2016-01-01T00:00:00Z",
+                            "timestamp": 1451606400000
+                        },
+                        "content-version": "tdm",
+                        "delay-in-days": 0,
+                        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+                    }
+                ],
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2016
+                        ]
+                    ]
+                },
+                "DOI": "10.1016/b978-0-08-100574-3.00010-2",
+                "type": "book-chapter",
+                "created": {
+                    "date-parts": [
+                        [
+                            2016,
+                            4,
+                            30
+                        ]
+                    ],
+                    "date-time": "2016-04-30T19:21:32Z",
+                    "timestamp": 1462044092000
+                },
+                "page": "185-195",
+                "source": "Crossref",
+                "is-referenced-by-count": 2,
+                "title": [
+                    "Bioinspired control of a multifingered robot hand with musculoskeletal system"
+                ],
+                "prefix": "10.1016",
+                "author": [
+                    {
+                        "given": "S.",
+                        "family": "Ide",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "A.",
+                        "family": "Nishikawa",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "78",
+                "reference": [
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib1",
+                        "series-title": "Proceedings of the 10th International Conference on the Simulation of Adaptive Behavior (SAB' 2008)",
+                        "first-page": "22",
+                        "article-title": "Flexible control mechanism for\u00a0multi-DOF robotic arm based on biological fluctuation",
+                        "author": "Fukuyori",
+                        "year": "2008"
+                    },
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib2",
+                        "series-title": "The 4th International Conference on Autonomous Robots and Agents",
+                        "first-page": "618",
+                        "article-title": "Control method for a robot based on adaptive attractor selection model",
+                        "author": "Fukuyori",
+                        "year": "2009"
+                    },
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib3",
+                        "series-title": "Proceedings of the 3rd IEEE/RAS-EMBS International Conference on Biomedical Robotics and Biomechatronics",
+                        "first-page": "337",
+                        "article-title": "Control of pneumatic five-fingered robot hand using antagonistic muscle ratio and antagonistic muscle activity",
+                        "author": "Honda",
+                        "year": "2010"
+                    },
+                    {
+                        "issue": "1",
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib4",
+                        "doi-asserted-by": "crossref",
+                        "first-page": "1",
+                        "DOI": "10.1371/journal.pone.0000049",
+                        "article-title": "Adaptive response of a gene network to environmental changes by fitness-induced attractor selection",
+                        "volume": "1",
+                        "author": "Kashiwagi",
+                        "year": "2006",
+                        "journal-title": "PLoS One"
+                    },
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib5",
+                        "series-title": "Proceedings of BioMedical Imaging, JSMBE-BMI2013\u201311",
+                        "article-title": "Development of a colonoscope robot with multiple propulsion modes using pneumatic soft actuators",
+                        "author": "Kuramata",
+                        "year": "2014"
+                    },
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib6",
+                        "series-title": "Proceedings IEEE-RAS International Conference on Humanoid Robots (Humanoids 2010), Nashville, TN, USA",
+                        "article-title": "ECCE1: the first of a series of anthropomimetic musculoskeletal upper torsos",
+                        "author": "Marques",
+                        "year": "2010"
+                    },
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib7",
+                        "series-title": "Proceedings of the 2006 IEEE International Conference on Robotics and Automation",
+                        "article-title": "Development of musculoskeletal humanoid Kotaro",
+                        "author": "Mizuuchi",
+                        "year": "2006"
+                    },
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib8",
+                        "doi-asserted-by": "crossref",
+                        "first-page": "2592",
+                        "DOI": "10.3390/e16052592",
+                        "article-title": "Guided self-organization in a dynamic embodied system based on attractor selection mechanism",
+                        "volume": "16",
+                        "author": "Nurzaman",
+                        "year": "2014",
+                        "journal-title": "Entropy"
+                    },
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib9",
+                        "series-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+                        "article-title": "Noise-based underactuated mobile robot inspired by bacterical motion mechanism",
+                        "author": "Shirai",
+                        "year": "2009"
+                    },
+                    {
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib10",
+                        "series-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+                        "article-title": "The designs and motions of a shoulder with a spherical thorax, scapulas and collarbones for humanoid \u201cKotaro\u201d",
+                        "author": "Sodeyama",
+                        "year": "2008"
+                    },
+                    {
+                        "issue": "1",
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib11",
+                        "first-page": "51",
+                        "article-title": "Development of an automatic endoscope positioning system based on biological fluctuation-A non-model based algorithm for automatic positioning of an endoscope",
+                        "volume": "47",
+                        "author": "Yamada",
+                        "year": "2011",
+                        "journal-title": "SICE"
+                    },
+                    {
+                        "issue": "3",
+                        "key": "10.1016/B978-0-08-100574-3.00010-2_bib12",
+                        "doi-asserted-by": "crossref",
+                        "first-page": "228",
+                        "DOI": "10.1016/j.biosystems.2006.08.012",
+                        "article-title": "Brownian motion, fluctuation and life",
+                        "volume": "88",
+                        "author": "Yanagida",
+                        "year": "2006",
+                        "journal-title": "Biosystems"
+                    }
+                ],
+                "container-title": [
+                    "Smart Textiles and their Applications"
+                ],
+                "language": "en",
+                "link": [
+                    {
+                        "URL": "https://api.elsevier.com/content/article/PII:B9780081005743000102?httpAccept=text/xml",
+                        "content-type": "text/xml",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    },
+                    {
+                        "URL": "https://api.elsevier.com/content/article/PII:B9780081005743000102?httpAccept=text/plain",
+                        "content-type": "text/plain",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2018,
+                            9,
+                            12
+                        ]
+                    ],
+                    "date-time": "2018-09-12T16:55:06Z",
+                    "timestamp": 1536771306000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780081005743000102"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2016
+                        ]
+                    ]
+                },
+                "ISBN": [
+                    "9780081005743"
+                ],
+                "references-count": 12,
+                "URL": "https://doi.org/10.1016/b978-0-08-100574-3.00010-2",
+                "published": {
+                    "date-parts": [
+                        [
+                            2016
+                        ]
+                    ]
+                }
+            },
+            {
+                "institution": [
+                    {
+                        "name": "Research Square"
+                    }
+                ],
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2024,
+                            11,
+                            8
+                        ]
+                    ],
+                    "date-time": "2024-11-08T05:28:01Z",
+                    "timestamp": 1731043681325,
+                    "version": "3.28.0"
+                },
+                "posted": {
+                    "date-parts": [
+                        [
+                            2024,
+                            9,
+                            9
+                        ]
+                    ]
+                },
+                "group-title": "In Review",
+                "reference-count": 37,
+                "publisher": "Springer Science and Business Media LLC",
+                "license": [
+                    {
+                        "start": {
+                            "date-parts": [
+                                [
+                                    2024,
+                                    9,
+                                    9
+                                ]
+                            ],
+                            "date-time": "2024-09-09T00:00:00Z",
+                            "timestamp": 1725840000000
+                        },
+                        "content-version": "unspecified",
+                        "delay-in-days": 0,
+                        "URL": "https://creativecommons.org/licenses/by/4.0/"
+                    }
+                ],
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "accepted": {
+                    "date-parts": [
+                        [
+                            2024,
+                            8,
+                            1
+                        ]
+                    ]
+                },
+                "abstract": "<title>Abstract</title>\n        <p>Objectives\n This cross-sectional study investigated the construct validity and reliability of a Thai-language version of the Brief Illness Perception Questionnaire (Thai-BIPQ) and its association with health in ankylosing spondylitis (AS) patients, as measured by the ASAS\u2013Health Index (ASAS-HI)\nMethods\n AS patients receiving treatment at Siriraj Hospital were recruited. Reliability was assessed using Cronbach\u2019s alpha coefficient and the intraclass correlation coefficient (ICC). Construct validity was determined by Spearman correlation with the Ankylosing Spondylitis Disease Activity Score (ASDAS), ASAS-HI, and Hospital Anxiety and Depression Scale (HADS). Linear regression was used to analyze the associations between the ASAS-HI (dependent variable) and the Thai-BIPQ (independent variable).\nResults\n We recruited 61 patients, 63.9% male, with a mean age of 47.9 years and a mean disease duration of 16 years. The median Thai-BIPQ score was 2. Cronbach\u2019s alpha was 0.53 but increased to 0.73 after deleting the items \u201ctimeline,\u201d \u201ctreatment control,\u201d and \u201ccoherence.\u201d The ICC was 0.95 with no missing data. The Thai-BIPQ showed moderate correlations with the ASDAS, ASAS-HI, and HADS (Spearman\u2019s rho 0.44\u20130.56). According to multivariate regression, Thai-BIPQ (<italic>P</italic>\u2009=\u20090.006) and ASDAS\u2009\u2265\u20092.1 (<italic>P</italic>\u2009&lt;\u20090.001) were positively associated with the ASAS-HI.\nConclusions\n The Thai-BIPQ is a valid, reliable, and feasible tool for evaluating illness perception in AS patients. Low disease activity and positive illness perception are associated with better functionality and health. Further research is necessary to explore strategies for modifying illness perceptions in AS patients.</p>",
+                "DOI": "10.21203/rs.3.rs-4840802/v1",
+                "type": "posted-content",
+                "created": {
+                    "date-parts": [
+                        [
+                            2024,
+                            9,
+                            9
+                        ]
+                    ],
+                    "date-time": "2024-09-09T15:37:14Z",
+                    "timestamp": 1725896234000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Construct validity and reliability of the Thai version of the Brief Illness Perception Questionnaire and its association with overall functioning and health in patients with ankylosing spondylitis"
+                ],
+                "prefix": "10.21203",
+                "author": [
+                    {
+                        "given": "Praveena",
+                        "family": "Chiowchanwisawakit",
+                        "sequence": "first",
+                        "affiliation": [
+                            {
+                                "name": "Faculty of Medicine Siriraj Hospital, Mahidol University"
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Woraphat",
+                        "family": "Ratta-apha",
+                        "sequence": "additional",
+                        "affiliation": [
+                            {
+                                "name": "Faculty of Medicine Siriraj Hospital, Mahidol University"
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Nutwara",
+                        "family": "Meannui",
+                        "sequence": "additional",
+                        "affiliation": [
+                            {
+                                "name": "Faculty of Medicine Siriraj Hospital, Mahidol University"
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "297",
+                "reference": [
+                    {
+                        "issue": "7",
+                        "key": "ref1",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "383",
+                        "DOI": "10.1097/RHU.0000000000000589",
+                        "article-title": "Patient Burden of Axial Spondyloarthritis",
+                        "volume": "23",
+                        "author": "Strand V",
+                        "year": "2017",
+                        "unstructured": "Strand V, Singh JA. Patient Burden of Axial Spondyloarthritis. J Clin Rheumatol. 2017;23(7):383\u201391. 10.1097/RHU.0000000000000589.",
+                        "journal-title": "J Clin Rheumatol"
+                    },
+                    {
+                        "key": "ref2",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1136/ard-2022-223296",
+                        "article-title": "ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update",
+                        "author": "Ramiro S",
+                        "year": "2022",
+                        "unstructured": "Ramiro S, Nikiphorou E, Sepriano A, Ortolan A, Webers C, Baraliakos X, et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2022. 10.1136/ard-2022-223296.",
+                        "journal-title": "Ann Rheum Dis"
+                    },
+                    {
+                        "issue": "1",
+                        "key": "ref3",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "e000585",
+                        "DOI": "10.1136/rmdopen-2017-000585",
+                        "article-title": "Predicting adherence to therapy in rheumatoid arthritis, psoriatic arthritis or ankylosing spondylitis: a large cross-sectional study",
+                        "volume": "5",
+                        "author": "Smolen JS",
+                        "year": "2019",
+                        "unstructured": "Smolen JS, Gladman D, McNeil HP, Mease PJ, Sieper J, Hojnik M, et al. Predicting adherence to therapy in rheumatoid arthritis, psoriatic arthritis or ankylosing spondylitis: a large cross-sectional study. RMD Open. 2019;5(1):e000585. 10.1136/rmdopen-2017-000585.",
+                        "journal-title": "RMD Open"
+                    },
+                    {
+                        "issue": "1",
+                        "key": "ref4",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "8",
+                        "DOI": "10.3899/jrheum.200586",
+                        "article-title": "The ASAS Health Index: A New Era for Health Impact Assessment in Spondyloarthritis",
+                        "volume": "49",
+                        "author": "Alonso S",
+                        "year": "2022",
+                        "unstructured": "Alonso S, Morante I, Alperi M, Queiro R. The ASAS Health Index: A New Era for Health Impact Assessment in Spondyloarthritis. J Rheumatol. 2022;49(1):8\u201315. 10.3899/jrheum.200586.",
+                        "journal-title": "J Rheumatol"
+                    },
+                    {
+                        "issue": "5 Suppl 85",
+                        "key": "ref5",
+                        "first-page": "S",
+                        "article-title": "The ASAS Health Index (ASAS HI) - a new tool to assess the health status of patients with spondyloarthritis",
+                        "volume": "32",
+                        "author": "Kiltz U",
+                        "year": "2014",
+                        "unstructured": "Kiltz U, van der Heijde D, Boonen A, Braun J. The ASAS Health Index (ASAS HI) - a new tool to assess the health status of patients with spondyloarthritis. Clin Exp Rheumatol. 2014;32(5 Suppl 85):S\u2013105.",
+                        "journal-title": "Clin Exp Rheumatol"
+                    },
+                    {
+                        "issue": "9",
+                        "key": "ref6",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1311",
+                        "DOI": "10.1136/annrheumdis-2017-212076",
+                        "article-title": "Measurement properties of the ASAS Health Index: results of a global study in patients with axial and peripheral spondyloarthritis",
+                        "volume": "77",
+                        "author": "Kiltz U",
+                        "year": "2018",
+                        "unstructured": "Kiltz U, van der Heijde D, Boonen A, Akkoc N, Bautista-Molano W, Burgos-Vargas R, et al. Measurement properties of the ASAS Health Index: results of a global study in patients with axial and peripheral spondyloarthritis. Ann Rheum Dis. 2018;77(9):1311\u20137. 10.1136/annrheumdis-2017-212076.",
+                        "journal-title": "Ann Rheum Dis"
+                    },
+                    {
+                        "issue": "2",
+                        "key": "ref7",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "e000311",
+                        "DOI": "10.1136/rmdopen-2016-000311",
+                        "article-title": "Measuring impairments of functioning and health in patients with axial spondyloarthritis by using the ASAS Health Index and the Environmental Item Set: translation and cross-cultural adaptation into 15 languages",
+                        "volume": "2",
+                        "author": "Kiltz U",
+                        "year": "2016",
+                        "unstructured": "Kiltz U, van der Heijde D, Boonen A, Bautista-Molano W, Burgos-Vargas R, Chiowchanwisawakit P, et al. Measuring impairments of functioning and health in patients with axial spondyloarthritis by using the ASAS Health Index and the Environmental Item Set: translation and cross-cultural adaptation into 15 languages. RMD Open. 2016;2(2):e000311. 10.1136/rmdopen-2016-000311.",
+                        "journal-title": "RMD Open"
+                    },
+                    {
+                        "key": "ref8",
+                        "unstructured": "Assessment in SpondyloArthritis international Society. ASAS Health Index [cited 2024 26 June]. https://www.asas-group.org/instruments/asas-health-index/"
+                    },
+                    {
+                        "key": "ref9",
+                        "first-page": "7",
+                        "volume-title": "Contributions to medical psychology",
+                        "author": "Leventhal H",
+                        "year": "1980",
+                        "unstructured": "Leventhal H, Meyer D, Nerenz D. The common sense representation of illness danger. In: Rachman S, editor. Contributions to medical psychology. Volume 2. New York: Pergamon; 1980. pp. 7\u201330."
+                    },
+                    {
+                        "key": "ref10",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "565",
+                        "DOI": "10.1146/annurev.psych.58.110405.085615",
+                        "article-title": "Health psychology: psychological adjustment to chronic disease",
+                        "volume": "58",
+                        "author": "Stanton AL",
+                        "year": "2007",
+                        "unstructured": "Stanton AL, Revenson TA, Tennen H. Health psychology: psychological adjustment to chronic disease. Annu Rev Psychol. 2007;58:565\u201392. 10.1146/annurev.psych.58.110405.085615.",
+                        "journal-title": "Annu Rev Psychol"
+                    },
+                    {
+                        "issue": "1",
+                        "key": "ref11",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1",
+                        "DOI": "10.1080/08870440290001494",
+                        "article-title": "The Revised Illness Perception Questionnaire (IPQ-R)",
+                        "volume": "17",
+                        "author": "Moss-Morris R",
+                        "year": "2002",
+                        "unstructured": "Moss-Morris R, Weinman J, Petrie K, Horne R, Cameron L, Buick D. The Revised Illness Perception Questionnaire (IPQ-R). Psychol Health. 2002;17(1):1\u201316. 10.1080/08870440290001494.",
+                        "journal-title": "Psychol Health"
+                    },
+                    {
+                        "issue": "6",
+                        "key": "ref12",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "631",
+                        "DOI": "10.1016/j.jpsychores.2005.10.020",
+                        "article-title": "The brief illness perception questionnaire",
+                        "volume": "60",
+                        "author": "Broadbent E",
+                        "year": "2006",
+                        "unstructured": "Broadbent E, Petrie KJ, Main J, Weinman J. The brief illness perception questionnaire. J Psychosom Res. 2006;60(6):631\u20137. 10.1016/j.jpsychores.2005.10.020.",
+                        "journal-title": "J Psychosom Res"
+                    },
+                    {
+                        "issue": "11",
+                        "key": "ref13",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1361",
+                        "DOI": "10.1080/08870446.2015.1070851",
+                        "article-title": "A systematic review and meta-analysis of the Brief Illness Perception Questionnaire",
+                        "volume": "30",
+                        "author": "Broadbent E",
+                        "year": "2015",
+                        "unstructured": "Broadbent E, Wilkes C, Koschwanez H, Weinman J, Norton S, Petrie KJ. A systematic review and meta-analysis of the Brief Illness Perception Questionnaire. Psychol Health. 2015;30(11):1361\u201385. 10.1080/08870446.2015.1070851.",
+                        "journal-title": "Psychol Health"
+                    },
+                    {
+                        "issue": "5",
+                        "key": "ref14",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "280",
+                        "DOI": "10.1016/j.aprim.2010.11.022",
+                        "article-title": "[Perception in chronic illnesses: linguistic validation of the revised Illness Perception Questionnaire and the Brief Illness Perception Questionnaire for a Spanish population]",
+                        "volume": "44",
+                        "author": "Pacheco-Huergo V",
+                        "year": "2012",
+                        "unstructured": "Pacheco-Huergo V, Viladrich C, Pujol-Ribera E, Cabezas-Pena C, Nunez M, Roura-Olmeda P et al. (2012) [Perception in chronic illnesses: linguistic validation of the revised Illness Perception Questionnaire and the Brief Illness Perception Questionnaire for a Spanish population]. Atencion primaria / Sociedad Espanola de Medicina de Familia y Comunitaria 44 (5):280\u20137. 10.1016/j.aprim.2010.11.022"
+                    },
+                    {
+                        "issue": "12",
+                        "key": "ref15",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1829",
+                        "DOI": "10.1002/acr.23566",
+                        "article-title": "The Impact of Illness Perceptions and Coping on the Association Between Back Pain and Health Outcomes in Patients Suspected of Having Axial Spondyloarthritis: Data From the SPondyloArthritis Caught Early Cohort",
+                        "volume": "70",
+                        "author": "Lunteren M",
+                        "year": "2018",
+                        "unstructured": "van Lunteren M, Scharloo M, Ez-Zaitouni Z, de Koning A, Landewe R, Fongen C, et al. The Impact of Illness Perceptions and Coping on the Association Between Back Pain and Health Outcomes in Patients Suspected of Having Axial Spondyloarthritis: Data From the SPondyloArthritis Caught Early Cohort. Arthritis Care Res (Hoboken). 2018;70(12):1829\u201339. 10.1002/acr.23566.",
+                        "journal-title": "Arthritis Care Res (Hoboken)"
+                    },
+                    {
+                        "issue": "12",
+                        "key": "ref16",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1752",
+                        "DOI": "10.3899/jrheum.191353",
+                        "article-title": "Do Illness Perceptions and Coping Strategies Change Over Time in Patients Recently Diagnosed With Axial Spondyloarthritis?",
+                        "volume": "47",
+                        "author": "Lunteren M",
+                        "year": "2020",
+                        "unstructured": "van Lunteren M, Landewe R, Fongen C, Ramonda R, van der Heijde D, van Gaalen FA. Do Illness Perceptions and Coping Strategies Change Over Time in Patients Recently Diagnosed With Axial Spondyloarthritis? J Rheumatol. 2020;47(12):1752\u20139. 10.3899/jrheum.191353.",
+                        "journal-title": "J Rheumatol"
+                    },
+                    {
+                        "issue": "10",
+                        "key": "ref17",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "4476",
+                        "DOI": "10.1093/rheumatology/keab019",
+                        "article-title": "Central sensitization, illness perception and obesity should be considered when interpreting disease activity in axial spondyloarthritis",
+                        "volume": "60",
+                        "author": "Kieskamp SC",
+                        "year": "2021",
+                        "unstructured": "Kieskamp SC, Paap D, Carbo MJG, Wink F, Bos R, Bootsma H, et al. Central sensitization, illness perception and obesity should be considered when interpreting disease activity in axial spondyloarthritis. Rheumatology (Oxford). 2021;60(10):4476\u201385. 10.1093/rheumatology/keab019.",
+                        "journal-title": "Rheumatology (Oxford)"
+                    },
+                    {
+                        "issue": "Suppl 1",
+                        "key": "ref18",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1130",
+                        "DOI": "10.1136/annrheumdis-2022-eular.4725",
+                        "article-title": "POS1568-PARE\u2005THE BRIEF-ILLNESS PERCEPTION QUESTIONNAIRE: A",
+                        "volume": "81",
+                        "author": "Zeineb Z",
+                        "year": "2022",
+                        "unstructured": "Zeineb Z, Jemmali S, Rekik S, Boussaid S, Rahmouni S, Zouaoui K, METHOD FOR ASSESSING THE COGNITIVE REPRESENTATION OF RHEUMATIC DISEASE. POS1568-PARE\u2005THE BRIEF-ILLNESS PERCEPTION QUESTIONNAIRE: A. Ann Rheum Dis. 2022;81(Suppl 1):1130. 10.1136/annrheumdis-2022-eular.4725.",
+                        "journal-title": "Ann Rheum Dis"
+                    },
+                    {
+                        "key": "ref19",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1155/2021/3348011",
+                        "author": "Karimi-Ghasemabad S",
+                        "year": "2021",
+                        "unstructured": "Karimi-Ghasemabad S, Akhbari B, Saeedi A, Talebian Moghaddam S, Nakhostin Ansari N. (2021) The Persian Brief Illness Perception Questionnaire: Validation in Patients with Chronic Nonspecific Low Back Pain. ScientificWorldJournal 2021:3348011. 10.1155/2021/3348011"
+                    },
+                    {
+                        "key": "ref20",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "53",
+                        "DOI": "10.1186/1471-2474-14-53",
+                        "article-title": "Measurement of acute nonspecific low back pain perception in primary care physical therapy: reliability and validity of the brief illness perception questionnaire",
+                        "volume": "14",
+                        "author": "Hallegraeff JM",
+                        "year": "2013",
+                        "unstructured": "Hallegraeff JM, van der Schans CP, Krijnen WP, de Greef MH. Measurement of acute nonspecific low back pain perception in primary care physical therapy: reliability and validity of the brief illness perception questionnaire. BMC Musculoskelet Disord. 2013;14:53. 10.1186/1471-2474-14-53.",
+                        "journal-title": "BMC Musculoskelet Disord"
+                    },
+                    {
+                        "issue": "4",
+                        "key": "ref21",
+                        "doi-asserted-by": "crossref",
+                        "first-page": "361",
+                        "DOI": "10.1002/art.1780270401",
+                        "article-title": "Evaluation of diagnostic criteria for ankylosing spondylitis. A proposal for modification of the New York criteria",
+                        "volume": "27",
+                        "author": "Linden S",
+                        "year": "1984",
+                        "unstructured": "van der Linden S, Valkenburg HA, Cats A. Evaluation of diagnostic criteria for ankylosing spondylitis. A proposal for modification of the New York criteria. Arthritis Rheum. 1984;27(4):361\u20138.",
+                        "journal-title": "Arthritis Rheum"
+                    },
+                    {
+                        "year": "2014",
+                        "author": "Pattanaphesaj J",
+                        "key": "ref22",
+                        "unstructured": "Pattanaphesaj J. Health-related quality of life measure (EQ-5D-5L): measurement property testing and its preference-based score in Thai population [Doctoral dissertation]: Mahidol; 2014."
+                    },
+                    {
+                        "issue": "2",
+                        "key": "ref23",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "438",
+                        "DOI": "10.1007/s11096-016-0275-8",
+                        "article-title": "Development and psychometric testing of the medication taking behavior tool in Thai patients",
+                        "volume": "38",
+                        "author": "Sakthong P",
+                        "year": "2016",
+                        "unstructured": "Sakthong P, Sonsa-Ardjit N, Sukarnjanaset P, Munpan W, Suksanga P. Development and psychometric testing of the medication taking behavior tool in Thai patients. Int J Clin Pharm. 2016;38(2):438\u201345. 10.1007/s11096-016-0275-8.",
+                        "journal-title": "Int J Clin Pharm"
+                    },
+                    {
+                        "key": "ref24",
+                        "doi-asserted-by": "crossref",
+                        "first-page": "1811",
+                        "DOI": "10.1136/ard.2008.100826",
+                        "article-title": "The ASDAS is a highly discriminatory ASAS-endorsed disease activity score in patients with ankylosing spondylitis",
+                        "volume": "68",
+                        "author": "Heijde D",
+                        "year": "2009",
+                        "unstructured": "van der Heijde D, Lie E, Kvien TK, Sieper J, Van den Bosch F, Listing J, et al. The ASDAS is a highly discriminatory ASAS-endorsed disease activity score in patients with ankylosing spondylitis. Ann Rheum Dis. 2009;68:1811\u20138.",
+                        "journal-title": "Ann Rheum Dis"
+                    },
+                    {
+                        "year": "2009",
+                        "author": "Sieper J",
+                        "key": "ref25",
+                        "unstructured": "Sieper J, Rudwaleit M, Baraliakos X, Brandt J, Braun J, Burgos-Vargas R et al. (2009) The Assessment of SpondyloArthritis international Society (ASAS) handbook: a guide to assess spondyloarthritis. Ann Rheum Dis 68 Suppl 2:ii1-44. doi:68/Suppl_2/ii1 [pii]."
+                    },
+                    {
+                        "key": "ref26",
+                        "unstructured": "1136/ard.2008.104018."
+                    },
+                    {
+                        "issue": "5",
+                        "key": "ref27",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1763",
+                        "DOI": "10.1213/ANE.0000000000002864",
+                        "article-title": "Correlation Coefficients: Appropriate Use and Interpretation",
+                        "volume": "126",
+                        "author": "Schober P",
+                        "year": "2018",
+                        "unstructured": "Schober P, Boer C, Schwarte LA. Correlation Coefficients: Appropriate Use and Interpretation. Anesth Analg. 2018;126(5):1763\u20138. 10.1213/ANE.0000000000002864.",
+                        "journal-title": "Anesth Analg"
+                    },
+                    {
+                        "issue": "1",
+                        "key": "ref28",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "34",
+                        "DOI": "10.1016/j.jclinepi.2006.03.012",
+                        "article-title": "Quality criteria were proposed for measurement properties of health status questionnaires",
+                        "volume": "60",
+                        "author": "Terwee CB",
+                        "year": "2007",
+                        "unstructured": "Terwee CB, Bot SD, de Boer MR, van der Windt DA, Knol DL, Dekker J, et al. Quality criteria were proposed for measurement properties of health status questionnaires. J Clin Epidemiol. 2007;60(1):34\u201342. 10.1016/j.jclinepi.2006.03.012.",
+                        "journal-title": "J Clin Epidemiol"
+                    },
+                    {
+                        "issue": "1",
+                        "key": "ref29",
+                        "doi-asserted-by": "crossref",
+                        "first-page": "47",
+                        "DOI": "10.1136/ard.2010.138594",
+                        "article-title": "Ankylosing Spondylitis Disease Activity Score (ASDAS): defining cut-off values for disease activity states and improvement scores",
+                        "volume": "70",
+                        "author": "Machado P",
+                        "year": "2011",
+                        "unstructured": "Machado P, Landewe R, Lie E, Kvien TK, Braun J, Baker D, et al. Ankylosing Spondylitis Disease Activity Score (ASDAS): defining cut-off values for disease activity states and improvement scores. Ann Rheum Dis. 2011;70(1):47\u201353. doi:ard.2010.138594 [pii].",
+                        "journal-title": "Ann Rheum Dis"
+                    },
+                    {
+                        "key": "ref30",
+                        "unstructured": "1136/ard.2010.138594."
+                    },
+                    {
+                        "issue": "4",
+                        "key": "ref31",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "495",
+                        "DOI": "10.46497/ArchRheumatol.2020.7732",
+                        "article-title": "Self-Reported Medication Adherence in Patients With Ankylosing Spondylitis: The Role of Illness Perception and Medication Beliefs",
+                        "volume": "35",
+                        "author": "Tolu S",
+                        "year": "2020",
+                        "unstructured": "Tolu S, Rezvani A, Karacan I, Bugdayci D, Kucuk HC, Bucak OF, et al. Self-Reported Medication Adherence in Patients With Ankylosing Spondylitis: The Role of Illness Perception and Medication Beliefs. Arch Rheumatol. 2020;35(4):495\u2013505. 10.46497/ArchRheumatol.2020.7732.",
+                        "journal-title": "Arch Rheumatol"
+                    },
+                    {
+                        "author": "Moksnes UK",
+                        "key": "ref32",
+                        "unstructured": "Moksnes UK. Sense of Coherence. In: Haugan G, Eriksson M, editors. Health Promotion in Health Care - Vital Theories and Research. Cham (CH)2021. pp. 35\u201346."
+                    },
+                    {
+                        "issue": "6",
+                        "key": "ref33",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "85",
+                        "DOI": "10.21315/mjms2018.25.6.9",
+                        "article-title": "A Review on Sample Size Determination for Cronbach's Alpha Test: A Simple Guide for Researchers",
+                        "volume": "25",
+                        "author": "Bujang MA",
+                        "year": "2018",
+                        "unstructured": "Bujang MA, Omar ED, Baharum NA. A Review on Sample Size Determination for Cronbach's Alpha Test: A Simple Guide for Researchers. Malays J Med Sci. 2018;25(6):85\u201399. 10.21315/mjms2018.25.6.9.",
+                        "journal-title": "Malays J Med Sci"
+                    },
+                    {
+                        "issue": "10294",
+                        "key": "ref34",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "78",
+                        "DOI": "10.1016/S0140-6736(21)00733-9",
+                        "article-title": "Low back pain",
+                        "volume": "398",
+                        "author": "Knezevic NN",
+                        "year": "2021",
+                        "unstructured": "Knezevic NN, Candido KD, Vlaeyen JWS, Van Zundert J, Cohen SP. Low back pain. Lancet. 2021;398(10294):78\u201392. 10.1016/S0140-6736(21)00733-9.",
+                        "journal-title": "Lancet"
+                    },
+                    {
+                        "key": "ref35",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1177/13591053231221351",
+                        "article-title": "Internal consistency reliability of the Revised Illness Perceptions Questionnaire: A systematic review and reliability generalization meta-analysis",
+                        "author": "Rivera E",
+                        "year": "2024",
+                        "unstructured": "Rivera E, Levoy K, Park C, Villalobos A, Martin P, Jung Kim M, et al. Internal consistency reliability of the Revised Illness Perceptions Questionnaire: A systematic review and reliability generalization meta-analysis. J Health Psychology:13591053231221351. 2024. 10.1177/13591053231221351.",
+                        "journal-title": "J Health Psychology:13591053231221351"
+                    },
+                    {
+                        "issue": "5",
+                        "key": "ref36",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "635",
+                        "DOI": "10.1007/s10067-012-2162-6",
+                        "article-title": "The relationship between depressive symptoms, illness perceptions and quality of life in ankylosing spondylitis in comparison to rheumatoid arthritis",
+                        "volume": "32",
+                        "author": "Hyphantis T",
+                        "year": "2013",
+                        "unstructured": "Hyphantis T, Kotsis K, Tsifetaki N, Creed F, Drosos AA, Carvalho AF, et al. The relationship between depressive symptoms, illness perceptions and quality of life in ankylosing spondylitis in comparison to rheumatoid arthritis. Clin Rheumatol. 2013;32(5):635\u201344. 10.1007/s10067-012-2162-6.",
+                        "journal-title": "Clin Rheumatol"
+                    },
+                    {
+                        "key": "ref37",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.3899/jrheum.190828",
+                        "article-title": "Utility of the Brief Illness Perception Questionnaire to Monitor Patient Beliefs in Systemic Vasculitis",
+                        "author": "Schwartz MN",
+                        "year": "2020",
+                        "unstructured": "Schwartz MN, Rimland CA, Quinn KA, Ferrada M, Gribbons KB, Rosenblum JS, et al. Utility of the Brief Illness Perception Questionnaire to Monitor Patient Beliefs in Systemic Vasculitis. J Rheumatol. 2020. 10.3899/jrheum.190828.",
+                        "journal-title": "J Rheumatol"
+                    }
+                ],
+                "link": [
+                    {
+                        "URL": "https://www.researchsquare.com/article/rs-4840802/v1",
+                        "content-type": "text/html",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    },
+                    {
+                        "URL": "https://www.researchsquare.com/article/rs-4840802/v1.html",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "similarity-checking"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2024,
+                            11,
+                            7
+                        ]
+                    ],
+                    "date-time": "2024-11-07T21:08:48Z",
+                    "timestamp": 1731013728000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.researchsquare.com/article/rs-4840802/v1"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2024,
+                            9,
+                            9
+                        ]
+                    ]
+                },
+                "references-count": 37,
+                "URL": "https://doi.org/10.21203/rs.3.rs-4840802/v1",
+                "published": {
+                    "date-parts": [
+                        [
+                            2024,
+                            9,
+                            9
+                        ]
+                    ]
+                },
+                "subtype": "preprint"
+            },
+            {
+                "institution": [
+                    {
+                        "name": "Research Square"
+                    }
+                ],
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2024,
+                            5,
+                            31
+                        ]
+                    ],
+                    "date-time": "2024-05-31T17:19:33Z",
+                    "timestamp": 1717175973267
+                },
+                "posted": {
+                    "date-parts": [
+                        [
+                            2023,
+                            2,
+                            9
+                        ]
+                    ]
+                },
+                "group-title": "In Review",
+                "reference-count": 0,
+                "publisher": "Research Square Platform LLC",
+                "license": [
+                    {
+                        "start": {
+                            "date-parts": [
+                                [
+                                    2023,
+                                    2,
+                                    9
+                                ]
+                            ],
+                            "date-time": "2023-02-09T00:00:00Z",
+                            "timestamp": 1675900800000
+                        },
+                        "content-version": "unspecified",
+                        "delay-in-days": 0,
+                        "URL": "https://creativecommons.org/licenses/by/4.0/"
+                    }
+                ],
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "accepted": {
+                    "date-parts": [
+                        [
+                            2023,
+                            2,
+                            3
+                        ]
+                    ]
+                },
+                "abstract": "<jats:title>Abstract</jats:title>\n        <jats:p><jats:bold>Objectives: </jats:bold>Modern blockchain technology has created unknown phenomena in developed countries. Countries like China, Japan, and India use the advantages of blockchain technology. This research work also highlighted the concept of blockchain technology eliminating corruption and fraud, which is the biggest problem in Bangladesh and Pakistan.\n<jats:bold>Methods:</jats:bold> Using data from two countries, Pakistan, and Bangladesh, blockchain technology for financial service and globalization. The researcher uses STATA 15.0 for data analysis. The techniques proposed by these methodologies simplify systematically and straightforwardly, which guarantees significant thoroughness, reliability, and regression. For the regression analysis, we use the OLS method.\n<jats:bold>Findings:</jats:bold>  Blockchain is a technology that allows currency transactions to occur without a third party\u2019s intervention. In Pakistan and Bangladesh, blockchain systems are very poor compared to other south Asian countries such as China, Alipay, and WeChat\u2019s massive use of digital currency services. Blockchain technology-based currency and financial industries can be decentralized and accountable, beneficial for the digital economy. But Pakistan and Bangladesh are still too far away from blockchain technology.\n<jats:bold>Novelty: </jats:bold>There is growing interested in tracking actual assets on overseas shipments, where this technology can meet the needs of merchants, carriers, lenders, insurers, and regulators. Moreover, blockchain technology can control transaction costs and eliminate fraud. Blockchain systems are free from the middleman, which is why we can profit more and more without fraud and corruption in business. The digital economy plays a critical role in developing businesses and society in this fastest-growing situation.</jats:p>",
+                "DOI": "10.21203/rs.3.rs-2546513/v1",
+                "type": "posted-content",
+                "created": {
+                    "date-parts": [
+                        [
+                            2023,
+                            2,
+                            9
+                        ]
+                    ],
+                    "date-time": "2023-02-09T15:19:55Z",
+                    "timestamp": 1675955995000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 2,
+                "title": [
+                    "Blockchain Technology for Financial Services &amp;amp; Globalization"
+                ],
+                "prefix": "10.21203",
+                "author": [
+                    {
+                        "given": "Li",
+                        "family": "Yan",
+                        "sequence": "first",
+                        "affiliation": [
+                            {
+                                "name": "Xinyu University"
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Mahabubur Rahman",
+                        "family": "Miraj",
+                        "sequence": "additional",
+                        "affiliation": [
+                            {
+                                "name": "Xinyu University"
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "8761",
+                "link": [
+                    {
+                        "URL": "https://www.researchsquare.com/article/rs-2546513/v1",
+                        "content-type": "text/html",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    },
+                    {
+                        "URL": "https://www.researchsquare.com/article/rs-2546513/v1.html",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "similarity-checking"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2023,
+                            4,
+                            27
+                        ]
+                    ],
+                    "date-time": "2023-04-27T22:44:33Z",
+                    "timestamp": 1682635473000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.researchsquare.com/article/rs-2546513/v1"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2023,
+                            2,
+                            9
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.21203/rs.3.rs-2546513/v1",
+                "published": {
+                    "date-parts": [
+                        [
+                            2023,
+                            2,
+                            9
+                        ]
+                    ]
+                },
+                "subtype": "preprint"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2024,
+                            9,
+                            4
+                        ]
+                    ],
+                    "date-time": "2024-09-04T18:59:31Z",
+                    "timestamp": 1725476371622
+                },
+                "reference-count": 0,
+                "publisher": "IATED",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2016,
+                            11
+                        ]
+                    ]
+                },
+                "DOI": "10.21125/iceri.2016.0535",
+                "type": "proceedings-article",
+                "created": {
+                    "date-parts": [
+                        [
+                            2016,
+                            12,
+                            2
+                        ]
+                    ],
+                    "date-time": "2016-12-02T02:51:07Z",
+                    "timestamp": 1480647067000
+                },
+                "page": "6724-6729",
+                "source": "Crossref",
+                "is-referenced-by-count": 9,
+                "title": [
+                    "EDUCATION BY ACCESS TO VISUAL INFORMATION \u2013 METHODOLOGY OF MOULDING BEHAVIOUR BASED ON INTERNATIONAL RESEARCH PROJECT EXPERIENCES"
+                ],
+                "prefix": "10.21125",
+                "volume": "1",
+                "author": [
+                    {
+                        "given": "Grzegorz",
+                        "family": "Sierpi\u0144ski",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Marcin",
+                        "family": "Staniek",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "8703",
+                "event": {
+                    "name": "International Technology, Education and Development Conference",
+                    "start": {
+                        "date-parts": [
+                            [
+                                2016,
+                                11,
+                                14
+                            ]
+                        ]
+                    },
+                    "number": "9",
+                    "location": "Seville, Spain",
+                    "end": {
+                        "date-parts": [
+                            [
+                                2016,
+                                11,
+                                16
+                            ]
+                        ]
+                    },
+                    "acronym": "ICERI2016"
+                },
+                "container-title": [
+                    "ICERI proceedings",
+                    "ICERI2016 Proceedings"
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2016,
+                            12,
+                            2
+                        ]
+                    ],
+                    "date-time": "2016-12-02T02:52:53Z",
+                    "timestamp": 1480647173000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "http://library.iated.org/view/SIERPINSKI2016EDU"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2016,
+                            11
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.21125/iceri.2016.0535",
+                "ISSN": [
+                    "2340-1095"
+                ],
+                "issn-type": [
+                    {
+                        "type": "electronic",
+                        "value": "2340-1095"
+                    }
+                ],
+                "published": {
+                    "date-parts": [
+                        [
+                            2016,
+                            11
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2024,
+                            10,
+                            23
+                        ]
+                    ],
+                    "date-time": "2024-10-23T05:35:56Z",
+                    "timestamp": 1729661756050,
+                    "version": "3.28.0"
+                },
+                "reference-count": 23,
+                "publisher": "IEEE",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2012,
+                            10
+                        ]
+                    ]
+                },
+                "DOI": "10.1109/meta.2012.6464961",
+                "type": "proceedings-article",
+                "created": {
+                    "date-parts": [
+                        [
+                            2013,
+                            3,
+                            1
+                        ]
+                    ],
+                    "date-time": "2013-03-01T08:32:32Z",
+                    "timestamp": 1362126752000
+                },
+                "page": "1-3",
+                "source": "Crossref",
+                "is-referenced-by-count": 2,
+                "title": [
+                    "A novel helical metamaterial absorber: Simulation study with the FDTD method"
+                ],
+                "prefix": "10.1109",
+                "author": [
+                    {
+                        "given": "ZhenYu",
+                        "family": "Yang",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "ZeQin",
+                        "family": "Lu",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Lin",
+                        "family": "Wu",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Peng",
+                        "family": "Zhang",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Ming",
+                        "family": "Zhao",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "263",
+                "reference": [
+                    {
+                        "key": "19",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1103/PhysRevB.79.045131"
+                    },
+                    {
+                        "key": "22",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1109/8.318653"
+                    },
+                    {
+                        "key": "17",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1364/OL.36.003476"
+                    },
+                    {
+                        "key": "23",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1364/AO.37.005271"
+                    },
+                    {
+                        "key": "18",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1021/nl9041033"
+                    },
+                    {
+                        "key": "15",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1063/1.3276072"
+                    },
+                    {
+                        "key": "16",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1088/0022-3727/43/22/225102"
+                    },
+                    {
+                        "key": "13",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1364/OE.16.007181"
+                    },
+                    {
+                        "key": "14",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1103/PhysRevB.79.033101"
+                    },
+                    {
+                        "key": "11",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1103/PhysRevLett.100.207402"
+                    },
+                    {
+                        "key": "12",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1364/OE.19.009401"
+                    },
+                    {
+                        "key": "21",
+                        "doi-asserted-by": "crossref",
+                        "first-page": "1513",
+                        "DOI": "10.1126/science.1177031",
+                        "article-title": "Gold helix photonic metamaterial as broadband circular polarizer",
+                        "volume": "325",
+                        "author": "gansel",
+                        "year": "2009",
+                        "journal-title": "Science"
+                    },
+                    {
+                        "key": "3",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1103/PhysRevE.65.036622"
+                    },
+                    {
+                        "key": "20",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1002/adma.201200674"
+                    },
+                    {
+                        "key": "2",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1103/PhysRevLett.84.4184"
+                    },
+                    {
+                        "key": "1",
+                        "doi-asserted-by": "crossref",
+                        "first-page": "2075",
+                        "DOI": "10.1109/22.798002",
+                        "article-title": "Magnetism from Conductors and Enhanced Nonlinear Phenomena",
+                        "volume": "47",
+                        "author": "pendry",
+                        "year": "1999",
+                        "journal-title": "IEEE Trans Microwave Theory Tech"
+                    },
+                    {
+                        "key": "10",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1021/nl9041033"
+                    },
+                    {
+                        "key": "7",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1364/OL.35.003766"
+                    },
+                    {
+                        "key": "6",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1063/1.1887838"
+                    },
+                    {
+                        "key": "5",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1103/PhysRevLett.95.203901"
+                    },
+                    {
+                        "key": "4",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1364/OE.14.012958"
+                    },
+                    {
+                        "key": "9",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1039/b608888k"
+                    },
+                    {
+                        "key": "8",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1007/s00340-011-4664-3"
+                    }
+                ],
+                "event": {
+                    "name": "2012 International Workshop on Metamaterials (Meta2012)",
+                    "start": {
+                        "date-parts": [
+                            [
+                                2012,
+                                10,
+                                8
+                            ]
+                        ]
+                    },
+                    "location": "Nanjing, Jiangsu, China",
+                    "end": {
+                        "date-parts": [
+                            [
+                                2012,
+                                10,
+                                10
+                            ]
+                        ]
+                    }
+                },
+                "container-title": [
+                    "2012 International Workshop on Metamaterials (Meta)"
+                ],
+                "link": [
+                    {
+                        "URL": "http://xplorestaging.ieee.org/ielx7/6459623/6464906/06464961.pdf?arnumber=6464961",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "similarity-checking"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2017,
+                            6,
+                            21
+                        ]
+                    ],
+                    "date-time": "2017-06-21T04:29:58Z",
+                    "timestamp": 1498019398000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "http://ieeexplore.ieee.org/document/6464961/"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2012,
+                            10
+                        ]
+                    ]
+                },
+                "references-count": 23,
+                "URL": "https://doi.org/10.1109/meta.2012.6464961",
+                "published": {
+                    "date-parts": [
+                        [
+                            2012,
+                            10
+                        ]
+                    ]
+                }
+            },
+            {
+                "institution": [
+                    {
+                        "name": "\u0e08\u0e38\u0e2c\u0e32\u0e25\u0e07\u0e01\u0e23\u0e13\u0e4c\u0e21\u0e2b\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22",
+                        "acronym": [
+                            "CU"
+                        ],
+                        "place": [
+                            "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f, \u0e44\u0e17\u0e22"
+                        ],
+                        "department": [
+                            "\u0e1a\u0e23\u0e23\u0e13\u0e32\u0e23\u0e31\u0e01\u0e29\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e41\u0e25\u0e30\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c"
+                        ]
+                    }
+                ],
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2025,
+                            2,
+                            22
+                        ]
+                    ],
+                    "date-time": "2025-02-22T05:30:53Z",
+                    "timestamp": 1740202253883,
+                    "version": "3.37.3"
+                },
+                "reference-count": 0,
+                "publisher": "Office of Academic Resources, Chulalongkorn University",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "abstract": "<jats:p>\u0e28\u0e36\u0e01\u0e29\u0e32\u0e01\u0e32\u0e23\u0e23\u0e31\u0e1a\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e14\u0e49\u0e32\u0e19\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e42\u0e23\u0e04\u0e01\u0e23\u0e30\u0e14\u0e39\u0e01\u0e1e\u0e23\u0e38\u0e19\u0e02\u0e2d\u0e07\u0e1c\u0e39\u0e49\u0e2a\u0e39\u0e07\u0e2d\u0e32\u0e22\u0e38 \u0e43\u0e19\u0e14\u0e49\u0e32\u0e19\u0e41\u0e2b\u0e25\u0e48\u0e07\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e41\u0e25\u0e30\u0e40\u0e19\u0e37\u0e49\u0e2d\u0e2b\u0e32\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a \u0e23\u0e27\u0e21\u0e16\u0e36\u0e07\u0e1b\u0e31\u0e0d\u0e2b\u0e32\u0e43\u0e19\u0e01\u0e32\u0e23\u0e23\u0e31\u0e1a\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e14\u0e49\u0e32\u0e19\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e42\u0e23\u0e04\u0e01\u0e23\u0e30\u0e14\u0e39\u0e01\u0e1e\u0e23\u0e38\u0e19\u0e02\u0e2d\u0e07\u0e1c\u0e39\u0e49\u0e2a\u0e39\u0e07\u0e2d\u0e32\u0e22\u0e38 \u0e01\u0e32\u0e23\u0e27\u0e34\u0e08\u0e31\u0e22\u0e04\u0e23\u0e31\u0e49\u0e07\u0e19\u0e35\u0e49\u0e40\u0e1b\u0e47\u0e19\u0e01\u0e32\u0e23\u0e27\u0e34\u0e08\u0e31\u0e22\u0e40\u0e0a\u0e34\u0e07\u0e2a\u0e33\u0e23\u0e27\u0e08 \u0e42\u0e14\u0e22\u0e01\u0e32\u0e23\u0e40\u0e01\u0e47\u0e1a\u0e23\u0e27\u0e1a\u0e23\u0e27\u0e21\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e08\u0e32\u0e01\u0e01\u0e32\u0e23\u0e2a\u0e31\u0e21\u0e20\u0e32\u0e29\u0e13\u0e4c\u0e1c\u0e39\u0e49\u0e2a\u0e39\u0e07\u0e2d\u0e32\u0e22\u0e38\u0e17\u0e35\u0e48\u0e1b\u0e48\u0e27\u0e22\u0e40\u0e1b\u0e47\u0e19\u0e42\u0e23\u0e04\u0e01\u0e23\u0e30\u0e14\u0e39\u0e01\u0e1e\u0e23\u0e38\u0e19 \u0e17\u0e35\u0e48\u0e21\u0e32\u0e23\u0e31\u0e1a\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e17\u0e35\u0e48\u0e41\u0e1c\u0e19\u0e01\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e19\u0e2d\u0e01 \u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e23\u0e31\u0e10\u0e43\u0e19\u0e40\u0e02\u0e15\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23 \u0e08\u0e33\u0e19\u0e27\u0e19 3 \u0e41\u0e2b\u0e48\u0e07\u0e46 \u0e25\u0e30 100 \u0e23\u0e32\u0e22 \u0e23\u0e27\u0e21\u0e17\u0e31\u0e49\u0e07\u0e2a\u0e34\u0e49\u0e19 300 \u0e23\u0e32\u0e22 \u0e1c\u0e25\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e1e\u0e1a\u0e27\u0e48\u0e32 \u0e1c\u0e39\u0e49\u0e2a\u0e39\u0e07\u0e2d\u0e32\u0e22\u0e38\u0e2a\u0e48\u0e27\u0e19\u0e43\u0e2b\u0e0d\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e14\u0e49\u0e32\u0e19\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e42\u0e23\u0e04\u0e01\u0e23\u0e30\u0e14\u0e39\u0e01\u0e1e\u0e23\u0e38\u0e19\u0e08\u0e32\u0e01\u0e41\u0e2b\u0e25\u0e48\u0e07\u0e1a\u0e38\u0e04\u0e04\u0e25 \u0e42\u0e14\u0e22\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e04\u0e33\u0e41\u0e19\u0e30\u0e19\u0e33\u0e08\u0e32\u0e01\u0e41\u0e1e\u0e17\u0e22\u0e4c \u0e40\u0e19\u0e37\u0e49\u0e2d\u0e2b\u0e32\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e17\u0e35\u0e48\u0e1c\u0e39\u0e49\u0e2a\u0e39\u0e07\u0e2d\u0e32\u0e22\u0e38\u0e2a\u0e48\u0e27\u0e19\u0e43\u0e2b\u0e0d\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e04\u0e37\u0e2d \u0e40\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e1b\u0e31\u0e08\u0e08\u0e31\u0e22\u0e40\u0e2a\u0e35\u0e48\u0e22\u0e07\u0e15\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e40\u0e01\u0e34\u0e14\u0e42\u0e23\u0e04\u0e01\u0e23\u0e30\u0e14\u0e39\u0e01\u0e1e\u0e23\u0e38\u0e19 \u0e01\u0e32\u0e23\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e14\u0e49\u0e32\u0e19\u0e01\u0e32\u0e23\u0e42\u0e20\u0e0a\u0e19\u0e32\u0e01\u0e32\u0e23 \u0e04\u0e27\u0e32\u0e21\u0e40\u0e02\u0e49\u0e32\u0e43\u0e08\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e42\u0e23\u0e04\u0e41\u0e25\u0e30\u0e2d\u0e32\u0e01\u0e32\u0e23 \u0e22\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e42\u0e23\u0e04 \u0e01\u0e32\u0e23\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e01\u0e32\u0e23\u0e2b\u0e01\u0e25\u0e49\u0e21 \u0e01\u0e32\u0e23\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e14\u0e49\u0e32\u0e19\u0e01\u0e32\u0e23\u0e2d\u0e2d\u0e01\u0e01\u0e33\u0e25\u0e31\u0e07\u0e01\u0e32\u0e22 \u0e01\u0e32\u0e23\u0e27\u0e34\u0e19\u0e34\u0e08\u0e09\u0e31\u0e22\u0e42\u0e23\u0e04 \u0e41\u0e25\u0e30\u0e01\u0e32\u0e23\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e14\u0e49\u0e32\u0e19\u0e1e\u0e24\u0e15\u0e34\u0e01\u0e23\u0e23\u0e21\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e \u0e15\u0e32\u0e21\u0e25\u0e33\u0e14\u0e31\u0e1a \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e1b\u0e31\u0e0d\u0e2b\u0e32\u0e43\u0e19\u0e01\u0e32\u0e23\u0e23\u0e31\u0e1a\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e14\u0e49\u0e32\u0e19\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e17\u0e35\u0e48\u0e21\u0e35\u0e04\u0e48\u0e32\u0e40\u0e09\u0e25\u0e35\u0e48\u0e22\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14\u0e04\u0e37\u0e2d \u0e1c\u0e39\u0e49\u0e2a\u0e39\u0e07\u0e2d\u0e32\u0e22\u0e38\u0e44\u0e21\u0e48\u0e21\u0e35\u0e40\u0e27\u0e25\u0e32\u0e17\u0e35\u0e48\u0e08\u0e30\u0e23\u0e48\u0e27\u0e21\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e23\u0e13\u0e23\u0e07\u0e04\u0e4c\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e</jats:p>",
+                "DOI": "10.58837/chula.the.2009.1",
+                "type": "dissertation",
+                "created": {
+                    "date-parts": [
+                        [
+                            2023,
+                            2,
+                            15
+                        ]
+                    ],
+                    "date-time": "2023-02-15T04:38:12Z",
+                    "timestamp": 1676435892000
+                },
+                "approved": {
+                    "date-parts": [
+                        [
+                            2009
+                        ]
+                    ]
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "\u0e01\u0e32\u0e23\u0e23\u0e31\u0e1a\u0e2a\u0e32\u0e23\u0e19\u0e34\u0e40\u0e17\u0e28\u0e14\u0e49\u0e32\u0e19\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e42\u0e23\u0e04\u0e01\u0e23\u0e30\u0e14\u0e39\u0e01\u0e1e\u0e23\u0e38\u0e19\u0e02\u0e2d\u0e07\u0e1c\u0e39\u0e49\u0e2a\u0e39\u0e07\u0e2d\u0e32\u0e22\u0e38"
+                ],
+                "prefix": "10.58837",
+                "author": [
+                    {
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "\u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c\u0e07\u0e32\u0e21",
+                        "family": "\u0e0a\u0e39\u0e15\u0e23\u0e30\u0e01\u0e39\u0e25",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "37481",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2025,
+                            2,
+                            21
+                        ]
+                    ],
+                    "date-time": "2025-02-21T12:50:30Z",
+                    "timestamp": 1740142230000
+                },
+                "score": 0.0,
+                "degree": [
+                    "\u0e1b\u0e23\u0e34\u0e0d\u0e0d\u0e32\u0e42\u0e17"
+                ],
+                "resource": {
+                    "primary": {
+                        "URL": "https://digiverse.chula.ac.th/Info/item/dc:55444"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.58837/chula.the.2009.1"
+            },
+            {
+                "institution": [
+                    {
+                        "name": "Dartmouth College"
+                    }
+                ],
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            4,
+                            3
+                        ]
+                    ],
+                    "date-time": "2022-04-03T12:16:36Z",
+                    "timestamp": 1648988196030
+                },
+                "reference-count": 0,
+                "publisher": "Dartmouth College Library Press",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.1349/ddlp.2889",
+                "type": "dissertation",
+                "created": {
+                    "date-parts": [
+                        [
+                            2020,
+                            11,
+                            19
+                        ]
+                    ],
+                    "date-time": "2020-11-19T00:58:05Z",
+                    "timestamp": 1605747485000
+                },
+                "approved": {
+                    "date-parts": [
+                        [
+                            1978
+                        ]
+                    ]
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "The effect of estradiol-17\u00df and insulin on protein synthesis in primary monocultures of amphibian hepatocytes."
+                ],
+                "prefix": "10.1349",
+                "author": [
+                    {
+                        "given": "James E.",
+                        "family": "Stanchfield",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "69",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2020,
+                            11,
+                            19
+                        ]
+                    ],
+                    "date-time": "2020-11-19T01:10:59Z",
+                    "timestamp": 1605748259000
+                },
+                "score": 0.0,
+                "degree": [
+                    "Ph.D."
+                ],
+                "resource": {
+                    "primary": {
+                        "URL": "https://collections.dartmouth.edu/archive/object/dcdis/dcdis-stanchfield1978"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.1349/ddlp.2889"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            3
+                        ]
+                    ],
+                    "date-time": "2026-07-03T21:25:46Z",
+                    "timestamp": 1783113946596,
+                    "version": "3.54.6"
+                },
+                "reference-count": 0,
+                "publisher": "SAGE Publications",
+                "content-domain": {
+                    "domain": []
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2026,
+                            6,
+                            8
+                        ]
+                    ]
+                },
+                "DOI": "10.1177/15330338261465744/v2/review2",
+                "type": "peer-review",
+                "created": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            3
+                        ]
+                    ],
+                    "date-time": "2026-07-03T21:08:28Z",
+                    "timestamp": 1783112908000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Review for \"Research on Predicting the Efficacy of Immunotherapy for Non-Small Cell Lung Cancer Based on CT Radiomics and Peripheral Blood Inflammatory Markers\""
+                ],
+                "prefix": "10.1177",
+                "member": "179",
+                "review": {
+                    "type": "referee-report",
+                    "running-number": "PR4V2",
+                    "revision-round": "2",
+                    "stage": "pre-publication"
+                },
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            3
+                        ]
+                    ],
+                    "date-time": "2026-07-03T21:08:28Z",
+                    "timestamp": 1783112908000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.webofscience.com/api/gateway/wos/peer-review/10.1177/15330338261465744"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2026,
+                            6,
+                            8
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.1177/15330338261465744/v2/review2",
+                "relation": {
+                    "is-review-of": [
+                        {
+                            "id-type": "doi",
+                            "id": "10.1177/15330338261465744",
+                            "asserted-by": "subject"
+                        }
+                    ]
+                },
+                "published": {
+                    "date-parts": [
+                        [
+                            2026,
+                            6,
+                            8
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            10
+                        ]
+                    ],
+                    "date-time": "2026-07-10T15:13:43Z",
+                    "timestamp": 1783696423368,
+                    "version": "3.55.0"
+                },
+                "reference-count": 0,
+                "publisher": "eLife Sciences Publications, Ltd",
+                "license": [
+                    {
+                        "start": {
+                            "date-parts": [
+                                [
+                                    2026,
+                                    7,
+                                    10
+                                ]
+                            ],
+                            "date-time": "2026-07-10T00:00:00Z",
+                            "timestamp": 1783641600000
+                        },
+                        "content-version": "unspecified",
+                        "delay-in-days": 0,
+                        "URL": "https://creativecommons.org/licenses/by/4.0/"
+                    }
+                ],
+                "content-domain": {
+                    "domain": []
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            10
+                        ]
+                    ]
+                },
+                "DOI": "10.7554/elife.112155.1.sa4",
+                "type": "peer-review",
+                "created": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            10
+                        ]
+                    ],
+                    "date-time": "2026-07-10T14:31:14Z",
+                    "timestamp": 1783693874000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "eLife Assessment: PCNA-Pol\u03ba-Pol\u03b4/USP18 axes stabilize replication fork and restart to reduce cisplatin cytotoxicity"
+                ],
+                "prefix": "10.7554",
+                "author": [
+                    {
+                        "ORCID": "https://orcid.org/0000-0003-4782-1714",
+                        "authenticated-orcid": false,
+                        "given": "Andr\u00e9s",
+                        "family": "Aguilera",
+                        "sequence": "first",
+                        "affiliation": [
+                            {
+                                "name": "CABIMER, Universidad de Sevilla",
+                                "place": [
+                                    "Spain"
+                                ]
+                            }
+                        ],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    }
+                ],
+                "member": "4374",
+                "review": {
+                    "type": "editor-report",
+                    "stage": "pre-publication"
+                },
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            10
+                        ]
+                    ],
+                    "date-time": "2026-07-10T14:31:14Z",
+                    "timestamp": 1783693874000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://elifesciences.org/reviewed-preprints/112155v1"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            10
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.7554/elife.112155.1.sa4",
+                "relation": {
+                    "is-review-of": [
+                        {
+                            "id-type": "doi",
+                            "id": "10.7554/eLife.112155.1",
+                            "asserted-by": "subject"
+                        }
+                    ]
+                },
+                "published": {
+                    "date-parts": [
+                        [
+                            2026,
+                            7,
+                            10
+                        ]
+                    ]
+                }
+            },
+            {
+                "institution": [
+                    {
+                        "name": "Stanford University"
+                    }
+                ],
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            4,
+                            4
+                        ]
+                    ],
+                    "date-time": "2022-04-04T16:08:07Z",
+                    "timestamp": 1649088487798
+                },
+                "description": "Imputation of parathyroid adenoma tissue, avocado:encode2018core-hg38 imputations of ChIP-seq_H2BK5ac_signal_p-value in Parathyroid adenoma male adult (62 years) (J186) at 25bp resolution.",
+                "reference-count": 0,
+                "publisher": "ENCODE Data Coordination Center",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2020,
+                            2,
+                            21
+                        ]
+                    ]
+                },
+                "DOI": "10.17989/encsr964fec",
+                "type": "dataset",
+                "created": {
+                    "date-parts": [
+                        [
+                            2021,
+                            5,
+                            27
+                        ]
+                    ],
+                    "date-time": "2021-05-27T19:30:27Z",
+                    "timestamp": 1622143827000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "ENCSR964FEC"
+                ],
+                "prefix": "10.17989",
+                "author": [
+                    {
+                        "given": "B",
+                        "family": "Noble",
+                        "sequence": "first",
+                        "affiliation": [
+                            {
+                                "name": "University of Washington"
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "7566",
+                "container-title": [
+                    "ENCODE Datasets"
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2021,
+                            5,
+                            27
+                        ]
+                    ],
+                    "date-time": "2021-05-27T21:14:29Z",
+                    "timestamp": 1622150069000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.encodeproject.org/annotations/ENCSR964FEC/"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2020,
+                            2,
+                            21
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.17989/encsr964fec",
+                "published": {
+                    "date-parts": [
+                        [
+                            2020,
+                            2,
+                            21
+                        ]
+                    ]
+                }
+            },
+            {
+                "institution": [
+                    {
+                        "name": "Stanford University"
+                    }
+                ],
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            4,
+                            4
+                        ]
+                    ],
+                    "date-time": "2022-04-04T20:03:35Z",
+                    "timestamp": 1649102615371
+                },
+                "description": "Chromatin state of stomach tissue, ChromHMM 18-state model of BSS01650: stomach female embryo (98 days) from donor(s) ENCDO442NQP,ENCDO837QWL",
+                "reference-count": 0,
+                "publisher": "ENCODE Data Coordination Center",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2021,
+                            5,
+                            27
+                        ]
+                    ]
+                },
+                "DOI": "10.17989/encsr824bur",
+                "type": "dataset",
+                "created": {
+                    "date-parts": [
+                        [
+                            2022,
+                            3,
+                            30
+                        ]
+                    ],
+                    "date-time": "2022-03-30T17:37:56Z",
+                    "timestamp": 1648661876000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "ENCSR824BUR"
+                ],
+                "prefix": "10.17989",
+                "author": [
+                    {
+                        "given": "M",
+                        "family": "Kellis",
+                        "sequence": "first",
+                        "affiliation": [
+                            {
+                                "name": "Broad Institute"
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "7566",
+                "container-title": [
+                    "ENCODE Datasets"
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2022,
+                            3,
+                            30
+                        ]
+                    ],
+                    "date-time": "2022-03-30T17:47:26Z",
+                    "timestamp": 1648662446000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.encodeproject.org/annotations/ENCSR824BUR/"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2021,
+                            5,
+                            27
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.17989/encsr824bur",
+                "published": {
+                    "date-parts": [
+                        [
+                            2021,
+                            5,
+                            27
+                        ]
+                    ]
+                }
+            },
+            {
+                "institution": [
+                    {
+                        "name": "Portland State University",
+                        "place": [
+                            "Portland, OR"
+                        ],
+                        "department": [
+                            "Speech Communication"
+                        ]
+                    }
+                ],
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            3,
+                            30
+                        ]
+                    ],
+                    "date-time": "2022-03-30T15:15:32Z",
+                    "timestamp": 1648653332578
+                },
+                "reference-count": 0,
+                "publisher": "Portland State University Library",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.15760/etd.6294",
+                "type": "report",
+                "created": {
+                    "date-parts": [
+                        [
+                            2018,
+                            9,
+                            20
+                        ]
+                    ],
+                    "date-time": "2018-09-20T13:33:09Z",
+                    "timestamp": 1537450389000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "A study of the narrative skills in kindergarten children with normal, impaired, and late developing language development"
+                ],
+                "prefix": "10.15760",
+                "author": [
+                    {
+                        "given": "Lisa",
+                        "family": "McFarland",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "6539",
+                "published-online": {
+                    "date-parts": [
+                        [
+                            2000,
+                            1,
+                            1
+                        ]
+                    ]
+                },
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2018,
+                            9,
+                            20
+                        ]
+                    ],
+                    "date-time": "2018-09-20T13:33:59Z",
+                    "timestamp": 1537450439000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://archives.pdx.edu/ds/psu/25744"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2000,
+                            1,
+                            1
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.15760/etd.6294",
+                "published": {
+                    "date-parts": [
+                        [
+                            2000,
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "institution": [
+                    {
+                        "name": "OSD or Non-Service DoD Agency",
+                        "acronym": [
+                            "DARPA"
+                        ],
+                        "department": [
+                            "Funding"
+                        ]
+                    },
+                    {
+                        "name": "CARNEGIE-MELLON UNIV PITTSBURGH PA DEPT OF COMPUTER SCIENCE",
+                        "department": [
+                            "Performing"
+                        ]
+                    }
+                ],
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2025,
+                            3,
+                            19
+                        ]
+                    ],
+                    "date-time": "2025-03-19T12:53:30Z",
+                    "timestamp": 1742388810539
+                },
+                "publisher-location": "Fort Belvoir, VA",
+                "reference-count": 0,
+                "publisher": "Defense Technical Information Center",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2003,
+                            12,
+                            1
+                        ]
+                    ]
+                },
+                "DOI": "10.21236/ada461282",
+                "type": "report",
+                "created": {
+                    "date-parts": [
+                        [
+                            2017,
+                            7,
+                            14
+                        ]
+                    ],
+                    "date-time": "2017-07-14T15:32:28Z",
+                    "timestamp": 1500046348000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 33,
+                "title": [
+                    "Early Experience with an Internet Broadcast System Based on Overlay Multicast"
+                ],
+                "prefix": "10.21236",
+                "author": [
+                    {
+                        "given": "Yang-hua",
+                        "family": "Chu",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Aditya",
+                        "family": "Ganjam",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "T. S.",
+                        "family": "Ng",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Sanjay G.",
+                        "family": "Rao",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Kunwadee",
+                        "family": "Sripanidkulchai",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Jibin",
+                        "family": "Zhan",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Hui",
+                        "family": "Zhang",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "9879",
+                "original-title": [
+                    ""
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2024,
+                            8,
+                            28
+                        ]
+                    ],
+                    "date-time": "2024-08-28T19:28:15Z",
+                    "timestamp": 1724873295000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "http://www.dtic.mil/docs/citations/ADA461282"
+                    }
+                },
+                "subtitle": [
+                    ""
+                ],
+                "issued": {
+                    "date-parts": [
+                        [
+                            2003,
+                            12,
+                            1
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "alternative-id": [
+                    "CMU-CS-03-214"
+                ],
+                "URL": "https://doi.org/10.21236/ada461282",
+                "published": {
+                    "date-parts": [
+                        [
+                            2003,
+                            12,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2024,
+                            10,
+                            30
+                        ]
+                    ],
+                    "date-time": "2024-10-30T04:15:58Z",
+                    "timestamp": 1730261758489,
+                    "version": "3.28.0"
+                },
+                "publisher-location": "West Conshohocken, PA",
+                "standards-body": {
+                    "name": "ASTM International",
+                    "acronym": "ASTM"
+                },
+                "reference-count": 0,
+                "publisher": "ASTM International",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.1520/d6973-14r24",
+                "type": "standard",
+                "created": {
+                    "date-parts": [
+                        [
+                            2024,
+                            10,
+                            29
+                        ]
+                    ],
+                    "date-time": "2024-10-29T12:30:52Z",
+                    "timestamp": 1730205052000
+                },
+                "approved": {
+                    "date-parts": [
+                        [
+                            2024,
+                            10,
+                            1
+                        ]
+                    ]
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Test Method for Indicating Wear Characteristics of Petroleum Hydraulic Fluids in a High Pressure Constant Volume Vane Pump"
+                ],
+                "prefix": "10.1520",
+                "author": [
+                    {
+                        "name": "D02 Committee",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "381",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2024,
+                            10,
+                            29
+                        ]
+                    ],
+                    "date-time": "2024-10-29T12:31:32Z",
+                    "timestamp": 1730205092000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "http://www.astm.org/cgi-bin/resolver.cgi?D6973-14R24"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.1520/d6973-14r24"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2025,
+                            9,
+                            2
+                        ]
+                    ],
+                    "date-time": "2025-09-02T21:10:14Z",
+                    "timestamp": 1756847414164,
+                    "version": "3.44.0"
+                },
+                "publisher-location": "London",
+                "standards-body": {
+                    "name": "BSI British Standards",
+                    "acronym": "BSI"
+                },
+                "reference-count": 0,
+                "publisher": "BSI British Standards",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.3403/30474518",
+                "type": "standard",
+                "created": {
+                    "date-parts": [
+                        [
+                            2025,
+                            9,
+                            2
+                        ]
+                    ],
+                    "date-time": "2025-09-02T20:30:18Z",
+                    "timestamp": 1756845018000
+                },
+                "approved": {
+                    "date-parts": [
+                        [
+                            2025,
+                            9,
+                            30
+                        ]
+                    ]
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Recycled aggregate concrete \ufffd Additional provisions and guidance for specification, performance, production and execution"
+                ],
+                "prefix": "10.3403",
+                "member": "1988",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2025,
+                            9,
+                            2
+                        ]
+                    ],
+                    "date-time": "2025-09-02T20:30:30Z",
+                    "timestamp": 1756845030000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://linkresolver.bsigroup.com/junction/resolve/000000000030474518?restype=standard"
+                    }
+                },
+                "subtitle": [
+                    ""
+                ],
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.3403/30474518"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2023,
+                            12,
+                            21
+                        ]
+                    ],
+                    "date-time": "2023-12-21T00:28:17Z",
+                    "timestamp": 1703118497993
+                },
+                "publisher": "Austrian Science Fund (FWF)",
+                "award": "P37291",
+                "DOI": "10.55776/p37291",
+                "type": "grant",
+                "created": {
+                    "date-parts": [
+                        [
+                            2023,
+                            12,
+                            20
+                        ]
+                    ],
+                    "date-time": "2023-12-20T11:11:47Z",
+                    "timestamp": 1703070707000
+                },
+                "source": "Crossref",
+                "prefix": "10.55776",
+                "member": "34446",
+                "project": [
+                    {
+                        "project-title": [
+                            {
+                                "title": "Parsing metabolic regulatory mechanisms in cancer recurrence"
+                            }
+                        ],
+                        "funding": [
+                            {
+                                "type": "grant",
+                                "award-amount": {
+                                    "amount": 188947.5,
+                                    "currency": "EUR",
+                                    "percentage": 100
+                                },
+                                "funder": {
+                                    "id": [
+                                        {
+                                            "id": "10.13039/501100002428",
+                                            "id-type": "DOI",
+                                            "asserted-by": "publisher"
+                                        }
+                                    ],
+                                    "name": "Austrian Science Fund (FWF)"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2023,
+                            12,
+                            20
+                        ]
+                    ],
+                    "date-time": "2023-12-20T11:11:55Z",
+                    "timestamp": 1703070715000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.fwf.ac.at/en/research-radar/10.55776/P37291"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "URL": "https://doi.org/10.55776/p37291"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            4,
+                            4
+                        ]
+                    ],
+                    "date-time": "2022-04-04T19:16:59Z",
+                    "timestamp": 1649099819387
+                },
+                "publisher": "Office of Scientific and Technical Information (OSTI)",
+                "award-start": {
+                    "date-parts": [
+                        [
+                            2011,
+                            7,
+                            21
+                        ]
+                    ]
+                },
+                "award": "45593",
+                "DOI": "10.46936/reso.proj.2011.45593/60004862",
+                "type": "grant",
+                "created": {
+                    "date-parts": [
+                        [
+                            2021,
+                            9,
+                            21
+                        ]
+                    ],
+                    "date-time": "2021-09-21T22:57:01Z",
+                    "timestamp": 1632265021000
+                },
+                "source": "Crossref",
+                "prefix": "10.46936",
+                "member": "960",
+                "project": [
+                    {
+                        "project-title": [
+                            {
+                                "title": "Biomarkers for pulmonary injury following deployment"
+                            }
+                        ],
+                        "investigator": [
+                            {
+                                "given": "David",
+                                "family": "Jackson",
+                                "affiliation": []
+                            },
+                            {
+                                "given": "Richard",
+                                "family": "Gelinas",
+                                "affiliation": []
+                            }
+                        ],
+                        "lead-investigator": [
+                            {
+                                "given": "Joshua",
+                                "family": "Adkins",
+                                "affiliation": []
+                            }
+                        ],
+                        "recipient": [
+                            {
+                                "type": "person",
+                                "primary-name": [
+                                    {
+                                        "value": "David",
+                                        "type": "given"
+                                    },
+                                    {
+                                        "value": "Jackson",
+                                        "type": "family"
+                                    }
+                                ],
+                                "role": [
+                                    {
+                                        "role": "investigator",
+                                        "vocabulary": "crossref"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "person",
+                                "primary-name": [
+                                    {
+                                        "value": "Richard",
+                                        "type": "given"
+                                    },
+                                    {
+                                        "value": "Gelinas",
+                                        "type": "family"
+                                    }
+                                ],
+                                "role": [
+                                    {
+                                        "role": "investigator",
+                                        "vocabulary": "crossref"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "person",
+                                "primary-name": [
+                                    {
+                                        "value": "Joshua",
+                                        "type": "given"
+                                    },
+                                    {
+                                        "value": "Adkins",
+                                        "type": "family"
+                                    }
+                                ],
+                                "role": [
+                                    {
+                                        "role": "lead-investigator",
+                                        "vocabulary": "crossref"
+                                    }
+                                ]
+                            }
+                        ],
+                        "funding": [
+                            {
+                                "type": "award",
+                                "funder": {
+                                    "id": [
+                                        {
+                                            "id": "10.13039/100000015",
+                                            "id-type": "DOI",
+                                            "asserted-by": "publisher"
+                                        }
+                                    ],
+                                    "name": "US Department of Energy"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2021,
+                            10,
+                            9
+                        ]
+                    ],
+                    "date-time": "2021-10-09T20:11:12Z",
+                    "timestamp": 1633810272000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.osti.gov/award-doi-service/biblio/10.46936/reso.proj.2011.45593/60004862"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2011,
+                            7,
+                            21
+                        ]
+                    ]
+                },
+                "URL": "https://doi.org/10.46936/reso.proj.2011.45593/60004862"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            4,
+                            4
+                        ]
+                    ],
+                    "date-time": "2022-04-04T16:05:24Z",
+                    "timestamp": 1649088324960
+                },
+                "reference-count": 0,
+                "publisher": "Organisation for Economic Co-Operation and Development  (OECD)",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.1787/888933400053",
+                "type": "component",
+                "created": {
+                    "date-parts": [
+                        [
+                            2016,
+                            8,
+                            3
+                        ]
+                    ],
+                    "date-time": "2016-08-03T12:22:13Z",
+                    "timestamp": 1470226933000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Graphique 2.11. Montant moyen des op\u00e9rations internationales"
+                ],
+                "prefix": "10.1787",
+                "member": "1963",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2021,
+                            9,
+                            3
+                        ]
+                    ],
+                    "date-time": "2021-09-03T21:39:23Z",
+                    "timestamp": 1630705163000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://statlinks.oecdcode.org/432016032P1G011.XLS"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.1787/888933400053"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2025,
+                            9,
+                            6
+                        ]
+                    ],
+                    "date-time": "2025-09-06T00:23:18Z",
+                    "timestamp": 1757118198555,
+                    "version": "3.44.0"
+                },
+                "description": "Supplementary data",
+                "reference-count": 0,
+                "publisher": "BMJ",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.1136/rapm-2022-104110.supp2",
+                "type": "component",
+                "created": {
+                    "date-parts": [
+                        [
+                            2023,
+                            4,
+                            19
+                        ]
+                    ],
+                    "date-time": "2023-04-19T14:53:52Z",
+                    "timestamp": 1681916032000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "prefix": "10.1136",
+                "member": "239",
+                "link": [
+                    {
+                        "URL": "https://syndication.highwire.org/content/doi/10.1136/rapm-2022-104110.supp2",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "similarity-checking"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2023,
+                            4,
+                            19
+                        ]
+                    ],
+                    "date-time": "2023-04-19T14:54:03Z",
+                    "timestamp": 1681916043000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://rapm.bmj.com/lookup/doi/10.1136/rapm-2022-104110.supp2"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.1136/rapm-2022-104110.supp2"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            3,
+                            30
+                        ]
+                    ],
+                    "date-time": "2022-03-30T15:14:58Z",
+                    "timestamp": 1648653298469
+                },
+                "reference-count": 0,
+                "publisher": "Wiley",
+                "issue": "18",
+                "license": [
+                    {
+                        "start": {
+                            "date-parts": [
+                                [
+                                    2015,
+                                    9,
+                                    1
+                                ]
+                            ],
+                            "date-time": "2015-09-01T00:00:00Z",
+                            "timestamp": 1441065600000
+                        },
+                        "content-version": "tdm",
+                        "delay-in-days": 42965,
+                        "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+                    }
+                ],
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            1898,
+                            1,
+                            12
+                        ]
+                    ]
+                },
+                "DOI": "10.1111/joim.1898.31.issue-18",
+                "type": "journal-issue",
+                "created": {
+                    "date-parts": [
+                        [
+                            2016,
+                            2,
+                            25
+                        ]
+                    ],
+                    "date-time": "2016-02-25T05:05:52Z",
+                    "timestamp": 1456376752000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "prefix": "10.1111",
+                "volume": "31",
+                "member": "311",
+                "container-title": [
+                    "Nordiskt Medicinskt Arkiv"
+                ],
+                "language": "en",
+                "link": [
+                    {
+                        "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjoim.1898.31.issue-18",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2016,
+                            2,
+                            25
+                        ]
+                    ],
+                    "date-time": "2016-02-25T05:05:52Z",
+                    "timestamp": 1456376752000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "http://doi.wiley.com/10.1111/joim.1898.31.issue-18"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            1898,
+                            1,
+                            12
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "journal-issue": {
+                    "issue": "18"
+                },
+                "URL": "https://doi.org/10.1111/joim.1898.31.issue-18",
+                "ISSN": [
+                    "0365-3250"
+                ],
+                "issn-type": [
+                    {
+                        "value": "0365-3250",
+                        "type": "print"
+                    }
+                ],
+                "published": {
+                    "date-parts": [
+                        [
+                            1898,
+                            1,
+                            12
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            3,
+                            30
+                        ]
+                    ],
+                    "date-time": "2022-03-30T15:15:29Z",
+                    "timestamp": 1648653329967
+                },
+                "reference-count": 0,
+                "publisher": "Russian State University of Justice",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "short-container-title": [
+                    "RUSSIAN JUSTICE"
+                ],
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2019,
+                            2
+                        ]
+                    ]
+                },
+                "DOI": "10.17238/issn2072-909x.2019.3",
+                "type": "journal-issue",
+                "created": {
+                    "date-parts": [
+                        [
+                            2020,
+                            10,
+                            9
+                        ]
+                    ],
+                    "date-time": "2020-10-09T08:47:34Z",
+                    "timestamp": 1602233254000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "prefix": "10.37399",
+                "volume": "2",
+                "member": "23752",
+                "published-online": {
+                    "date-parts": [
+                        [
+                            2019,
+                            2
+                        ]
+                    ]
+                },
+                "container-title": [
+                    "RUSSIAN JUSTICE"
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2020,
+                            10,
+                            9
+                        ]
+                    ],
+                    "date-time": "2020-10-09T08:47:34Z",
+                    "timestamp": 1602233254000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "http://rucont.ru/efd/675230"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2019,
+                            2
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.17238/issn2072-909x.2019.3",
+                "ISSN": [
+                    "2072-909X"
+                ],
+                "issn-type": [
+                    {
+                        "value": "2072-909X",
+                        "type": "print"
+                    }
+                ],
+                "published": {
+                    "date-parts": [
+                        [
+                            2019,
+                            2
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2023,
+                            2,
+                            26
+                        ]
+                    ],
+                    "date-time": "2023-02-26T05:03:36Z",
+                    "timestamp": 1677387816749
+                },
+                "publisher-location": "Chicago",
+                "reference-count": 0,
+                "publisher": "American Journal of Veterinary Medicine",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            1914
+                        ]
+                    ]
+                },
+                "DOI": "10.5962/bhl.title.55633",
+                "type": "monograph",
+                "created": {
+                    "date-parts": [
+                        [
+                            2012,
+                            1,
+                            12
+                        ]
+                    ],
+                    "date-time": "2012-01-12T07:23:44Z",
+                    "timestamp": 1326353024000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Special veterinary therapy"
+                ],
+                "prefix": "10.5962",
+                "author": [
+                    {
+                        "given": "Mart R.",
+                        "family": "Steffen",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Martin Robert",
+                        "family": "Steffen",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "33859",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2023,
+                            2,
+                            25
+                        ]
+                    ],
+                    "date-time": "2023-02-25T07:17:26Z",
+                    "timestamp": 1677309446000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://www.biodiversitylibrary.org/bibliography/55633"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            1914
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.5962/bhl.title.55633",
+                "published": {
+                    "date-parts": [
+                        [
+                            1914
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2024,
+                            5,
+                            18
+                        ]
+                    ],
+                    "date-time": "2024-05-18T01:05:03Z",
+                    "timestamp": 1715994303476
+                },
+                "publisher-location": "Woods Hole, MA",
+                "reference-count": 0,
+                "publisher": "Massachusetts Institute of Technology and Woods Hole Oceanographic Institution",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            1989
+                        ]
+                    ]
+                },
+                "DOI": "10.1575/1912/5387",
+                "type": "monograph",
+                "created": {
+                    "date-parts": [
+                        [
+                            2012,
+                            9,
+                            21
+                        ]
+                    ],
+                    "date-time": "2012-09-21T15:47:15Z",
+                    "timestamp": 1348242435000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "A numerical model of mixing and convection driven by surface buoyancy flux"
+                ],
+                "prefix": "10.1575",
+                "author": [
+                    {
+                        "given": "Xiaoming",
+                        "family": "Wang",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "906",
+                "language": "en",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2017,
+                            5,
+                            10
+                        ]
+                    ],
+                    "date-time": "2017-05-10T16:12:05Z",
+                    "timestamp": 1494432725000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://hdl.handle.net/1912/5387"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            1989
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.1575/1912/5387",
+                "published": {
+                    "date-parts": [
+                        [
+                            1989
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2026,
+                            11,
+                            9
+                        ]
+                    ],
+                    "date-time": "2026-11-09T22:21:56Z",
+                    "timestamp": 1794262916509,
+                    "version": "4.9.0"
+                },
+                "reference-count": 6,
+                "publisher": "Radiopaedia.org",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.53347/rid-1242",
+                "type": "reference-entry",
+                "created": {
+                    "date-parts": [
+                        [
+                            2021,
+                            10,
+                            20
+                        ]
+                    ],
+                    "date-time": "2021-10-20T03:41:50Z",
+                    "timestamp": 1634701310000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Duodenal diverticulum"
+                ],
+                "prefix": "10.53347",
+                "author": [
+                    {
+                        "given": "Frank",
+                        "family": "Gaillard",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Henry",
+                        "family": "Knipe",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Yuranga",
+                        "family": "Weerakkody",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    }
+                ],
+                "member": "30861",
+                "published-online": {
+                    "date-parts": [
+                        [
+                            2008,
+                            5,
+                            2
+                        ]
+                    ]
+                },
+                "reference": [
+                    {
+                        "key": "ref1",
+                        "doi-asserted-by": "publisher",
+                        "unstructured": "Pearl MS, Hill MC, Zeman RK. CT findings in duodenal diverticulitis. AJR Am J Roentgenol. 2006;187 (4): W392-5.",
+                        "DOI": "10.2214/AJR.06.0215"
+                    },
+                    {
+                        "key": "ref2",
+                        "doi-asserted-by": "publisher",
+                        "unstructured": "Bittle MM, Gunn ML, Gross JA et-al. Imaging of duodenal diverticula and their complications. Current problems in diagnostic radiology. 41 (1): 20-9.",
+                        "DOI": "10.1067/j.cpradiol.2011.07.001"
+                    },
+                    {
+                        "key": "ref3",
+                        "doi-asserted-by": "publisher",
+                        "unstructured": "Karayiannakis AJ, Bolanaki H, Courcoutsakis N et-al. Common bile duct obstruction secondary to a periampullary diverticulum. Case reports in gastroenterology. 6 (2): 523-9.",
+                        "DOI": "10.1159/000341955"
+                    },
+                    {
+                        "key": "ref4",
+                        "doi-asserted-by": "publisher",
+                        "unstructured": "Lobo DN, Balfour TW, Iftikhar SY et-al. Periampullary diverticula and pancreaticobiliary disease. The British journal of surgery. 86 (5): 588-97.",
+                        "DOI": "10.1046/j.1365-2168.1999.01121.x"
+                    },
+                    {
+                        "key": "ref5",
+                        "unstructured": "Lobo DN, Balfour TW, Iftikhar SY. Periampullary diverticula: consequences of failed ERCP. Annals of the Royal College of Surgeons of England. 80 (5): 326-31."
+                    },
+                    {
+                        "key": "ref6",
+                        "doi-asserted-by": "publisher",
+                        "unstructured": "Johnson L, Moran S, Bhargava P et al. Fluoroscopic Evaluation of Duodenal Diseases. Radiographics. 2022;42(2):397-416.",
+                        "DOI": "10.1148/rg.210165"
+                    }
+                ],
+                "container-title": [
+                    "Radiopaedia.org"
+                ],
+                "language": "en",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2026,
+                            11,
+                            9
+                        ]
+                    ],
+                    "date-time": "2026-11-09T21:33:42Z",
+                    "timestamp": 1794260022000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://radiopaedia.org/articles/1242"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2008,
+                            5,
+                            2
+                        ]
+                    ]
+                },
+                "references-count": 6,
+                "URL": "https://doi.org/10.53347/rid-1242",
+                "archive": [
+                    "Internet Archive"
+                ],
+                "published": {
+                    "date-parts": [
+                        [
+                            2008,
+                            5,
+                            2
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2026,
+                            11,
+                            9
+                        ]
+                    ],
+                    "date-time": "2026-11-09T17:03:11Z",
+                    "timestamp": 1794243791652,
+                    "version": "4.9.0"
+                },
+                "reference-count": 0,
+                "publisher": "Oxford University Press",
+                "isbn-type": [
+                    {
+                        "value": "9780198832232",
+                        "type": "print"
+                    }
+                ],
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2020,
+                            12,
+                            31
+                        ]
+                    ]
+                },
+                "abstract": "<p>This chapter maps out the tonal, accentual, and intonational properties of sub-Saharan African languages, focusing particularly on Niger-Congo. It distinguishes tone systems by the number of contrastive tone heights and contours and their tonal distributions, as well as grammatical functions of tone. It considers positional prominence effects potentially analysed as word accent and concludes with discussion of both intonational pitch and length marking syntactic domains and clause types.</p>",
+                "DOI": "10.1093/oxfordhb/9780198832232.013.11",
+                "type": "reference-entry",
+                "created": {
+                    "date-parts": [
+                        [
+                            2021,
+                            2,
+                            11
+                        ]
+                    ],
+                    "date-time": "2021-02-11T19:42:28Z",
+                    "timestamp": 1613072548000
+                },
+                "page": "182-194",
+                "source": "Crossref",
+                "is-referenced-by-count": 3,
+                "title": [
+                    "Sub-Saharan Africa"
+                ],
+                "prefix": "10.1093",
+                "author": [
+                    {
+                        "given": "Larry M.",
+                        "family": "Hyman",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Hannah",
+                        "family": "Sande",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Florian",
+                        "family": "Lionnet",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Nicholas",
+                        "family": "Rolle",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Emily",
+                        "family": "Clem",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "author"
+                            }
+                        ]
+                    }
+                ],
+                "member": "286",
+                "published-online": {
+                    "date-parts": [
+                        [
+                            2021,
+                            2,
+                            10
+                        ]
+                    ]
+                },
+                "container-title": [
+                    "The Oxford Handbook of Language Prosody"
+                ],
+                "original-title": [
+                    "Sub-Saharan Africa"
+                ],
+                "language": "en",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2022,
+                            8,
+                            2
+                        ]
+                    ],
+                    "date-time": "2022-08-02T19:36:45Z",
+                    "timestamp": 1659469005000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://academic.oup.com/edited-volume/34870/chapter/298315243"
+                    }
+                },
+                "editor": [
+                    {
+                        "given": "Carlos",
+                        "family": "Gussenhoven",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "editor"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Aoju",
+                        "family": "Chen",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "vocabulary": "crossref",
+                                "role": "editor"
+                            }
+                        ]
+                    }
+                ],
+                "issued": {
+                    "date-parts": [
+                        [
+                            2020,
+                            12,
+                            31
+                        ]
+                    ]
+                },
+                "ISBN": [
+                    "9780198832232"
+                ],
+                "references-count": 0,
+                "URL": "https://doi.org/10.1093/oxfordhb/9780198832232.013.11",
+                "published": {
+                    "date-parts": [
+                        [
+                            2020,
+                            12,
+                            31
+                        ]
+                    ]
+                }
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            11,
+                            15
+                        ]
+                    ],
+                    "date-time": "2022-11-15T06:13:09Z",
+                    "timestamp": 1668492789996
+                },
+                "reference-count": 0,
+                "publisher": "UNTAG Semarang",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.56444/nlr",
+                "type": "journal",
+                "created": {
+                    "date-parts": [
+                        [
+                            2022,
+                            11,
+                            14
+                        ]
+                    ],
+                    "date-time": "2022-11-14T08:43:12Z",
+                    "timestamp": 1668415392000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Notary Law Research"
+                ],
+                "prefix": "10.56444",
+                "member": "10474",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2022,
+                            11,
+                            14
+                        ]
+                    ],
+                    "date-time": "2022-11-14T08:43:14Z",
+                    "timestamp": 1668415394000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "http://jurnal.untagsmg.ac.id/index.php/NLR"
+                    }
+                },
+                "short-title": [
+                    "NLR"
+                ],
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.56444/nlr",
+                "ISSN": [
+                    "2722-287X"
+                ],
+                "issn-type": [
+                    {
+                        "value": "2722-287X",
+                        "type": "electronic"
+                    }
+                ]
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            3,
+                            29
+                        ]
+                    ],
+                    "date-time": "2022-03-29T01:08:48Z",
+                    "timestamp": 1648516128630
+                },
+                "reference-count": 0,
+                "publisher": "Hindawi Limited",
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "DOI": "10.1155/ecam",
+                "type": "journal",
+                "created": {
+                    "date-parts": [
+                        [
+                            2010,
+                            8,
+                            3
+                        ]
+                    ],
+                    "date-time": "2010-08-03T09:06:21Z",
+                    "timestamp": 1280826381000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "Evidence-Based Complementary and Alternative Medicine"
+                ],
+                "prefix": "10.1155",
+                "member": "98",
+                "language": "en",
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2010,
+                            8,
+                            3
+                        ]
+                    ],
+                    "date-time": "2010-08-03T09:06:21Z",
+                    "timestamp": 1280826381000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "http://www.hindawi.com/journals/ecam/"
+                    }
+                },
+                "short-title": [
+                    "Evidence-Based Complementary and Alternative Medicine"
+                ],
+                "issued": {
+                    "date-parts": [
+                        [
+                            null
+                        ]
+                    ]
+                },
+                "references-count": 0,
+                "URL": "https://doi.org/10.1155/ecam",
+                "ISSN": [
+                    "1741-427X",
+                    "1741-4288"
+                ],
+                "issn-type": [
+                    {
+                        "value": "1741-427X",
+                        "type": "print"
+                    },
+                    {
+                        "value": "1741-4288",
+                        "type": "electronic"
+                    }
+                ]
+            }
+        ],
+        "items-per-page": 28,
+        "query": {
+            "start-index": 0,
+            "search-terms": null
+        }
+    }
+}

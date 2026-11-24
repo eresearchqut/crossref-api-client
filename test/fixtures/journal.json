@@ -1,0 +1,781 @@
+{
+    "status": "ok",
+    "message-type": "journal",
+    "message-version": "1.0.0",
+    "message": {
+        "last-status-check-time": 1795358460039,
+        "counts": {
+            "current-dois": 13001,
+            "backfile-dois": 435112,
+            "total-dois": 448113
+        },
+        "breakdowns": {
+            "dois-by-issued-year": [
+                [
+                    1963,
+                    5702
+                ],
+                [
+                    1964,
+                    5662
+                ],
+                [
+                    1966,
+                    5644
+                ],
+                [
+                    1962,
+                    5534
+                ],
+                [
+                    1961,
+                    5506
+                ],
+                [
+                    1965,
+                    5490
+                ],
+                [
+                    1967,
+                    5378
+                ],
+                [
+                    1970,
+                    5165
+                ],
+                [
+                    1960,
+                    5163
+                ],
+                [
+                    1968,
+                    5080
+                ],
+                [
+                    1969,
+                    5006
+                ],
+                [
+                    1959,
+                    4755
+                ],
+                [
+                    2008,
+                    4683
+                ],
+                [
+                    1958,
+                    4611
+                ],
+                [
+                    2025,
+                    4550
+                ],
+                [
+                    2009,
+                    4403
+                ],
+                [
+                    2024,
+                    4387
+                ],
+                [
+                    2012,
+                    4349
+                ],
+                [
+                    2023,
+                    4320
+                ],
+                [
+                    2013,
+                    4217
+                ],
+                [
+                    2010,
+                    4181
+                ],
+                [
+                    2011,
+                    4127
+                ],
+                [
+                    2014,
+                    4123
+                ],
+                [
+                    2015,
+                    4116
+                ],
+                [
+                    2022,
+                    4103
+                ],
+                [
+                    2006,
+                    4100
+                ],
+                [
+                    2007,
+                    4094
+                ],
+                [
+                    2005,
+                    4070
+                ],
+                [
+                    2026,
+                    4064
+                ],
+                [
+                    2019,
+                    3981
+                ],
+                [
+                    1987,
+                    3978
+                ],
+                [
+                    2018,
+                    3938
+                ],
+                [
+                    2016,
+                    3934
+                ],
+                [
+                    1974,
+                    3908
+                ],
+                [
+                    1999,
+                    3898
+                ],
+                [
+                    2001,
+                    3853
+                ],
+                [
+                    1975,
+                    3836
+                ],
+                [
+                    2000,
+                    3834
+                ],
+                [
+                    1988,
+                    3815
+                ],
+                [
+                    2004,
+                    3782
+                ],
+                [
+                    1990,
+                    3776
+                ],
+                [
+                    2017,
+                    3754
+                ],
+                [
+                    1989,
+                    3752
+                ],
+                [
+                    1957,
+                    3739
+                ],
+                [
+                    2021,
+                    3737
+                ],
+                [
+                    1971,
+                    3724
+                ],
+                [
+                    2003,
+                    3697
+                ],
+                [
+                    2002,
+                    3670
+                ],
+                [
+                    1986,
+                    3651
+                ],
+                [
+                    1956,
+                    3641
+                ],
+                [
+                    1977,
+                    3625
+                ],
+                [
+                    2020,
+                    3622
+                ],
+                [
+                    1984,
+                    3617
+                ],
+                [
+                    1983,
+                    3576
+                ],
+                [
+                    1976,
+                    3575
+                ],
+                [
+                    1992,
+                    3561
+                ],
+                [
+                    1985,
+                    3539
+                ],
+                [
+                    1978,
+                    3531
+                ],
+                [
+                    1991,
+                    3516
+                ],
+                [
+                    1993,
+                    3510
+                ],
+                [
+                    1998,
+                    3504
+                ],
+                [
+                    1938,
+                    3499
+                ],
+                [
+                    1980,
+                    3485
+                ],
+                [
+                    1981,
+                    3469
+                ],
+                [
+                    1979,
+                    3432
+                ],
+                [
+                    1973,
+                    3427
+                ],
+                [
+                    1994,
+                    3425
+                ],
+                [
+                    1982,
+                    3390
+                ],
+                [
+                    1935,
+                    3387
+                ],
+                [
+                    1937,
+                    3342
+                ],
+                [
+                    1954,
+                    3331
+                ],
+                [
+                    1936,
+                    3318
+                ],
+                [
+                    1997,
+                    3300
+                ],
+                [
+                    1939,
+                    3280
+                ],
+                [
+                    1996,
+                    3276
+                ],
+                [
+                    1934,
+                    3245
+                ],
+                [
+                    1995,
+                    3222
+                ],
+                [
+                    1972,
+                    3217
+                ],
+                [
+                    1949,
+                    3215
+                ],
+                [
+                    1953,
+                    3176
+                ],
+                [
+                    1948,
+                    3133
+                ],
+                [
+                    1933,
+                    3128
+                ],
+                [
+                    1955,
+                    3123
+                ],
+                [
+                    1932,
+                    3110
+                ],
+                [
+                    1950,
+                    3086
+                ],
+                [
+                    1951,
+                    3076
+                ],
+                [
+                    1952,
+                    3050
+                ],
+                [
+                    1946,
+                    2917
+                ],
+                [
+                    1940,
+                    2758
+                ],
+                [
+                    1947,
+                    2617
+                ],
+                [
+                    1944,
+                    2324
+                ],
+                [
+                    1945,
+                    2250
+                ],
+                [
+                    1942,
+                    2183
+                ],
+                [
+                    1941,
+                    2179
+                ],
+                [
+                    1931,
+                    2152
+                ],
+                [
+                    1927,
+                    2092
+                ],
+                [
+                    1943,
+                    2088
+                ],
+                [
+                    1930,
+                    2088
+                ],
+                [
+                    1922,
+                    2087
+                ],
+                [
+                    1929,
+                    2084
+                ],
+                [
+                    1923,
+                    2080
+                ],
+                [
+                    1924,
+                    2047
+                ],
+                [
+                    1925,
+                    2041
+                ],
+                [
+                    1926,
+                    2036
+                ],
+                [
+                    1928,
+                    1960
+                ],
+                [
+                    1920,
+                    1917
+                ],
+                [
+                    1911,
+                    1886
+                ],
+                [
+                    1921,
+                    1868
+                ],
+                [
+                    1910,
+                    1648
+                ],
+                [
+                    1909,
+                    1538
+                ],
+                [
+                    1912,
+                    1423
+                ],
+                [
+                    1880,
+                    1388
+                ],
+                [
+                    1908,
+                    1387
+                ],
+                [
+                    1913,
+                    1368
+                ],
+                [
+                    1903,
+                    1368
+                ],
+                [
+                    1902,
+                    1350
+                ],
+                [
+                    1904,
+                    1349
+                ],
+                [
+                    1914,
+                    1344
+                ],
+                [
+                    1915,
+                    1334
+                ],
+                [
+                    1896,
+                    1328
+                ],
+                [
+                    1888,
+                    1302
+                ],
+                [
+                    1879,
+                    1301
+                ],
+                [
+                    1883,
+                    1285
+                ],
+                [
+                    1907,
+                    1283
+                ],
+                [
+                    1906,
+                    1283
+                ],
+                [
+                    1882,
+                    1279
+                ],
+                [
+                    1887,
+                    1272
+                ],
+                [
+                    1886,
+                    1271
+                ],
+                [
+                    1884,
+                    1266
+                ],
+                [
+                    1881,
+                    1259
+                ],
+                [
+                    1898,
+                    1258
+                ],
+                [
+                    1871,
+                    1258
+                ],
+                [
+                    1885,
+                    1257
+                ],
+                [
+                    1878,
+                    1255
+                ],
+                [
+                    1905,
+                    1247
+                ],
+                [
+                    1897,
+                    1244
+                ],
+                [
+                    1899,
+                    1239
+                ],
+                [
+                    1889,
+                    1230
+                ],
+                [
+                    1895,
+                    1229
+                ],
+                [
+                    1891,
+                    1227
+                ],
+                [
+                    1901,
+                    1211
+                ],
+                [
+                    1890,
+                    1210
+                ],
+                [
+                    1893,
+                    1200
+                ],
+                [
+                    1870,
+                    1198
+                ],
+                [
+                    1894,
+                    1197
+                ],
+                [
+                    1916,
+                    1195
+                ],
+                [
+                    1892,
+                    1191
+                ],
+                [
+                    1918,
+                    1137
+                ],
+                [
+                    1877,
+                    1135
+                ],
+                [
+                    1872,
+                    1122
+                ],
+                [
+                    1900,
+                    1120
+                ],
+                [
+                    1873,
+                    1120
+                ],
+                [
+                    1919,
+                    1119
+                ],
+                [
+                    1917,
+                    1116
+                ],
+                [
+                    1876,
+                    1050
+                ],
+                [
+                    1875,
+                    1036
+                ],
+                [
+                    1874,
+                    1005
+                ],
+                [
+                    1869,
+                    228
+                ]
+            ]
+        },
+        "publisher": "Springer Science and Business Media LLC",
+        "coverage": {
+            "affiliations-current": 0.0,
+            "affiliation-ror-ids-backfile": 0.0,
+            "similarity-checking-current": 1.0,
+            "descriptions-current": 0.0,
+            "ror-ids-current": 0.0,
+            "funders-backfile": 2.068432955193146e-05,
+            "licenses-backfile": 0.9926754490797772,
+            "funders-current": 0.0,
+            "affiliations-backfile": 0.0,
+            "resource-links-backfile": 0.9926754490797772,
+            "orcids-backfile": 0.01181764695067017,
+            "funder-ror-ids-current": 0.0,
+            "update-policies-current": 0.3384355049611568,
+            "ror-ids-backfile": 4.59651767820699e-06,
+            "orcids-current": 0.3905084224290439,
+            "similarity-checking-backfile": 0.9931465921417933,
+            "references-backfile": 0.3926069609663719,
+            "descriptions-backfile": 0.0,
+            "award-numbers-backfile": 1.838607071282796e-05,
+            "update-policies-backfile": 0.09640966004155252,
+            "licenses-current": 1.0,
+            "award-numbers-current": 0.0,
+            "abstracts-backfile": 0.002803875783706264,
+            "resource-links-current": 1.0,
+            "affiliation-ror-ids-current": 0.0,
+            "funder-ror-ids-backfile": 4.59651767820699e-06,
+            "abstracts-current": 0.117606337974002,
+            "references-current": 0.6390277670948389
+        },
+        "title": "Nature",
+        "subjects": [],
+        "coverage-type": {
+            "all": {
+                "last-status-check-time": 1795358460039,
+                "affiliations": 0.0,
+                "abstracts": 0.2749,
+                "orcids": 1.0219,
+                "affiliation-ror-ids": 0.0,
+                "licenses": 44.4926,
+                "references": 17.9136,
+                "funders": 0.0009,
+                "similarity-checking": 44.5131,
+                "funder-ror-ids": 0.0002,
+                "award-numbers": 0.0008,
+                "ror-ids": 0.0002,
+                "update-policies": 4.6349,
+                "resource-links": 44.4926,
+                "descriptions": 0.0
+            },
+            "backfile": {
+                "last-status-check-time": 1795358460039,
+                "affiliations": 0.0,
+                "abstracts": 0.002803875783706264,
+                "orcids": 0.01181764695067017,
+                "affiliation-ror-ids": 0.0,
+                "licenses": 0.9926754490797772,
+                "references": 0.3926069609663719,
+                "funders": 2.068432955193146e-05,
+                "similarity-checking": 0.9931465921417933,
+                "funder-ror-ids": 4.59651767820699e-06,
+                "award-numbers": 1.838607071282796e-05,
+                "ror-ids": 4.59651767820699e-06,
+                "update-policies": 0.09640966004155252,
+                "resource-links": 0.9926754490797772,
+                "descriptions": 0.0
+            },
+            "current": {
+                "last-status-check-time": 1795358460039,
+                "affiliations": 0.0,
+                "abstracts": 0.117606337974002,
+                "orcids": 0.3905084224290439,
+                "affiliation-ror-ids": 0.0,
+                "licenses": 1.0,
+                "references": 0.6390277670948389,
+                "funders": 0.0,
+                "similarity-checking": 1.0,
+                "funder-ror-ids": 0.0,
+                "award-numbers": 0.0,
+                "ror-ids": 0.0,
+                "update-policies": 0.3384355049611568,
+                "resource-links": 1.0,
+                "descriptions": 0.0
+            }
+        },
+        "flags": {
+            "deposits-abstracts-current": true,
+            "deposits-orcids-current": true,
+            "deposits-affiliation-ror-ids-current": false,
+            "deposits": true,
+            "deposits-affiliations-backfile": false,
+            "deposits-update-policies-backfile": true,
+            "deposits-similarity-checking-backfile": true,
+            "deposits-award-numbers-current": false,
+            "deposits-resource-links-current": true,
+            "deposits-ror-ids-current": false,
+            "deposits-articles": true,
+            "deposits-affiliations-current": false,
+            "deposits-affiliation-ror-ids-backfile": false,
+            "deposits-funders-current": false,
+            "deposits-references-backfile": true,
+            "deposits-funder-ror-ids-current": false,
+            "deposits-ror-ids-backfile": true,
+            "deposits-abstracts-backfile": true,
+            "deposits-licenses-backfile": true,
+            "deposits-award-numbers-backfile": true,
+            "deposits-descriptions-current": false,
+            "deposits-references-current": true,
+            "deposits-resource-links-backfile": true,
+            "deposits-descriptions-backfile": false,
+            "deposits-orcids-backfile": true,
+            "deposits-funders-backfile": true,
+            "deposits-funder-ror-ids-backfile": true,
+            "deposits-update-policies-current": true,
+            "deposits-similarity-checking-current": true,
+            "deposits-licenses-current": true
+        },
+        "ISSN": [
+            "0028-0836",
+            "1476-4687"
+        ],
+        "issn-type": [
+            {
+                "type": "print",
+                "value": "0028-0836"
+            },
+            {
+                "type": "electronic",
+                "value": "1476-4687"
+            }
+        ]
+    }
+}

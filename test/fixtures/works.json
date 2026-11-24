@@ -1,0 +1,2549 @@
+{
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+        "facets": {},
+        "total-results": 364273,
+        "items": [
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2026,
+                            2,
+                            27
+                        ]
+                    ],
+                    "date-time": "2026-02-27T05:04:02Z",
+                    "timestamp": 1772168642690,
+                    "version": "3.50.1"
+                },
+                "reference-count": 72,
+                "publisher": "The Company of Biologists",
+                "issue": "12",
+                "license": [
+                    {
+                        "start": {
+                            "date-parts": [
+                                [
+                                    2024,
+                                    11,
+                                    28
+                                ]
+                            ],
+                            "date-time": "2024-11-28T00:00:00Z",
+                            "timestamp": 1732752000000
+                        },
+                        "content-version": "vor",
+                        "delay-in-days": 0,
+                        "URL": "http://creativecommons.org/licenses/by/4.0"
+                    }
+                ],
+                "funder": [
+                    {
+                        "DOI": "10.13039/501100004377",
+                        "name": "The Hong Kong Polytechnic University",
+                        "doi-asserted-by": "crossref",
+                        "id": [
+                            {
+                                "id": "10.13039/501100004377",
+                                "id-type": "DOI",
+                                "asserted-by": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The University of Melbourne School of BioSciences"
+                    }
+                ],
+                "content-domain": {
+                    "domain": [],
+                    "crossmark-restriction": false
+                },
+                "published-print": {
+                    "date-parts": [
+                        [
+                            2024,
+                            12,
+                            15
+                        ]
+                    ]
+                },
+                "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Myopia (short-sightedness) is the most common ocular disorder. It generally develops after over-exposure to aberrant visual environments, disrupting emmetropization mechanisms that should match eye growth with optical power. A pre-screening of strongly associated myopia-risk genes identified through human genome-wide association studies implicates efemp1 in myopia development, but how this gene impacts ocular growth remains unclear. Here, we modify efemp1 expression specifically in the retina of zebrafish. We found that under normal lighting, efemp1 mutants developed axial myopia, enlarged eyes, reduced spatial vision and altered retinal function. However, under myopia-inducing dark-rearing, compared to control fish, mutants remained emmetropic and showed changes in retinal function. Efemp1 modification changed the expression of efemp1, egr1, tgfb1a, vegfab and rbp3 genes in the eye, and changed the inner retinal distributions of myopia-associated EFEMP1, TIMP2 and MMP2 proteins. Efemp1 modification also impacted dark-rearing-induced responses of vegfab and wnt2b genes and above-mentioned myopia-associated proteins. Together, we provided robust evidence that light-dependent ocular growth is regulated by efemp1.</jats:p>",
+                "DOI": "10.1242/bio.061741",
+                "type": "journal-article",
+                "created": {
+                    "date-parts": [
+                        [
+                            2024,
+                            11,
+                            28
+                        ]
+                    ],
+                    "date-time": "2024-11-28T06:08:08Z",
+                    "timestamp": 1732774088000
+                },
+                "source": "Crossref",
+                "is-referenced-by-count": 1,
+                "title": [
+                    "EFEMP1 contributes to light-dependent ocular growth in zebrafish"
+                ],
+                "prefix": "10.1242",
+                "volume": "13",
+                "author": [
+                    {
+                        "given": "Jiaheng",
+                        "family": "Xie",
+                        "sequence": "first",
+                        "affiliation": [
+                            {
+                                "name": "School of BioSciences, The University of Melbourne 1 , Parkville, Victoria, 3010 ,",
+                                "place": [
+                                    "Australia"
+                                ]
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Bang V.",
+                        "family": "Bui",
+                        "sequence": "additional",
+                        "affiliation": [
+                            {
+                                "name": "Department of Optometry and Vision Sciences, The University of Melbourne 2 , Parkville, Victoria, 3010 ,",
+                                "place": [
+                                    "Australia"
+                                ]
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "given": "Patrick T.",
+                        "family": "Goodbourn",
+                        "sequence": "additional",
+                        "affiliation": [
+                            {
+                                "name": "Melbourne School of Psychological Sciences, The University of Melbourne 3 , Parkville, Victoria, 3010 ,",
+                                "place": [
+                                    "Australia"
+                                ]
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "ORCID": "https://orcid.org/0000-0003-0747-4084",
+                        "authenticated-orcid": false,
+                        "given": "Patricia R.",
+                        "family": "Jusuf",
+                        "sequence": "additional",
+                        "affiliation": [
+                            {
+                                "name": "School of BioSciences, The University of Melbourne 1 , Parkville, Victoria, 3010 ,",
+                                "place": [
+                                    "Australia"
+                                ]
+                            }
+                        ],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "237",
+                "published-online": {
+                    "date-parts": [
+                        [
+                            2024,
+                            11,
+                            28
+                        ]
+                    ]
+                },
+                "reference": [
+                    {
+                        "key": "2024112811073232400_BIO061741C1",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "2621",
+                        "DOI": "10.1158/0008-5472.Can-04-4096",
+                        "article-title": "Fibulins 3 and 5 antagonize tumor angiogenesis in vivo",
+                        "volume": "66",
+                        "author": "Albig",
+                        "year": "2006",
+                        "journal-title": "Cancer Res."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C2",
+                        "first-page": "471",
+                        "article-title": "The FGF2 gene in a myopia animal model and human subjects",
+                        "volume": "18",
+                        "author": "An",
+                        "year": "2012",
+                        "journal-title": "Mol. Vis."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C3",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "5911",
+                        "DOI": "10.1167/iovs.13-11708",
+                        "article-title": "Egr-1 mRNA expression is a marker for the direction of mammalian ocular growth",
+                        "volume": "55",
+                        "author": "Ashby",
+                        "year": "2014",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C4",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "26",
+                        "DOI": "10.1210/edrv.18.1.0292",
+                        "article-title": "Biological roles of fibroblast growth factor-2*",
+                        "volume": "18",
+                        "author": "Bikfalvi",
+                        "year": "1997",
+                        "journal-title": "Endocr. Rev."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C5",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1033",
+                        "DOI": "10.3390/cells12071033",
+                        "article-title": "Ectopic rod photoreceptor development in mice with genetic deficiency of WNT2B",
+                        "volume": "12",
+                        "author": "Blomfield",
+                        "year": "2023",
+                        "journal-title": "Cells"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C6",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "495",
+                        "DOI": "10.1038/nrn2636",
+                        "article-title": "The diverse functional roles and regulation of neuronal gap junctions in the retina",
+                        "volume": "10",
+                        "author": "Bloomfield",
+                        "year": "2009",
+                        "journal-title": "Nat. Rev. Neurosci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C7",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "13",
+                        "DOI": "10.1006/dbio.2000.0125",
+                        "article-title": "Zebrafish genes rx1 and rx2 help define the region of forebrain that gives rise to retina",
+                        "volume": "231",
+                        "author": "Chuang",
+                        "year": "2001",
+                        "journal-title": "Dev. Biol."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C8",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "240",
+                        "DOI": "10.1002/humu.24320",
+                        "article-title": "EFEMP1 rare variants cause familial juvenile-onset open-angle glaucoma",
+                        "volume": "43",
+                        "author": "Collantes",
+                        "year": "2022",
+                        "journal-title": "Hum. Mutat."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C9",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "e110699",
+                        "DOI": "10.1371/journal.pone.0110699",
+                        "article-title": "Rapid, accurate, and non-invasive measurement of zebrafish axial length and other eye dimensions using SD-OCT allows longitudinal analysis of myopia and emmetropization",
+                        "volume": "9",
+                        "author": "Collery",
+                        "year": "2014",
+                        "journal-title": "PLoS One"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C10",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "204",
+                        "DOI": "10.1093/hmg/ddac187",
+                        "article-title": "Complement factor B is critical for sub-RPE deposit accumulation in a model of Doyne honeycomb retinal dystrophy with features of age-related macular degeneration",
+                        "volume": "32",
+                        "author": "Crowley",
+                        "year": "2022",
+                        "journal-title": "Hum. Mol. Genet."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C11",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1639",
+                        "DOI": "10.1007/s00109-020-01974-z",
+                        "article-title": "Fibulin-3 knockout mice demonstrate corneal dysfunction but maintain normal retinal integrity",
+                        "volume": "98",
+                        "author": "Daniel",
+                        "year": "2020",
+                        "journal-title": "J. Mol. Med."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C12",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "681",
+                        "DOI": "10.1101/gr.196170.115",
+                        "article-title": "2C-Cas9: a versatile tool for clonal analysis of gene function",
+                        "volume": "26",
+                        "author": "Di Donato",
+                        "year": "2016",
+                        "journal-title": "Genome Res."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C13",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "491",
+                        "DOI": "10.1111/opo.12696",
+                        "article-title": "DNA methylation and mRNA expression of IGF-1 and MMP-2 after form-deprivation myopia in guinea pigs",
+                        "volume": "40",
+                        "author": "Ding",
+                        "year": "2020",
+                        "journal-title": "Ophthalmic Physiol. Opt."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C14",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "647",
+                        "DOI": "10.1007/s00441-006-0217-1",
+                        "article-title": "The extracellular matrix and synapses",
+                        "volume": "326",
+                        "author": "Dityatev",
+                        "year": "2006",
+                        "journal-title": "Cell Tissue Res."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C15",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "445",
+                        "DOI": "10.1038/s41431-019-0546-7",
+                        "article-title": "Biallelic variants in EFEMP1 in a man with a pronounced connective tissue phenotype",
+                        "volume": "28",
+                        "author": "Driver",
+                        "year": "2020",
+                        "journal-title": "Eur. J. Hum. Genet."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C16",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "706",
+                        "DOI": "10.1038/11167",
+                        "article-title": "Light- and focus-dependent expression of the transcription factor ZENK in the chick retina",
+                        "volume": "2",
+                        "author": "Fischer",
+                        "year": "1999",
+                        "journal-title": "Nat. Neurosci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C17",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "52",
+                        "DOI": "10.1093/hmg/ddt395",
+                        "article-title": "Mouse genetics and proteomic analyses demonstrate a critical role for complement in a model of DHRD/ML, an inherited macular degeneration",
+                        "volume": "23",
+                        "author": "Garland",
+                        "year": "2013",
+                        "journal-title": "Hum. Mol. Genet."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C18",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "493",
+                        "DOI": "10.1167/iovs.01-0787",
+                        "article-title": "Cross-sectional study of visual acuity and electroretinogram in two types of dominant drusen",
+                        "volume": "44",
+                        "author": "Gerber",
+                        "year": "2003",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C19",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "169",
+                        "DOI": "10.1016/j.exer.2006.09.003",
+                        "article-title": "Focus on molecules: interphotoreceptor retinoid-binding protein (IRBP)",
+                        "volume": "86",
+                        "author": "Gonzalez-Fernandez",
+                        "year": "2008",
+                        "journal-title": "Exp. Eye Res."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C20",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "97",
+                        "DOI": "10.1089/zeb.2008.0530",
+                        "article-title": "Gal4/UAS Transgenic Tools and Their Application to Zebrafish",
+                        "volume": "5",
+                        "author": "Halpern",
+                        "year": "2008",
+                        "journal-title": "Zebrafish"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C21",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1595",
+                        "DOI": "10.1016/j.ophtha.2009.11.003",
+                        "article-title": "Long-term pattern of progression of myopic maculopathy: a natural history study",
+                        "volume": "117",
+                        "author": "Hayashi",
+                        "year": "2010",
+                        "journal-title": "Ophthalmology"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C22",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1036",
+                        "DOI": "10.1016/j.ophtha.2016.01.006",
+                        "article-title": "Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050",
+                        "volume": "123",
+                        "author": "Holden",
+                        "year": "2016",
+                        "journal-title": "Ophthalmology"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C23",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "2347",
+                        "DOI": "10.1097/IAE.0000000000001489",
+                        "article-title": "Overview of the complications of high myopia",
+                        "volume": "37",
+                        "author": "Ikuno",
+                        "year": "2017",
+                        "journal-title": "Retina"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C24",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "S214",
+                        "DOI": "10.1016/j.fertnstert.2010.07.830",
+                        "article-title": "Progesterone and transforming growth factor beta 1 (TGFB1) regulate matrix metalloproteinases (MMPS) in human endometrium",
+                        "volume": "94",
+                        "author": "Itoh",
+                        "year": "2010",
+                        "journal-title": "Fertil. Steril."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C25",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "3922",
+                        "DOI": "10.1167/iovs.14-13983",
+                        "article-title": "MMP-2, MMP-3, TIMP-1, TIMP-2, and TIMP-3 protein levels in human aqueous humor: relationship with axial length",
+                        "volume": "55",
+                        "author": "Jia",
+                        "year": "2014",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C26",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "600",
+                        "DOI": "10.1080/02713683.2016.1223317",
+                        "article-title": "Correlations between MMPs and TIMPs levels in aqueous humor from high myopia and cataract patients",
+                        "volume": "42",
+                        "author": "Jia",
+                        "year": "2017",
+                        "journal-title": "Curr. Eye Res."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C27",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "18121",
+                        "DOI": "10.1074/jbc.M400381200",
+                        "article-title": "Isoform-specific changes in scleral transforming growth factor-\u03b2 expression and the regulation of collagen synthesis during myopia progression",
+                        "volume": "279",
+                        "author": "Jobling",
+                        "year": "2004",
+                        "journal-title": "J. Biol. Chem."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C28",
+                        "first-page": "1",
+                        "article-title": "What's new in Psychtoolbox-3",
+                        "volume": "36",
+                        "author": "Kleiner",
+                        "year": "2007",
+                        "journal-title": "Perception"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C29",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "e59683",
+                        "DOI": "10.7554/eLife.59683",
+                        "article-title": "A simple and effective F0 knockout method for rapid screening of behaviour and other complex phenotypes",
+                        "volume": "10",
+                        "author": "Kroll",
+                        "year": "2021",
+                        "journal-title": "eLife"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C30",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "4267",
+                        "DOI": "10.1167/iovs.06-0804",
+                        "article-title": "Effect of VEGF-A on expression of profibrotic growth factor and extracellular matrix genes in the retina",
+                        "volume": "48",
+                        "author": "Kuiper",
+                        "year": "2007",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C31",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "W171",
+                        "DOI": "10.1093/nar/gkz365",
+                        "article-title": "CHOPCHOP v3: expanding the CRISPR web toolbox beyond genome editing",
+                        "volume": "47",
+                        "author": "Labun",
+                        "year": "2019",
+                        "journal-title": "Nucleic Acids Res."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C32",
+                        "first-page": "2541",
+                        "article-title": "MMP-2 participates in the sclera of guinea pig with form-deprivation myopia via IGF-1/STAT3 pathway",
+                        "volume": "22",
+                        "author": "Liu",
+                        "year": "2018",
+                        "journal-title": "Eur. Rev. Med. Pharmacol. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C33",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "402",
+                        "DOI": "10.1006/meth.2001.1262",
+                        "article-title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2\u2212\u0394\u0394CT method",
+                        "volume": "25",
+                        "author": "Livak",
+                        "year": "2001",
+                        "journal-title": "Methods"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C34",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1294",
+                        "DOI": "10.3390/biom10091294",
+                        "article-title": "The Pathophysiological Significance of Fibulin-3",
+                        "volume": "10",
+                        "author": "Livingstone",
+                        "year": "2020",
+                        "journal-title": "Biomolecules"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C35",
+                        "doi-asserted-by": "crossref",
+                        "DOI": "10.7551/mitpress/9780262019453.001.0001",
+                        "volume-title": "Visual Psychophysics: From Laboratory to Theory",
+                        "author": "Lu",
+                        "year": "2013"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C36",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "e91086",
+                        "DOI": "10.1371/journal.pone.0091086",
+                        "article-title": "Wnt signaling in form deprivation myopia of the mice retina",
+                        "volume": "9",
+                        "author": "Ma",
+                        "year": "2014",
+                        "journal-title": "PLoS One"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C37",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "e0132529",
+                        "DOI": "10.1371/journal.pone.0132529",
+                        "article-title": "Exome sequencing identifies a missense variant in EFEMP1 co-segregating in a family with autosomal dominant primary open-angle glaucoma",
+                        "volume": "10",
+                        "author": "Mackay",
+                        "year": "2015",
+                        "journal-title": "PloS one"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C38",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1371",
+                        "DOI": "10.1242/dev.072348",
+                        "article-title": "Diverse roles for VEGF-A in the nervous system",
+                        "volume": "139",
+                        "author": "Mackenzie",
+                        "year": "2012",
+                        "journal-title": "Development"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C39",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1989",
+                        "DOI": "10.1016/j.ophtha.2011.03.012",
+                        "article-title": "Myopia as a risk factor for open-angle glaucoma: a systematic review and meta-analysis",
+                        "volume": "118",
+                        "author": "Marcus",
+                        "year": "2011",
+                        "journal-title": "Ophthalmology"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C40",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "13067",
+                        "DOI": "10.1073/pnas.202491599",
+                        "article-title": "Aberrant accumulation of EFEMP1 underlies drusen formation in Malattia Leventinese and age-related macular degeneration",
+                        "volume": "99",
+                        "author": "Marmorstein",
+                        "year": "2002",
+                        "journal-title": "Proc. Natl Acad. Sci. USA"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C41",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "102",
+                        "DOI": "10.1186/1471-2199-9-102",
+                        "article-title": "Characterization of housekeeping genes in zebrafish: male-female differences and effects of tissue type, developmental stage and chemical treatment",
+                        "volume": "9",
+                        "author": "McCurley",
+                        "year": "2008",
+                        "journal-title": "BMC Mol. Biol."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C42",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "537",
+                        "DOI": "10.1080/08820538.2023.2168490",
+                        "article-title": "Myopia progression during the COVID-19 Era: a systematic review and meta-analysis",
+                        "volume": "38",
+                        "author": "Najafzadeh",
+                        "year": "2023",
+                        "journal-title": "Semin. Ophthalmol."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C43",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "676",
+                        "DOI": "10.1038/s42003-021-02185-z",
+                        "article-title": "Loss of Gap Junction Delta-2 (GJD2) gene orthologs leads to refractive error in zebrafish",
+                        "volume": "4",
+                        "author": "Quint",
+                        "year": "2021",
+                        "journal-title": "Commun. Biol."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C44",
+                        "first-page": "561",
+                        "article-title": "Emmetropization: a vision-dependent phenomenon",
+                        "volume": "20",
+                        "author": "Rabin",
+                        "year": "1981",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C45",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1572",
+                        "DOI": "10.15252/embj.201490706",
+                        "article-title": "Sox2, Tlx, Gli3, and Her9 converge on Rx2 to define retinal stem cells in vivo",
+                        "volume": "34",
+                        "author": "Reinhardt",
+                        "year": "2015",
+                        "journal-title": "EMBO J."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C46",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "pdb. prot5439",
+                        "DOI": "10.1101/pdb.prot5439",
+                        "article-title": "Purification of RNA using TRIzol (TRI reagent)",
+                        "volume": "2010",
+                        "author": "Rio",
+                        "year": "2010",
+                        "journal-title": "Cold Spring Harbor Protocols"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C47",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1279",
+                        "DOI": "10.1016/j.ophtha.2007.12.019",
+                        "article-title": "Outdoor activity reduces the prevalence of myopia in children",
+                        "volume": "115",
+                        "author": "Rose",
+                        "year": "2008",
+                        "journal-title": "Ophthalmology"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C48",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "676",
+                        "DOI": "10.1038/nmeth.2019",
+                        "article-title": "Fiji: an open-source platform for biological-image analysis",
+                        "volume": "9",
+                        "author": "Schindelin",
+                        "year": "2012",
+                        "journal-title": "Nat. Methods"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C49",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "11",
+                        "DOI": "10.1167/iovs.06-0851",
+                        "article-title": "Relative axial myopia in Egr-1 (ZENK) knockout mice",
+                        "volume": "48",
+                        "author": "Schippert",
+                        "year": "2007",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C50",
+                        "first-page": "1183",
+                        "article-title": "Expression of bFGF and TGF-beta 2 in experimental myopia in chicks",
+                        "volume": "36",
+                        "author": "Seko",
+                        "year": "1995",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C51",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1071",
+                        "DOI": "10.1016/S0042-6989(98)00215-6",
+                        "article-title": "Optics of the developing fish eye: comparisons of Matthiessen's ratio and the focal length of the lens in the black bream Acanthopagrus butcheri (Sparidae, Teleostei)",
+                        "volume": "39",
+                        "author": "Shand",
+                        "year": "1999",
+                        "journal-title": "Vision Res."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C52",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1144421",
+                        "DOI": "10.3389/fnins.2023.1144421",
+                        "article-title": "EFEMP1 is a potential biomarker of choroid thickness change in myopia",
+                        "volume": "17",
+                        "author": "Shi",
+                        "year": "2023",
+                        "journal-title": "Front. Neurosci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C53",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "318",
+                        "DOI": "10.2144/98242pf02",
+                        "article-title": "Primer premier: program for design of degenerate primers from a protein sequence",
+                        "volume": "24",
+                        "author": "Singh",
+                        "year": "1998",
+                        "journal-title": "BioTechniques"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C54",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "e1006699",
+                        "DOI": "10.1371/journal.pcbi.1006699",
+                        "article-title": "Stytra: An open-source, integrated system for stimulation, tracking and closed-loop behavioral experiments",
+                        "volume": "15",
+                        "author": "\u0160tih",
+                        "year": "2019",
+                        "journal-title": "PLoS Comput. Biol."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C55",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "199",
+                        "DOI": "10.1038/9722",
+                        "article-title": "A single EFEMP1 mutation associated with both Malattia Leventinese and Doyne honeycomb retinal dystrophy",
+                        "volume": "22",
+                        "author": "Stone",
+                        "year": "1999",
+                        "journal-title": "Nat. Genet."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C56",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "19378",
+                        "DOI": "10.1073/pnas.0809223105",
+                        "article-title": "The hormonal action of IGF1 in postnatal mouse growth",
+                        "volume": "105",
+                        "author": "Stratikopoulos",
+                        "year": "2008",
+                        "journal-title": "Proc. Natl Acad. Sci. USA"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C57",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "834",
+                        "DOI": "10.1038/s41588-018-0127-7",
+                        "article-title": "Genome-wide association meta-analysis highlights light-induced signaling as a driver for refractive error",
+                        "volume": "50",
+                        "author": "Tedja",
+                        "year": "2018",
+                        "journal-title": "Nat. Genet."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C58",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "M89",
+                        "DOI": "10.1167/iovs.18-25965",
+                        "article-title": "IMI \u2013 Myopia genetics report",
+                        "volume": "60",
+                        "author": "Tedja",
+                        "year": "2019",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C59",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "993",
+                        "DOI": "10.3109/02713688709034870",
+                        "article-title": "Visual deprivation causes myopia in chicks with optic nerve section",
+                        "volume": "6",
+                        "author": "Troilo",
+                        "year": "1987",
+                        "journal-title": "Curr. Eye Res."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C60",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "R791",
+                        "DOI": "10.1016/j.cub.2015.07.073",
+                        "article-title": "Visually guided eye growth in the squid",
+                        "volume": "25",
+                        "author": "Turnbull",
+                        "year": "2015",
+                        "journal-title": "Curr. Biol."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C61",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "73",
+                        "DOI": "10.1126/science.3603011",
+                        "article-title": "Local retinal regions control local eye growth and myopia",
+                        "volume": "237",
+                        "author": "Wallman",
+                        "year": "1987",
+                        "journal-title": "Science"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C62",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "5804",
+                        "DOI": "10.1167/iovs.10-7129",
+                        "article-title": "Exaggerated eye growth in IRBP-deficient mice in early development",
+                        "volume": "52",
+                        "author": "Wisard",
+                        "year": "2011",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C63",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "4681",
+                        "DOI": "10.1167/iovs.19-27544",
+                        "article-title": "Correspondence between behavioral, physiological, and anatomical measurements of visual function in inhibitory neuron\u2013ablated Zebrafish",
+                        "volume": "60",
+                        "author": "Xie",
+                        "year": "2019",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C64",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "18931",
+                        "DOI": "10.1038/s41598-019-54958-6",
+                        "article-title": "Experience-dependent development of visual sensitivity in larval zebrafish",
+                        "volume": "9",
+                        "author": "Xie",
+                        "year": "2019",
+                        "journal-title": "Sci. Rep."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C65",
+                        "first-page": "e59487",
+                        "article-title": "Electroretinogram recording in larval Zebrafish using a novel cone-shaped sponge-tip electrode",
+                        "author": "Xie",
+                        "year": "2019",
+                        "journal-title": "JoVE"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C66",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "29",
+                        "DOI": "10.1167/iovs.62.3.29",
+                        "article-title": "Altered visual function in a larval Zebrafish knockout of neurodevelopmental risk gene pdzk1",
+                        "volume": "62",
+                        "author": "Xie",
+                        "year": "2021",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C67",
+                        "first-page": "213",
+                        "article-title": "Neural Endophenotype Assessment in Zebrafish Larvae Using Optomotor and ZebraBox Locomotion Assessment",
+                        "author": "Xie",
+                        "year": "2023",
+                        "journal-title": "Neurobiology: Methods and Protocols"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C72",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "110009",
+                        "DOI": "10.1016/j.exer.2024.110009",
+                        "article-title": "Establishment and comprehensive characterization of a novel dark-reared zebrafish model for myopia studies",
+                        "volume": "246",
+                        "author": "Xie",
+                        "year": "2024",
+                        "journal-title": "Experimental Eye Research"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C68",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "25712",
+                        "DOI": "10.18632/oncotarget.8263",
+                        "article-title": "EFEMP1 is repressed by estrogen and inhibits the epithelial-mesenchymal transition via Wnt/\u03b2-catenin signaling in endometrial carcinoma",
+                        "volume": "7",
+                        "author": "Yang",
+                        "year": "2016",
+                        "journal-title": "Oncotarget"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C69",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "S20",
+                        "DOI": "10.1097/IJG.0000000000000108",
+                        "article-title": "Biology of the extracellular matrix: an overview",
+                        "volume": "23",
+                        "author": "Yue",
+                        "year": "2014",
+                        "journal-title": "J. Glaucoma"
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C70",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "382",
+                        "DOI": "10.1007/s00427-003-0333-9",
+                        "article-title": "The expression of tissue inhibitor of metalloproteinase 2 (TIMP-2) is required for normal development of zebrafish embryos",
+                        "volume": "213",
+                        "author": "Zhang",
+                        "year": "2003",
+                        "journal-title": "Dev. Genes Evol."
+                    },
+                    {
+                        "key": "2024112811073232400_BIO061741C71",
+                        "first-page": "2875",
+                        "article-title": "Vascular endothelial growth factor-A (VEGF-A) and high myopia in marmosets",
+                        "volume": "62",
+                        "author": "Zhu",
+                        "year": "2021",
+                        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+                    }
+                ],
+                "container-title": [
+                    "Biology Open"
+                ],
+                "language": "en",
+                "link": [
+                    {
+                        "URL": "https://journals.biologists.com/bio/article-pdf/doi/10.1242/bio.061741/3584747/bio061741.pdf",
+                        "content-type": "application/pdf",
+                        "content-version": "vor",
+                        "intended-application": "syndication"
+                    },
+                    {
+                        "URL": "https://journals.biologists.com/bio/article-pdf/doi/10.1242/bio.061741/3584747/bio061741.pdf",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "similarity-checking"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2024,
+                            11,
+                            28
+                        ]
+                    ],
+                    "date-time": "2024-11-28T06:08:13Z",
+                    "timestamp": 1732774093000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://journals.biologists.com/bio/article/13/12/bio061741/363227/EFEMP1-contributes-to-light-dependent-ocular"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2024,
+                            11,
+                            28
+                        ]
+                    ]
+                },
+                "references-count": 72,
+                "journal-issue": {
+                    "issue": "12",
+                    "published-print": {
+                        "date-parts": [
+                            [
+                                2024,
+                                12,
+                                15
+                            ]
+                        ]
+                    }
+                },
+                "URL": "https://doi.org/10.1242/bio.061741",
+                "relation": {
+                    "has-preprint": [
+                        {
+                            "id-type": "doi",
+                            "id": "10.1101/2023.12.18.572096",
+                            "asserted-by": "object"
+                        }
+                    ]
+                },
+                "ISSN": [
+                    "2046-6390"
+                ],
+                "issn-type": [
+                    {
+                        "value": "2046-6390",
+                        "type": "electronic"
+                    }
+                ],
+                "published": {
+                    "date-parts": [
+                        [
+                            2024,
+                            11,
+                            28
+                        ]
+                    ]
+                },
+                "article-number": "bio061741"
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2026,
+                            2,
+                            27
+                        ]
+                    ],
+                    "date-time": "2026-02-27T05:11:39Z",
+                    "timestamp": 1772169099163,
+                    "version": "3.50.1"
+                },
+                "reference-count": 33,
+                "publisher": "F1000 Research Ltd",
+                "license": [
+                    {
+                        "start": {
+                            "date-parts": [
+                                [
+                                    2024,
+                                    7,
+                                    10
+                                ]
+                            ],
+                            "date-time": "2024-07-10T00:00:00Z",
+                            "timestamp": 1720569600000
+                        },
+                        "content-version": "tdm",
+                        "delay-in-days": 0,
+                        "URL": "http://creativecommons.org/licenses/by/4.0/"
+                    }
+                ],
+                "funder": [
+                    {
+                        "DOI": "10.13039/100010269",
+                        "name": "Wellcome Trust",
+                        "doi-asserted-by": "publisher",
+                        "award": [
+                            "206194"
+                        ],
+                        "award-info": [
+                            {
+                                "award-number": [
+                                    "206194"
+                                ]
+                            }
+                        ],
+                        "id": [
+                            {
+                                "id": "10.13039/100010269",
+                                "id-type": "DOI",
+                                "asserted-by": "publisher"
+                            }
+                        ]
+                    },
+                    {
+                        "DOI": "10.13039/100010269",
+                        "name": "Wellcome Trust",
+                        "doi-asserted-by": "publisher",
+                        "award": [
+                            "218328"
+                        ],
+                        "award-info": [
+                            {
+                                "award-number": [
+                                    "218328"
+                                ]
+                            }
+                        ],
+                        "id": [
+                            {
+                                "id": "10.13039/100010269",
+                                "id-type": "DOI",
+                                "asserted-by": "publisher"
+                            }
+                        ]
+                    }
+                ],
+                "content-domain": {
+                    "domain": [
+                        "wellcomeopenresearch.org"
+                    ],
+                    "crossmark-restriction": false
+                },
+                "short-container-title": [
+                    "Wellcome Open Res"
+                ],
+                "abstract": "<ns3:p>\n                    We present a genome assembly from an individual female\n                    <ns3:italic>Coleophora deauratella</ns3:italic>\n                    (the Red-clover Case-bearer; Arthropoda; Insecta; Lepidoptera; Coleophoridae). The genome sequence is 518.4 megabases in span. Most of the assembly is scaffolded into 31 chromosomal pseudomolecules, including the Z and W sex chromosomes. The mitochondrial genome has also been assembled and is 15.76 kilobases in length.\n                  </ns3:p>",
+                "DOI": "10.12688/wellcomeopenres.22581.1",
+                "type": "journal-article",
+                "created": {
+                    "date-parts": [
+                        [
+                            2024,
+                            7,
+                            11
+                        ]
+                    ],
+                    "date-time": "2024-07-11T10:16:28Z",
+                    "timestamp": 1720692988000
+                },
+                "page": "370",
+                "update-policy": "https://doi.org/10.12688/wellcomeopenres.crossmark-policy",
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "The genome sequence of the Red-clover Case-bearer, Coleophora deauratella Zeller, 1846"
+                ],
+                "prefix": "10.12688",
+                "volume": "9",
+                "author": [
+                    {
+                        "ORCID": "https://orcid.org/0000-0001-6380-0329",
+                        "authenticated-orcid": false,
+                        "given": "Liam M.",
+                        "family": "Crowley",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "ORCID": "https://orcid.org/0000-0002-8172-4734",
+                        "authenticated-orcid": false,
+                        "given": "Denise C.",
+                        "family": "Wawman",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "University of Oxford and Wytham Woods Genome Acquisition Lab",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Darwin Tree of Life Barcoding collective",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wellcome Sanger Institute Tree of Life Management, Samples and Laboratory team",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wellcome Sanger Institute Scientific Operations: Sequencing Operations",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wellcome Sanger Institute Tree of Life Core Informatics team",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tree of Life Core Informatics collective",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Darwin Tree of Life Consortium",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "2560",
+                "published-online": {
+                    "date-parts": [
+                        [
+                            2024,
+                            7,
+                            10
+                        ]
+                    ]
+                },
+                "reference": [
+                    {
+                        "key": "ref-1",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "311-316",
+                        "DOI": "10.1093/bioinformatics/btz540",
+                        "article-title": "Cooler: scalable storage for Hi-C data and other genomically labeled arrays.",
+                        "volume": "36",
+                        "author": "N Abdennur",
+                        "year": "2020",
+                        "journal-title": "Bioinformatics."
+                    },
+                    {
+                        "key": "ref-2",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "892-905",
+                        "DOI": "10.1111/1755-0998.13160",
+                        "article-title": "MitoFinder: efficient automated large-scale extraction of mitogenomic data in target enrichment phylogenomics.",
+                        "volume": "20",
+                        "author": "R Allio",
+                        "year": "2020",
+                        "journal-title": "Mol Ecol Resour."
+                    },
+                    {
+                        "key": "ref-3",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.17504/protocols.io.81wgbxzq3lpk/v1",
+                        "article-title": "Sanger Tree of Life HMW DNA fragmentation: diagenode Megaruptor\u00ae3 for LI PacBio.",
+                        "author": "A Bates",
+                        "year": "2023",
+                        "journal-title": "protocols.io."
+                    },
+                    {
+                        "key": "ref-4",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "313-319",
+                        "DOI": "10.1016/j.ympev.2012.08.023",
+                        "article-title": "MITOS: improved de novo metazoan mitochondrial genome annotation.",
+                        "volume": "69",
+                        "author": "M Bernt",
+                        "year": "2013",
+                        "journal-title": "Mol Phylogenet Evol."
+                    },
+                    {
+                        "key": "ref-5",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "3",
+                        "DOI": "10.12688/wellcomeopenres.19917.1",
+                        "article-title": "The genome sequence of the tipped oak case-bearer, Coleophora flavipennella (Duponchel 1843) [version 1; peer review: 5 approved].",
+                        "volume": "9",
+                        "author": "D Boyes",
+                        "year": "2024",
+                        "journal-title": "Wellcome Open Res."
+                    },
+                    {
+                        "key": "ref-6",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1361-1374",
+                        "DOI": "10.1534/g3.119.400908",
+                        "article-title": "BlobToolKit - interactive quality assessment of genome assemblies.",
+                        "volume": "10",
+                        "author": "R Challis",
+                        "year": "2020",
+                        "journal-title": "G3 (Bethesda)."
+                    },
+                    {
+                        "key": "ref-7",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "170-175",
+                        "DOI": "10.1038/s41592-020-01056-5",
+                        "article-title": "Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm.",
+                        "volume": "18",
+                        "author": "H Cheng",
+                        "year": "2021",
+                        "journal-title": "Nat Methods."
+                    },
+                    {
+                        "key": "ref-8",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.17504/protocols.io.5qpvo3r19v4o/v1",
+                        "article-title": "Sanger Tree of Life sample homogenisation: PowerMash.",
+                        "author": "A Denton",
+                        "year": "2023a",
+                        "journal-title": "protocols.io."
+                    },
+                    {
+                        "key": "ref-9",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.17504/protocols.io.8epv5xxy6g1b/v1",
+                        "article-title": "Sanger Tree of Life wet laboratory protocol collection V.1.",
+                        "author": "A Denton",
+                        "year": "2023b",
+                        "journal-title": "protocols.io."
+                    },
+                    {
+                        "key": "ref-10",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "316-319",
+                        "DOI": "10.1038/nbt.3820",
+                        "article-title": "Nextflow enables reproducible computational workflows.",
+                        "volume": "35",
+                        "author": "P Di Tommaso",
+                        "year": "2017",
+                        "journal-title": "Nat Biotechnol."
+                    },
+                    {
+                        "key": "ref-11",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "631-643",
+                        "DOI": "10.1007/s10340-023-01684-8",
+                        "article-title": "Flight phenology and landscape predictors of invasive Coleophora deauratella populations in Oregon and New Zealand red clover.",
+                        "volume": "97",
+                        "author": "S Dorman",
+                        "year": "2024",
+                        "journal-title": "J Pest Sci."
+                    },
+                    {
+                        "key": "ref-12",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "255-261",
+                        "DOI": "10.1111/j.1570-7458.2010.01062.x",
+                        "article-title": "Sex pheromone of the red clover casebearer moth, Coleophora deauratella, an invasive pest of clover in Canada.",
+                        "volume": "137",
+                        "author": "M Evenden",
+                        "year": "2010",
+                        "journal-title": "Entomol Exp Appl."
+                    },
+                    {
+                        "key": "ref-13",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "2896-2898",
+                        "DOI": "10.1093/bioinformatics/btaa025",
+                        "article-title": "Identifying and removing haplotypic duplication in primary genome assemblies.",
+                        "volume": "36",
+                        "author": "D Guan",
+                        "year": "2020",
+                        "journal-title": "Bioinformatics."
+                    },
+                    {
+                        "key": "ref-14",
+                        "article-title": "PretextView (Paired REad TEXTure Viewer): a desktop application for viewing pretext contact maps.",
+                        "author": "E Harry",
+                        "year": "2022"
+                    },
+                    {
+                        "key": "ref-15",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1093/gigascience/giaa153",
+                        "article-title": "Significantly improving the quality of genome assemblies through curation.",
+                        "volume": "10",
+                        "author": "K Howe",
+                        "year": "2021",
+                        "journal-title": "GigaScience."
+                    },
+                    {
+                        "key": "ref-16",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.17504/protocols.io.x54v9prmqg3e/v1",
+                        "article-title": "Sanger Tree of Life sample preparation: triage and dissection.",
+                        "author": "J Jay",
+                        "year": "2023",
+                        "journal-title": "protocols.io."
+                    },
+                    {
+                        "key": "ref-17",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1093/jipm/pmae002",
+                        "article-title": "Biology and management of Coleophora deauratella (Lepidoptera: Coleophoridae) in red clover seed-growing regions in North America and New Zealand.",
+                        "volume": "15",
+                        "author": "N Kaur",
+                        "year": "2024",
+                        "journal-title": "J Integr Pest Manag."
+                    },
+                    {
+                        "key": "ref-18",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1186/s13059-018-1486-1",
+                        "article-title": "HiGlass: web-based visual exploration and analysis of genome interaction maps.",
+                        "volume": "19",
+                        "author": "P Kerpedjiev",
+                        "year": "2018",
+                        "journal-title": "Genome Biol."
+                    },
+                    {
+                        "key": "ref-19",
+                        "article-title": "Coleophora deauratella.",
+                        "author": "I Kimber",
+                        "year": "2024"
+                    },
+                    {
+                        "key": "ref-20",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "4647-4654",
+                        "DOI": "10.1093/molbev/msab199",
+                        "article-title": "BUSCO update: novel and streamlined workflows along with broader and deeper phylogenetic coverage for scoring of eukaryotic, prokaryotic, and viral genomes.",
+                        "volume": "38",
+                        "author": "M Manni",
+                        "year": "2021",
+                        "journal-title": "Mol Biol Evol."
+                    },
+                    {
+                        "key": "ref-21",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "3595-3609",
+                        "DOI": "10.1007/s10530-016-1250-y",
+                        "article-title": "Genetic diversity and population structure identify the potential source of the invasive red clover casebearer moth, Coleophora deauratella, in North America.",
+                        "volume": "18",
+                        "author": "B Mori",
+                        "year": "2016",
+                        "journal-title": "Biol Invasions."
+                    },
+                    {
+                        "key": "ref-22",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1149-1157",
+                        "DOI": "10.1002/ps.3898",
+                        "article-title": "Mating disruption of Coleophora deauratella (Lepidoptera: Coleophoridae) using laminate flakes in red clover seed production fields.",
+                        "volume": "71",
+                        "author": "B Mori",
+                        "year": "2015",
+                        "journal-title": "Pest Manag Sci."
+                    },
+                    {
+                        "key": "ref-23",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.17504/protocols.io.kxygx3y4dg8j/v1",
+                        "article-title": "Sanger Tree of Life HMW DNA extraction: automated MagAttract v.2.",
+                        "author": "G Oatley",
+                        "year": "2023",
+                        "journal-title": "protocols.io."
+                    },
+                    {
+                        "key": "ref-24",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1665-1680",
+                        "DOI": "10.1016/j.cell.2014.11.021",
+                        "article-title": "A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping.",
+                        "volume": "159",
+                        "author": "S Rao",
+                        "year": "2014",
+                        "journal-title": "Cell."
+                    },
+                    {
+                        "key": "ref-25",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "737-746",
+                        "DOI": "10.1038/s41586-021-03451-0",
+                        "article-title": "Towards complete and error-free genome assemblies of all vertebrate species.",
+                        "volume": "592",
+                        "author": "A Rhie",
+                        "year": "2021",
+                        "journal-title": "Nature."
+                    },
+                    {
+                        "key": "ref-26",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1186/s13059-020-02134-9",
+                        "article-title": "Merqury: reference-free quality, completeness, and phasing assessment for genome assemblies.",
+                        "volume": "21",
+                        "author": "A Rhie",
+                        "year": "2020",
+                        "journal-title": "Genome Biol."
+                    },
+                    {
+                        "key": "ref-27",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "3210-3212",
+                        "DOI": "10.1093/bioinformatics/btv351",
+                        "article-title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs.",
+                        "volume": "31",
+                        "author": "F Sim\u00e3o",
+                        "year": "2015",
+                        "journal-title": "Bioinformatics."
+                    },
+                    {
+                        "key": "ref-28",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.17504/protocols.io.kxygx3y1dg8j/v1",
+                        "article-title": "Sanger Tree of Life fragmented DNA clean up: manual SPRI.",
+                        "author": "M Strickland",
+                        "year": "2023",
+                        "journal-title": "protocols.io."
+                    },
+                    {
+                        "key": "ref-29",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.5281/zenodo.7755669",
+                        "article-title": "sanger-tol/readmapping: sanger-tol/readmapping v1.1.0 - Hebridean Black (1.1.0).",
+                        "author": "P Surana",
+                        "year": "2023a",
+                        "journal-title": "Zenodo."
+                    },
+                    {
+                        "key": "ref-30",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.5281/zenodo.6785935",
+                        "article-title": "sanger-tol/genomenote (v1.0.dev).",
+                        "author": "P Surana",
+                        "year": "2023b",
+                        "journal-title": "Zenodo."
+                    },
+                    {
+                        "key": "ref-31",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1186/s12859-023-05385-y",
+                        "article-title": "MitoHiFi: a python pipeline for mitochondrial genome assembly from PacBio high fidelity reads.",
+                        "volume": "24",
+                        "author": "M Uliano-Silva",
+                        "year": "2023",
+                        "journal-title": "BMC Bioinformatics."
+                    },
+                    {
+                        "key": "ref-32",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "314-324",
+                        "DOI": "10.1109/IPDPS.2019.00041",
+                        "article-title": "Efficient architecture-aware acceleration of BWA-MEM for multicore systems",
+                        "author": "M Vasimuddin",
+                        "year": "2019"
+                    },
+                    {
+                        "key": "ref-33",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1093/bioinformatics/btac808",
+                        "article-title": "YaHS: yet another Hi-C scaffolding tool.",
+                        "volume": "39",
+                        "author": "C Zhou",
+                        "year": "2023",
+                        "journal-title": "Bioinformatics."
+                    }
+                ],
+                "container-title": [
+                    "Wellcome Open Research"
+                ],
+                "language": "en",
+                "link": [
+                    {
+                        "URL": "https://wellcomeopenresearch.org/articles/9-370/v1/xml",
+                        "content-type": "application/xml",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    },
+                    {
+                        "URL": "https://wellcomeopenresearch.org/articles/9-370/v1/pdf",
+                        "content-type": "application/pdf",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    },
+                    {
+                        "URL": "https://wellcomeopenresearch.org/articles/9-370/v1/iparadigms",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "similarity-checking"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2024,
+                            10,
+                            27
+                        ]
+                    ],
+                    "date-time": "2024-10-27T13:10:11Z",
+                    "timestamp": 1730034611000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://wellcomeopenresearch.org/articles/9-370/v1"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2024,
+                            7,
+                            10
+                        ]
+                    ]
+                },
+                "references-count": 33,
+                "URL": "https://doi.org/10.12688/wellcomeopenres.22581.1",
+                "relation": {
+                    "has-review": [
+                        {
+                            "id-type": "doi",
+                            "id": "10.21956/wellcomeopenres.24879.r97112",
+                            "asserted-by": "subject"
+                        },
+                        {
+                            "id-type": "doi",
+                            "id": "10.21956/wellcomeopenres.24879.r90936",
+                            "asserted-by": "subject"
+                        },
+                        {
+                            "id-type": "doi",
+                            "id": "10.21956/wellcomeopenres.24879.r90936",
+                            "asserted-by": "object"
+                        },
+                        {
+                            "id-type": "doi",
+                            "id": "10.21956/wellcomeopenres.24879.r97112",
+                            "asserted-by": "object"
+                        }
+                    ]
+                },
+                "ISSN": [
+                    "2398-502X"
+                ],
+                "issn-type": [
+                    {
+                        "value": "2398-502X",
+                        "type": "electronic"
+                    }
+                ],
+                "published": {
+                    "date-parts": [
+                        [
+                            2024,
+                            7,
+                            10
+                        ]
+                    ]
+                },
+                "assertion": [
+                    {
+                        "value": "Indexed",
+                        "URL": "https://wellcomeopenresearch.org/articles/9-370/v1#article-reports",
+                        "order": 0,
+                        "name": "referee-status",
+                        "label": "Referee status",
+                        "group": {
+                            "name": "current-referee-status",
+                            "label": "Current Referee Status"
+                        }
+                    },
+                    {
+                        "value": "10.21956/wellcomeopenres.24879.r90936, Sivasankaran Kuppusamy, Entomology Research Institute, Loyola College, Chennai, 09 Aug 2024, version 1, indexed",
+                        "URL": "https://wellcomeopenresearch.org/articles/9-370/v1#referee-response-90936",
+                        "order": 0,
+                        "name": "referee-response-90936",
+                        "label": "Referee Report",
+                        "group": {
+                            "name": "article-reports",
+                            "label": "Article Reports"
+                        }
+                    },
+                    {
+                        "value": "10.21956/wellcomeopenres.24879.r97112, Th\u00e9o L\u00e9ger, , Leibniz-Institut f\u00fcr Evolutions- und Biodiversitaetsforschung, Museum f\u00fcr Naturkunde Berlin, Berlin, 27 Oct 2024, version 1, indexed",
+                        "URL": "https://wellcomeopenresearch.org/articles/9-370/v1#referee-response-97112",
+                        "order": 1,
+                        "name": "referee-response-97112",
+                        "label": "Referee Report",
+                        "group": {
+                            "name": "article-reports",
+                            "label": "Article Reports"
+                        }
+                    },
+                    {
+                        "value": "This work was supported by Wellcome through core funding to the Wellcome Sanger Institute [206194, <a href=https://doi.org/10.35802/206194>https://doi.org/10.35802/206194</a>] and the Darwin Tree of Life Discretionary Award [218328, <a href=https://doi.org/10.35802/218328>https://doi.org/10.35802/218328 </a>]. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
+                        "order": 2,
+                        "name": "grant-information",
+                        "label": "Grant Information"
+                    },
+                    {
+                        "value": "This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+                        "order": 0,
+                        "name": "copyright-info",
+                        "label": "Copyright"
+                    }
+                ]
+            },
+            {
+                "indexed": {
+                    "date-parts": [
+                        [
+                            2026,
+                            2,
+                            27
+                        ]
+                    ],
+                    "date-time": "2026-02-27T05:13:08Z",
+                    "timestamp": 1772169188878,
+                    "version": "3.50.1"
+                },
+                "reference-count": 46,
+                "publisher": "F1000 Research Ltd",
+                "license": [
+                    {
+                        "start": {
+                            "date-parts": [
+                                [
+                                    2025,
+                                    10,
+                                    3
+                                ]
+                            ],
+                            "date-time": "2025-10-03T00:00:00Z",
+                            "timestamp": 1759449600000
+                        },
+                        "content-version": "tdm",
+                        "delay-in-days": 0,
+                        "URL": "https://creativecommons.org/licenses/by/4.0/"
+                    }
+                ],
+                "funder": [
+                    {
+                        "DOI": "10.13039/100010269",
+                        "name": "Wellcome Trust",
+                        "doi-asserted-by": "publisher",
+                        "award": [
+                            "218328"
+                        ],
+                        "award-info": [
+                            {
+                                "award-number": [
+                                    "218328"
+                                ]
+                            }
+                        ],
+                        "id": [
+                            {
+                                "id": "10.13039/100010269",
+                                "id-type": "DOI",
+                                "asserted-by": "publisher"
+                            }
+                        ]
+                    },
+                    {
+                        "DOI": "10.13039/100010269",
+                        "name": "Wellcome Trust",
+                        "doi-asserted-by": "publisher",
+                        "award": [
+                            "220540"
+                        ],
+                        "award-info": [
+                            {
+                                "award-number": [
+                                    "220540"
+                                ]
+                            }
+                        ],
+                        "id": [
+                            {
+                                "id": "10.13039/100010269",
+                                "id-type": "DOI",
+                                "asserted-by": "publisher"
+                            }
+                        ]
+                    }
+                ],
+                "content-domain": {
+                    "domain": [
+                        "wellcomeopenresearch.org"
+                    ],
+                    "crossmark-restriction": false
+                },
+                "short-container-title": [
+                    "Wellcome Open Res"
+                ],
+                "abstract": "<ns3:p>\n                    We present a genome assembly from an individual male\n                    <ns3:italic>Volucella pellucens</ns3:italic>\n                    (hoverfly; Arthropoda; Insecta; Diptera; Syrphidae). The assembly contains two haplotypes with total lengths of 1\u202f242.11 megabases and 1\u202f244.29 megabases. Most of haplotype 1 (98.21%) is scaffolded into 7 chromosomal pseudomolecules, including the X and Y sex chromosomes. Haplotype 2 is scaffolded into 5 chromosomal pseudomolecules. The mitochondrial genome has also been assembled, with a length of 16.4 kilobases. This assembly was generated as part of the Darwin Tree of Life project, which produces reference genomes for eukaryotic species found in Britain\u202fand\u202fIreland.\n                  </ns3:p>",
+                "DOI": "10.12688/wellcomeopenres.24946.1",
+                "type": "journal-article",
+                "created": {
+                    "date-parts": [
+                        [
+                            2025,
+                            10,
+                            3
+                        ]
+                    ],
+                    "date-time": "2025-10-03T15:15:09Z",
+                    "timestamp": 1759504509000
+                },
+                "page": "541",
+                "update-policy": "https://doi.org/10.12688/wellcomeopenres.crossmark-policy",
+                "source": "Crossref",
+                "is-referenced-by-count": 0,
+                "title": [
+                    "The genome sequence of the hoverfly, Volucella pellucens (Linnaeus, 1758) (Diptera: Syrphidae)"
+                ],
+                "prefix": "10.12688",
+                "volume": "10",
+                "author": [
+                    {
+                        "given": "Will J.",
+                        "family": "Nash",
+                        "sequence": "first",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "ORCID": "https://orcid.org/0000-0003-1255-0045",
+                        "authenticated-orcid": false,
+                        "given": "Olga",
+                        "family": "Sivell",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "ORCID": "https://orcid.org/0009-0005-9971-4453",
+                        "authenticated-orcid": false,
+                        "given": "Duncan",
+                        "family": "Sivell",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Natural History Museum Genome Acquisition Lab",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Darwin Tree of Life Barcoding Collective",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wellcome Sanger Institute Tree of Life Management, Samples and Laboratory team",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wellcome Sanger Institute Scientific Operations: Sequencing Operations",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wellcome Sanger Institute Tree of Life Core Informatics team",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tree of Life Core Informatics collective",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Darwin Tree of Life Consortium",
+                        "sequence": "additional",
+                        "affiliation": [],
+                        "role": [
+                            {
+                                "role": "author",
+                                "vocabulary": "crossref"
+                            }
+                        ]
+                    }
+                ],
+                "member": "2560",
+                "published-online": {
+                    "date-parts": [
+                        [
+                            2025,
+                            10,
+                            3
+                        ]
+                    ]
+                },
+                "reference": [
+                    {
+                        "key": "ref-1",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "892-905",
+                        "DOI": "10.1111/1755-0998.13160",
+                        "article-title": "MitoFinder: efficient automated large-scale extraction of mitogenomic data in target enrichment phylogenomics.",
+                        "volume": "20",
+                        "author": "R Allio",
+                        "year": "2020",
+                        "journal-title": "Mol Ecol Resour."
+                    },
+                    {
+                        "key": "ref-2",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "403-410",
+                        "DOI": "10.1016/S0022-2836(05)80360-2",
+                        "article-title": "Basic Local Alignment Search Tool.",
+                        "volume": "215",
+                        "author": "S Altschul",
+                        "year": "1990",
+                        "journal-title": "J Mol Biol."
+                    },
+                    {
+                        "key": "ref-3",
+                        "article-title": "Hoverflies of Britain and Ireland",
+                        "author": "S Ball",
+                        "year": "2024"
+                    },
+                    {
+                        "key": "ref-4",
+                        "first-page": "73-83",
+                        "article-title": "A mark-release recapture study of Volucella bombylans (Linnaeus, 1758), V. inflata (Fabricius, 1794) and V. pellucens (Linnaeus 1758) (Diptera: Syrphidae).",
+                        "volume": "10",
+                        "author": "S Ball",
+                        "year": "2004",
+                        "journal-title": "Dipterists Digest (second series)."
+                    },
+                    {
+                        "key": "ref-5",
+                        "article-title": "Atlas of the Hoverflies of Great Britain (Diptera, Syrphidae).",
+                        "author": "S Ball",
+                        "year": "2011"
+                    },
+                    {
+                        "key": "ref-6",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "D523-D531",
+                        "DOI": "10.1093/nar/gkac1052",
+                        "article-title": "UniProt: the Universal Protein Knowledgebase in 2023.",
+                        "volume": "51",
+                        "author": "A Bateman",
+                        "year": "2023",
+                        "journal-title": "Nucleic Acids Res."
+                    },
+                    {
+                        "key": "ref-7",
+                        "article-title": "Hoverflies of Britain and North-West Europe",
+                        "author": "S Bot",
+                        "year": "2023"
+                    },
+                    {
+                        "key": "ref-8",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "366-368",
+                        "DOI": "10.1038/s41592-021-01101-x",
+                        "article-title": "Sensitive protein alignments at Tree-of-Life scale using DIAMOND.",
+                        "volume": "18",
+                        "author": "B Buchfink",
+                        "year": "2021",
+                        "journal-title": "Nat Methods."
+                    },
+                    {
+                        "key": "ref-9",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1361-1374",
+                        "DOI": "10.1534/g3.119.400908",
+                        "article-title": "BlobToolKit \u2013 interactive quality assessment of genome assemblies.",
+                        "volume": "10",
+                        "author": "R Challis",
+                        "year": "2020",
+                        "journal-title": "G3 (Bethesda)."
+                    },
+                    {
+                        "key": "ref-10",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "170-175",
+                        "DOI": "10.1038/s41592-020-01056-5",
+                        "article-title": "Haplotype-resolved de novo assembly using phased assembly graphs with Hifiasm.",
+                        "volume": "18",
+                        "author": "H Cheng",
+                        "year": "2021",
+                        "journal-title": "Nat Methods."
+                    },
+                    {
+                        "key": "ref-11",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1332-1335",
+                        "DOI": "10.1038/s41587-022-01261-x",
+                        "article-title": "Haplotype-resolved assembly of diploid genomes without parental data.",
+                        "volume": "40",
+                        "author": "H Cheng",
+                        "year": "2022",
+                        "journal-title": "Nat Biotechnol."
+                    },
+                    {
+                        "key": "ref-12",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "123",
+                        "DOI": "10.12688/wellcomeopenres.18925.1",
+                        "article-title": "A sampling strategy for genome sequencing the British terrestrial arthropod fauna [version 1; peer review: 2 approved].",
+                        "volume": "8",
+                        "author": "L Crowley",
+                        "year": "2023a",
+                        "journal-title": "Wellcome Open Res."
+                    },
+                    {
+                        "key": "ref-13",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "69",
+                        "DOI": "10.12688/wellcomeopenres.18897.1",
+                        "article-title": "The genome sequence of the Lesser Hornet Hoverfly, Volucella inanis (Linnaeus, 1758) [version 1; peer review: 3 approved].",
+                        "volume": "8",
+                        "author": "L Crowley",
+                        "year": "2023b",
+                        "journal-title": "Wellcome Open Res."
+                    },
+                    {
+                        "key": "ref-14",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "454",
+                        "DOI": "10.12688/wellcomeopenres.22843.1",
+                        "article-title": "The genome sequence of the bumblebee hoverfly, Volucella bombylans (Linnaeus, 1758) [version 1; peer review: 1 approved].",
+                        "volume": "9",
+                        "author": "L Crowley",
+                        "year": "2024",
+                        "journal-title": "Wellcome Open Res."
+                    },
+                    {
+                        "key": "ref-15",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "465",
+                        "DOI": "10.12688/wellcomeopenres.19845.1",
+                        "article-title": "The genome sequence of the Cossus hoverfly, Volucella inflata (Fabricius 1794) [version 1; peer review: 1 approved].",
+                        "volume": "8",
+                        "author": "L Crowley",
+                        "year": "2023c",
+                        "journal-title": "Wellcome Open Res."
+                    },
+                    {
+                        "key": "ref-16",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1093/gigascience/giab008",
+                        "article-title": "Twelve years of SAMtools and BCFtools.",
+                        "volume": "10",
+                        "author": "P Danecek",
+                        "year": "2021",
+                        "journal-title": "GigaScience."
+                    },
+                    {
+                        "key": "ref-17",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "3047-3048",
+                        "DOI": "10.1093/bioinformatics/btw354",
+                        "article-title": "MultiQC: summarize analysis results for multiple tools and samples in a single report.",
+                        "volume": "32",
+                        "author": "P Ewels",
+                        "year": "2016",
+                        "journal-title": "Bioinformatics."
+                    },
+                    {
+                        "key": "ref-18",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "276-278",
+                        "DOI": "10.1038/s41587-020-0439-x",
+                        "article-title": "The nf-core framework for community-curated bioinformatics pipelines.",
+                        "volume": "38",
+                        "author": "P Ewels",
+                        "year": "2020",
+                        "journal-title": "Nat Biotechnol."
+                    },
+                    {
+                        "key": "ref-19",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "4214-4216",
+                        "DOI": "10.1093/bioinformatics/btac460",
+                        "article-title": "Gfastats: conversion, evaluation and manipulation of genome sequences using assembly graphs.",
+                        "volume": "38",
+                        "author": "G Formenti",
+                        "year": "2022",
+                        "journal-title": "Bioinformatics."
+                    },
+                    {
+                        "key": "ref-20",
+                        "doi-asserted-by": "publisher",
+                        "article-title": "Volucella pellucens (Linnaeus, 1758) in GBIF Backbone Taxonomy",
+                        "year": "2023",
+                        "DOI": "10.15468/39omei"
+                    },
+                    {
+                        "key": "ref-21",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1101/2025.04.11.648334",
+                        "article-title": "On the path to reference genomes for all biodiversity: lessons learned and laboratory protocols created in the Sanger Tree of Life core laboratory over the first 2000 species.",
+                        "author": "C Howard",
+                        "year": "2025",
+                        "journal-title": "bioRxiv."
+                    },
+                    {
+                        "key": "ref-22",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1093/gigascience/giaa153",
+                        "article-title": "Significantly improving the quality of genome assemblies through curation.",
+                        "volume": "10",
+                        "author": "K Howe",
+                        "year": "2021",
+                        "journal-title": "GigaScience."
+                    },
+                    {
+                        "key": "ref-23",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1186/s13059-018-1486-1",
+                        "article-title": "HiGlass: web-based visual exploration and analysis of genome interaction maps.",
+                        "volume": "19",
+                        "author": "P Kerpedjiev",
+                        "year": "2018",
+                        "journal-title": "Genome Biol."
+                    },
+                    {
+                        "key": "ref-24",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1371/journal.pone.0177459",
+                        "article-title": "Singularity: scientific containers for mobility of compute.",
+                        "volume": "12",
+                        "author": "G Kurtzer",
+                        "year": "2017",
+                        "journal-title": "PLoS One."
+                    },
+                    {
+                        "key": "ref-25",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "187",
+                        "DOI": "10.12688/wellcomeopenres.17605.1",
+                        "article-title": "Specimen and sample metadata standards for biodiversity genomics: a proposal from the Darwin Tree of Life Project [version 1; peer review: 2 approved with reservations].",
+                        "volume": "7",
+                        "author": "M Lawniczak",
+                        "year": "2022",
+                        "journal-title": "Wellcome Open Res."
+                    },
+                    {
+                        "key": "ref-26",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "3094-3100",
+                        "DOI": "10.1093/bioinformatics/bty191",
+                        "article-title": "Minimap2: pairwise alignment for nucleotide sequences.",
+                        "volume": "34",
+                        "author": "H Li",
+                        "year": "2018",
+                        "journal-title": "Bioinformatics."
+                    },
+                    {
+                        "key": "ref-27",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "4647-4654",
+                        "DOI": "10.1093/molbev/msab199",
+                        "article-title": "BUSCO update: novel and streamlined workflows along with broader and deeper phylogenetic coverage for scoring of eukaryotic, prokaryotic, and viral genomes.",
+                        "volume": "38",
+                        "author": "M Manni",
+                        "year": "2021",
+                        "journal-title": "Mol Biol Evol."
+                    },
+                    {
+                        "key": "ref-28",
+                        "article-title": "Docker: lightweight Linux containers for consistent development and deployment.",
+                        "volume": "2014",
+                        "author": "D Merkel",
+                        "year": "2014",
+                        "journal-title": "Linux J."
+                    },
+                    {
+                        "key": "ref-29",
+                        "article-title": "Hoverflies of Surrey",
+                        "author": "R Morris",
+                        "year": "1998"
+                    },
+                    {
+                        "key": "ref-30",
+                        "article-title": "Volucella pellucens (Linnaeus, 1758) map on the NBN Atlas",
+                        "year": "2025"
+                    },
+                    {
+                        "key": "ref-31",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1038/s41467-020-14998-3",
+                        "article-title": "GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes.",
+                        "volume": "11",
+                        "author": "T Ranallo-Benavidez",
+                        "year": "2020",
+                        "journal-title": "Nat Commun."
+                    },
+                    {
+                        "key": "ref-32",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "1665-1680",
+                        "DOI": "10.1016/j.cell.2014.11.021",
+                        "article-title": "A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping.",
+                        "volume": "159",
+                        "author": "S Rao",
+                        "year": "2014",
+                        "journal-title": "Cell."
+                    },
+                    {
+                        "key": "ref-33",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "737-746",
+                        "DOI": "10.1038/s41586-021-03451-0",
+                        "article-title": "Towards complete and error-free genome assemblies of all vertebrate species.",
+                        "volume": "592",
+                        "author": "A Rhie",
+                        "year": "2021",
+                        "journal-title": "Nature."
+                    },
+                    {
+                        "key": "ref-34",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1186/s13059-020-02134-9",
+                        "article-title": "Merqury: reference-free quality, completeness, and phasing assessment for genome assemblies.",
+                        "volume": "21",
+                        "author": "A Rhie",
+                        "year": "2020",
+                        "journal-title": "Genome Biol."
+                    },
+                    {
+                        "key": "ref-35",
+                        "first-page": "1-155",
+                        "article-title": "Colour guide to hoverfly larvae (Diptera, Syrphidae) in Britain and Europe.",
+                        "volume": "9",
+                        "author": "G Rotheray",
+                        "year": "1993",
+                        "journal-title": "Dipterists Digest."
+                    },
+                    {
+                        "key": "ref-36",
+                        "first-page": "103-16",
+                        "article-title": "Descriptions and a key to the larval and puparial stages of north-west European Volucella (Diptera, Syrphidae).",
+                        "volume": "6",
+                        "author": "G Rotheray",
+                        "year": "1999",
+                        "journal-title": "Studia dipterologica."
+                    },
+                    {
+                        "key": "ref-37",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1093/database/baaa062",
+                        "article-title": "NCBI taxonomy: a comprehensive update on curation, resources and tools.",
+                        "volume": "2020",
+                        "author": "C Schoch",
+                        "year": "2020",
+                        "journal-title": "Database (Oxford)."
+                    },
+                    {
+                        "key": "ref-38",
+                        "article-title": "Volucella species: identifying them, finding them and a bit about their biology. (Diptera: Syrphidae)",
+                        "author": "M Speight",
+                        "year": "2024"
+                    },
+                    {
+                        "key": "ref-39",
+                        "article-title": "British hoverflies: an illustrated identification guide",
+                        "author": "A Stubbs",
+                        "year": "2002"
+                    },
+                    {
+                        "key": "ref-40",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "339",
+                        "DOI": "10.12688/wellcomeopenres.21143.1",
+                        "article-title": "A DNA barcoding framework for taxonomic verification in the Darwin Tree of Life Project [version 1; peer review: 2 approved].",
+                        "volume": "9",
+                        "author": "A Twyford",
+                        "year": "2024",
+                        "journal-title": "Wellcome Open Res."
+                    },
+                    {
+                        "key": "ref-41",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1186/s12859-023-05385-y",
+                        "article-title": "MitoHiFi: a python pipeline for mitochondrial genome assembly from PacBio high fidelity reads.",
+                        "volume": "24",
+                        "author": "M Uliano-Silva",
+                        "year": "2023",
+                        "journal-title": "BMC Bioinformatics."
+                    },
+                    {
+                        "key": "ref-42",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "314-324",
+                        "DOI": "10.1109/IPDPS.2019.00041",
+                        "article-title": "Efficient architecture-aware acceleration of BWA-MEM for multicore systems.",
+                        "author": "M Vasimuddin",
+                        "year": "2019"
+                    },
+                    {
+                        "key": "ref-43",
+                        "article-title": "Hoverflies of Northwest Europe: identification keys to the Syrphidae",
+                        "author": "M van Veen",
+                        "year": "2014"
+                    },
+                    {
+                        "key": "ref-44",
+                        "article-title": "British Flies Volume 8. Platypezidae, Pipunculidae and Syrphidae",
+                        "author": "G Verrall",
+                        "year": "1901"
+                    },
+                    {
+                        "key": "ref-45",
+                        "doi-asserted-by": "publisher",
+                        "first-page": "86",
+                        "DOI": "10.12688/wellcomeopenres.23738.1",
+                        "article-title": "The genome sequence of Hornet Plumehorn hoverfly, Volucella zonaria (Poda, 1761) [version 1; peer review: 2 approved].",
+                        "volume": "10",
+                        "author": "R Wolton",
+                        "year": "2025",
+                        "journal-title": "Wellcome Open Res."
+                    },
+                    {
+                        "key": "ref-46",
+                        "doi-asserted-by": "publisher",
+                        "DOI": "10.1093/bioinformatics/btac808",
+                        "article-title": "YaHS: Yet another Hi-C Scaffolding tool.",
+                        "volume": "39",
+                        "author": "C Zhou",
+                        "year": "2023",
+                        "journal-title": "Bioinformatics."
+                    }
+                ],
+                "container-title": [
+                    "Wellcome Open Research"
+                ],
+                "language": "en",
+                "link": [
+                    {
+                        "URL": "https://wellcomeopenresearch.org/articles/10-541/v1/xml",
+                        "content-type": "application/xml",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    },
+                    {
+                        "URL": "https://wellcomeopenresearch.org/articles/10-541/v1/pdf",
+                        "content-type": "application/pdf",
+                        "content-version": "vor",
+                        "intended-application": "text-mining"
+                    },
+                    {
+                        "URL": "https://wellcomeopenresearch.org/articles/10-541/v1/iparadigms",
+                        "content-type": "unspecified",
+                        "content-version": "vor",
+                        "intended-application": "similarity-checking"
+                    }
+                ],
+                "deposited": {
+                    "date-parts": [
+                        [
+                            2025,
+                            12,
+                            30
+                        ]
+                    ],
+                    "date-time": "2025-12-30T07:49:10Z",
+                    "timestamp": 1767080950000
+                },
+                "score": 0.0,
+                "resource": {
+                    "primary": {
+                        "URL": "https://wellcomeopenresearch.org/articles/10-541/v1"
+                    }
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2025,
+                            10,
+                            3
+                        ]
+                    ]
+                },
+                "references-count": 46,
+                "URL": "https://doi.org/10.12688/wellcomeopenres.24946.1",
+                "relation": {
+                    "has-review": [
+                        {
+                            "id-type": "doi",
+                            "id": "10.21956/wellcomeopenres.27478.r139726",
+                            "asserted-by": "subject"
+                        },
+                        {
+                            "id-type": "doi",
+                            "id": "10.21956/wellcomeopenres.27478.r139726",
+                            "asserted-by": "object"
+                        }
+                    ]
+                },
+                "ISSN": [
+                    "2398-502X"
+                ],
+                "issn-type": [
+                    {
+                        "value": "2398-502X",
+                        "type": "electronic"
+                    }
+                ],
+                "published": {
+                    "date-parts": [
+                        [
+                            2025,
+                            10,
+                            3
+                        ]
+                    ]
+                },
+                "assertion": [
+                    {
+                        "value": "Approved",
+                        "URL": "https://wellcomeopenresearch.org/articles/10-541/v1#article-reports",
+                        "order": 0,
+                        "name": "referee-status",
+                        "label": "Referee status",
+                        "group": {
+                            "name": "current-referee-status",
+                            "label": "Current Referee Status"
+                        }
+                    },
+                    {
+                        "value": "10.21956/wellcomeopenres.27478.r139726, Charles Plessy, Okinawa Institute of Science and Technology, Okinawa, 30 Dec 2025, version 1, 1 approved",
+                        "URL": "https://wellcomeopenresearch.org/articles/10-541/v1#referee-response-139726",
+                        "order": 0,
+                        "name": "referee-response-139726",
+                        "label": "Referee Report",
+                        "group": {
+                            "name": "article-reports",
+                            "label": "Article Reports"
+                        }
+                    },
+                    {
+                        "value": "This work was supported by Wellcome through core funding to the Wellcome Sanger Institute (220540) and the Darwin Tree of Life Discretionary Award (218328). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
+                        "order": 1,
+                        "name": "grant-information",
+                        "label": "Grant Information"
+                    },
+                    {
+                        "value": "This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+                        "order": 0,
+                        "name": "copyright-info",
+                        "label": "Copyright"
+                    }
+                ]
+            }
+        ],
+        "items-per-page": 3,
+        "query": {
+            "start-index": 0,
+            "search-terms": null
+        }
+    }
+}

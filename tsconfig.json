@@ -1,0 +1,28 @@
+{
+  "include": [
+    "./src/**/*",
+    "./generated/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".turbo",
+    "dist"
+  ],
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ES2022",
+      "DOM"
+    ]
+  }
+}

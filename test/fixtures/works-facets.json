@@ -1,0 +1,51 @@
+{
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+        "facets": {
+            "type-name": {
+                "value-count": 30,
+                "values": {
+                    "Journal Article": 125455616,
+                    "Chapter": 24938904,
+                    "Conference Paper": 10268076,
+                    "Component": 9521332,
+                    "Posted Content": 4202266,
+                    "Dataset": 3451668,
+                    "Other": 1914367,
+                    "Journal Issue": 1523224,
+                    "Peer Review": 1159055,
+                    "Dissertation": 1104837,
+                    "Report": 981945,
+                    "Entry": 961961,
+                    "Monograph": 824056,
+                    "Book": 799469,
+                    "Edited Book": 655207,
+                    "Standard": 419502,
+                    "Grant": 246847,
+                    "Reference": 181231,
+                    "Report Component": 109362,
+                    "Journal": 99759,
+                    "Proceedings": 86479,
+                    "Section": 53745,
+                    "Database": 44870,
+                    "Part": 27981,
+                    "Journal Volume": 13474,
+                    "Report Series": 5364,
+                    "Book Series": 3568,
+                    "Book Set": 667,
+                    "Proceedings Series": 381,
+                    "Track": 52
+                }
+            }
+        },
+        "total-results": 189072653,
+        "items": [],
+        "items-per-page": 0,
+        "query": {
+            "start-index": 0,
+            "search-terms": null
+        }
+    }
+}
