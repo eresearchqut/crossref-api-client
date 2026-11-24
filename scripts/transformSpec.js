@@ -43,10 +43,12 @@ async function main() {
   if (!response.ok) {
     throw new Error(`Could not download ${url}: ${response.status}`);
   }
-  const output = path.join(__dirname, '..', 'generated', 'spec.transformed.json');
-  const spec = await transformSpec(await response.json());
-  fs.mkdirSync(path.dirname(output), { recursive: true });
-  fs.writeFileSync(output, JSON.stringify(spec));
+  const output = path.join(__dirname, '..', 'generated');
+  const original = await response.json();
+  const spec = await transformSpec(original);
+  fs.mkdirSync(output, { recursive: true });
+  fs.writeFileSync(path.join(output, 'spec.json'), JSON.stringify(original, null, 2));
+  fs.writeFileSync(path.join(output, 'spec.transformed.json'), JSON.stringify(spec, null, 2));
   console.log(`Downloaded ${url} (Crossref REST API ${spec.info?.version})`);
 }
 
