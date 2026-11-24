@@ -1,0 +1,100 @@
+overlay: 1.0.0
+info:
+  title: Crossref REST API spec fixes
+  version: 1.0.0
+extends: https://api.crossref.org/swagger-docs
+# Each fix matches what api.crossref.org returns; test/Contract.test.ts fails when a response field is dropped.
+actions:
+  - description: Path parameters are single values, but the spec types some as arrays.
+    target: $.paths.*.*.parameters[?(@.in == 'path' && @.type == 'array')].items
+    remove: true
+  - target: $.paths.*.*.parameters[?(@.in == 'path' && @.type == 'array')]
+    update:
+      type: string
+
+  - description: Every works route accepts the field queries, but the spec only lists the plain `query` parameter.
+    target: $.paths[?(@.get.parameters[?(@.name == 'select')])].get.parameters
+    update:
+      - { name: query.affiliation, in: query, type: string, required: false, description: Query the affiliation field }
+      - { name: query.author, in: query, type: string, required: false, description: Query the author field }
+      - { name: query.bibliographic, in: query, type: string, required: false, description: Query the bibliographic field }
+      - { name: query.chair, in: query, type: string, required: false, description: Query the chair field }
+      - { name: query.container-title, in: query, type: string, required: false, description: Query the container-title field }
+      - { name: query.contributor, in: query, type: string, required: false, description: Query the contributor field }
+      - { name: query.degree, in: query, type: string, required: false, description: Query the degree field }
+      - { name: query.description, in: query, type: string, required: false, description: Query the description field }
+      - { name: query.editor, in: query, type: string, required: false, description: Query the editor field }
+      - { name: query.event-acronym, in: query, type: string, required: false, description: Query the event-acronym field }
+      - { name: query.event-location, in: query, type: string, required: false, description: Query the event-location field }
+      - { name: query.event-name, in: query, type: string, required: false, description: Query the event-name field }
+      - { name: query.event-sponsor, in: query, type: string, required: false, description: Query the event-sponsor field }
+      - { name: query.event-theme, in: query, type: string, required: false, description: Query the event-theme field }
+      - { name: query.funder-name, in: query, type: string, required: false, description: Query the funder-name field }
+      - { name: query.publisher-location, in: query, type: string, required: false, description: Query the publisher-location field }
+      - { name: query.publisher-name, in: query, type: string, required: false, description: Query the publisher-name field }
+      - { name: query.standards-body-acronym, in: query, type: string, required: false, description: Query the standards-body-acronym field }
+      - { name: query.standards-body-name, in: query, type: string, required: false, description: Query the standards-body-name field }
+      - { name: query.title, in: query, type: string, required: false, description: Query the title field }
+      - { name: query.translator, in: query, type: string, required: false, description: Query the translator field }
+
+  - description: "`indexed` carries the same fields as the other dates, plus a version."
+    target: $.definitions.DateAndVersion.properties
+    update:
+      date-time: { type: string, format: date-time }
+      timestamp: { type: integer, format: int64 }
+
+  - target: $.definitions
+    update:
+      WorkFunderAwardInfo:
+        type: object
+        properties:
+          award-number: { type: array, items: { type: string } }
+      JournalCoverageType:
+        type: object
+        properties:
+          all: { $ref: '#/definitions/Coverage' }
+          current: { $ref: '#/definitions/Coverage' }
+          backfile: { $ref: '#/definitions/Coverage' }
+
+  - target: $.definitions.WorkFunder.properties
+    update:
+      award-info: { type: array, items: { $ref: '#/definitions/WorkFunderAwardInfo' } }
+
+  - target: $.definitions.WorkEvent.properties
+    update:
+      acronym: { type: string }
+      number: { type: string }
+      sponsor: { type: array, items: { type: string } }
+      theme: { type: string }
+
+  - description: Grants carry their award at the top level of the work.
+    target: $.definitions.Work.properties
+    update:
+      award: { type: string }
+      award-start: { $ref: '#/definitions/DateParts' }
+
+  - description: A journal lists one entry per ISSN, and its coverage is not broken down by work type as a member's is.
+    target: $.definitions.Journal.properties['issn-type']
+    remove: true
+  - target: $.definitions.Journal.properties
+    update:
+      issn-type: { type: array, items: { $ref: '#/definitions/JournalIssnType' } }
+      coverage-type: { $ref: '#/definitions/JournalCoverageType' }
+
+  - description: The spec misspells references-backfile.
+    target: $.definitions.CoverageFull.properties['references-backfie']
+    remove: true
+  - target: $.definitions.CoverageFull.properties
+    update:
+      references-backfile: { type: number, format: double }
+
+  - description: Crossref adds coverage and flag keys as it collects new metadata, so keep keys the spec does not list yet.
+    target: $.definitions.Coverage
+    update:
+      additionalProperties: { type: number }
+  - target: $.definitions.CoverageFull
+    update:
+      additionalProperties: { type: number }
+  - target: $.definitions.Flags
+    update:
+      additionalProperties: { type: boolean }
