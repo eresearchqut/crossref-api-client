@@ -1,0 +1,63 @@
+name: publish-prerelease
+
+# Publishes a prerelease of the branch it is run on, for testing, e.g.
+# 1.0.0-my-branch.20260928014636 under the pre-my-branch dist tag. It never moves
+# `latest`, and it does not touch git tags or GitHub releases. Releases come from
+# `main` through the `build` workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      spec_url:
+        description: Crossref swagger-docs URL to generate from (blank for the default)
+        required: false
+        default: ""
+
+concurrency:
+  group: publish-prerelease-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish-prerelease:
+    if: github.ref != 'refs/heads/main'
+    runs-on:
+      - ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24.x
+          cache: npm
+          registry-url: https://npm.pkg.github.com
+          scope: "@eresearchqut"
+          always-auth: true
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build
+        env:
+          CROSSREF_SPEC_URL: ${{ inputs.spec_url }}
+        run: npm run build
+      - name: Test
+        run: npm test
+      # The branch name reaches the script through the environment, not `${{ }}`,
+      # because a branch name may legally contain `;` or `$`.
+      - name: Publish
+        env:
+          BRANCH: ${{ github.ref_name }}
+          CROSSREF_SPEC_URL: ${{ inputs.spec_url }}
+        run: |
+          slug=$(echo "$BRANCH" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g' | cut -c1-40 | sed -E 's/-+$//')
+          base=$(jq -r .version package.json | sed -E 's/-.*//')
+          version="$base-$slug.$(date -u +%Y%m%d%H%M%S)"
+          npm version "$version" --no-git-tag-version
+          npm publish --tag "pre-$slug"
+          echo "Published @eresearchqut/crossref-api-client@$version under pre-$slug" >> "$GITHUB_STEP_SUMMARY"
+          echo "Spec: ${CROSSREF_SPEC_URL:-default}" >> "$GITHUB_STEP_SUMMARY"
