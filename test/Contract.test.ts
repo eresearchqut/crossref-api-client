@@ -62,26 +62,42 @@ const fixtures: [string, unknown, Codec][] = [
   ['types', types, [TypesMessageFromJSON, TypesMessageToJSON]],
 ];
 
+function describeValue(value: unknown): string {
+  return value === null ? 'null' : Array.isArray(value) ? 'array' : typeof value;
+}
+
 function droppedPaths(raw: unknown, roundTripped: unknown, path = '', dropped = new Set<string>()): Set<string> {
-  if (Array.isArray(raw)) {
-    raw.forEach((item, index) => droppedPaths(item, Array.isArray(roundTripped) ? roundTripped[index] : undefined, `${path}[]`, dropped));
-  } else if (raw !== null && typeof raw === 'object') {
-    if (roundTripped === null || typeof roundTripped !== 'object') {
-      dropped.add(path);
-      return dropped;
-    }
+  if (raw === null) {
+    return dropped;
+  }
+  if (describeValue(raw) !== describeValue(roundTripped)) {
+    dropped.add(`${path} (${describeValue(raw)} became ${describeValue(roundTripped)})`);
+  } else if (Array.isArray(raw)) {
+    raw.forEach((item, index) => droppedPaths(item, (roundTripped as unknown[])[index], `${path}[]`, dropped));
+  } else if (typeof raw === 'object') {
     for (const [key, value] of Object.entries(raw)) {
-      if (!(key in roundTripped)) {
+      if (!(key in (roundTripped as object))) {
         dropped.add(`${path}.${key}`);
       } else {
         droppedPaths(value, (roundTripped as Record<string, unknown>)[key], `${path}.${key}`, dropped);
       }
     }
-  } else if (raw !== null && roundTripped !== null && typeof raw !== typeof roundTripped) {
-    dropped.add(`${path} (${typeof raw} became ${typeof roundTripped})`);
   }
   return dropped;
 }
+
+describe('droppedPaths', () => {
+  test('reports an empty array that comes back as an object', () => {
+    expect([...droppedPaths({ subject: [] }, { subject: {} })]).toEqual(['.subject (array became object)']);
+  });
+
+  test('reports values that come back as null', () => {
+    expect([...droppedPaths({ title: ['A title'], year: 2020 }, { title: [null], year: null })]).toEqual([
+      '.title[] (string became null)',
+      '.year (number became null)',
+    ]);
+  });
+});
 
 // The generated FromJSON functions drop any field the spec does not name, so these tests fail
 // when the spec drifts from the JSON that api.crossref.org returns.
