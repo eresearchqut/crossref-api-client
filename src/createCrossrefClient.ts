@@ -57,7 +57,7 @@ function mailtoMiddleware(mailto: string): Middleware {
 class HeartbeatApi extends BaseAPI {
   async heartbeat(): Promise<{ status?: string; url: string }> {
     const response = await this.request({ path: '/heartbeat', method: 'GET', headers: {} });
-    let body: { 'overall-status'?: string };
+    let body: { 'overall-status'?: string } | null;
     try {
       body = await response.json();
     } catch (error) {
@@ -69,7 +69,7 @@ class HeartbeatApi extends BaseAPI {
         cause: error,
       });
     }
-    return { status: body['overall-status'], url: response.url };
+    return { status: body?.['overall-status'], url: response.url };
   }
 }
 

@@ -63,6 +63,10 @@ describe('createCrossrefClient', () => {
     await expect(health()).rejects.toMatchObject({ name: 'CrossrefApiError', message: 'Crossref reported overall-status degraded' });
 
     await wiremock.clearAll();
+    await wiremock.register({ method: 'GET', endpoint: '/heartbeat' }, { status: 200, body: 'null' }, { responseBodyType: BodyType.Body });
+    await expect(health()).rejects.toMatchObject({ name: 'CrossrefApiError', message: 'Crossref reported overall-status missing' });
+
+    await wiremock.clearAll();
     await wiremock.register({ method: 'GET', endpoint: '/heartbeat' }, { status: 503 });
     await expect(health()).rejects.toMatchObject({ status: 503 });
   });
