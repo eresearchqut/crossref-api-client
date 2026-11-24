@@ -26,7 +26,7 @@ describe('paginate', () => {
       { status: 200, body: worksPage(items, total, nextCursor) },
     );
 
-  const pages = () => paginate((cursor, rows) => worksApi.listWorks({ cursor, rows, filter: 'type:journal-article' }), { rows: 2 });
+  const pages = () => paginate((cursor, rows) => worksApi.worksGet({ cursor, rows, filter: 'type:journal-article' }), { rows: 2 });
 
   test('follows next-cursor until a short page', async () => {
     await stubWorksPage('*', dois('a', 'b'), 5, 'c1');
@@ -74,6 +74,6 @@ describe('paginate', () => {
       },
     );
 
-    expect(await collect(paginate((cursor, rows) => membersApi.listMembers({ cursor, rows }), { rows: 10 }))).toEqual([]);
+    expect(await collect(paginate((cursor, rows) => membersApi.membersGet({ cursor, rows }), { rows: 10 }))).toEqual([]);
   });
 });

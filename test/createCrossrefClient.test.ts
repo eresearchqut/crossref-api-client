@@ -25,8 +25,8 @@ describe('createCrossrefClient', () => {
 
     const { works, types } = createCrossrefClient({ url: `${origin}/`, mailto: MAILTO });
 
-    await expect(works.listWorks({ rows: 0 })).resolves.toMatchObject({ message: { total_results: 0 } });
-    await types.listTypes({ mailto: 'other@example.edu' });
+    await expect(works.worksGet({ rows: 0 })).resolves.toMatchObject({ message: { total_results: 0 } });
+    await types.typesGet({ mailto: 'other@example.edu' });
 
     const requests = (await wiremock.getAllRequests()) as { request: { url: string } }[];
     const typesRequest = requests.find(({ request }) => request.url.startsWith('/types'));
@@ -45,7 +45,7 @@ describe('createCrossrefClient', () => {
 
     const { works } = createCrossrefClient({ url: origin, plusToken: 'secret', headers: { 'User-Agent': 'my-app/1.0' } });
 
-    await works.listWorks();
+    await works.worksGet();
   });
 
   test('health resolves when the heartbeat is ok and rejects otherwise', async () => {
@@ -75,7 +75,7 @@ describe('createCrossrefClient', () => {
     await wiremock.register({ method: 'GET', endpoint: '/works' }, { status: 400, body });
     const { works } = createCrossrefClient({ url: origin });
 
-    const error = await works.listWorks({ filter: 'bogus:1' }).catch((e) => e);
+    const error = await works.worksGet({ filter: 'bogus:1' }).catch((e) => e);
 
     expect(error).toBeInstanceOf(CrossrefApiError);
     expect(error).toMatchObject({ message: 'Request failed with status code 400', method: 'GET', status: 400, body });
@@ -89,13 +89,13 @@ describe('createCrossrefClient', () => {
     );
     const { works } = createCrossrefClient({ url: origin });
 
-    await expect(works.getWork({ doi: '10.5555/missing' })).rejects.toMatchObject({ status: 404, body: 'Resource not found.' });
+    await expect(works.worksDoiGet({ doi: '10.5555/missing' })).rejects.toMatchObject({ status: 404, body: 'Resource not found.' });
   });
 
   test('a network failure throws a CrossrefApiError with the code and no status', async () => {
     const { works } = createCrossrefClient({ url: 'http://127.0.0.1:59999' });
 
-    const error = await works.listWorks().catch((e) => e);
+    const error = await works.worksGet().catch((e) => e);
 
     expect(error).toBeInstanceOf(CrossrefApiError);
     expect(error.status).toBeUndefined();

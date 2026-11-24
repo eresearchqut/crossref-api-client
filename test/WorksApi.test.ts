@@ -8,19 +8,19 @@ const doi = '10.1038/s41586-020-2649-2';
 describe('WorksApi', () => {
   const worksApi = new WorksApi(configuration);
 
-  test('getWork encodes the slash in the DOI', async () => {
+  test('worksDoiGet encodes the slash in the DOI', async () => {
     await wiremock.register(
       { method: 'GET', endpoint: '/works/10.1038%2Fs41586-020-2649-2', queryParameters: { mailto: MAILTO } },
       { status: 200, body: work },
     );
 
-    const { message } = await worksApi.getWork({ doi });
+    const { message } = await worksApi.worksDoiGet({ doi });
 
     expect(message.DOI).toEqual(doi);
     expect(message.title?.[0]).toEqual('Array programming with NumPy');
   });
 
-  test('listWorks sends field queries with their dotted names', async () => {
+  test('worksGet sends field queries with their dotted names', async () => {
     await wiremock.register(
       {
         method: 'GET',
@@ -38,7 +38,7 @@ describe('WorksApi', () => {
       { status: 200, body: { status: 'ok', 'message-type': 'work-list', 'message-version': '1.0.0', message: { 'total-results': 0, items: [] } } },
     );
 
-    const { message } = await worksApi.listWorks({
+    const { message } = await worksApi.worksGet({
       queryAuthor: 'Josiah Carberry',
       queryContainerTitle: 'Psychoceramics',
       filter: 'from-pub-date:2020',
@@ -53,10 +53,10 @@ describe('WorksApi', () => {
 });
 
 describe('JournalsApi', () => {
-  test('getJournal puts a single ISSN in the path', async () => {
+  test('journalsIssnGet puts a single ISSN in the path', async () => {
     await wiremock.register({ method: 'GET', endpoint: '/journals/0028-0836' }, { status: 200, body: journal });
 
-    const { message } = await new JournalsApi(configuration).getJournal({ issn: '0028-0836' });
+    const { message } = await new JournalsApi(configuration).journalsIssnGet({ issn: '0028-0836' });
 
     expect(message.title).toEqual('Nature');
   });

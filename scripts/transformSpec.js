@@ -1,29 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// The spec has no operationIds, so the generator would invent names such as `worksDoiGet`.
-// Keyed by path so that a path added upstream fails the build instead of getting an invented name.
-const OPERATION_IDS = {
-  '/works': 'listWorks',
-  '/works/{doi}': 'getWork',
-  '/works/{doi}/agency': 'getWorkAgency',
-  '/funders': 'listFunders',
-  '/funders/{id}': 'getFunder',
-  '/funders/{id}/works': 'listFunderWorks',
-  '/journals': 'listJournals',
-  '/journals/{issn}': 'getJournal',
-  '/journals/{issn}/works': 'listJournalWorks',
-  '/licenses': 'listLicenses',
-  '/members': 'listMembers',
-  '/members/{id}': 'getMember',
-  '/members/{id}/works': 'listMemberWorks',
-  '/prefixes/{prefix}': 'getPrefix',
-  '/prefixes/{prefix}/works': 'listPrefixWorks',
-  '/types': 'listTypes',
-  '/types/{id}': 'getType',
-  '/types/{id}/works': 'listTypeWorks',
-};
-
 // Every works route accepts these, but the spec only lists the plain `query` parameter.
 const WORKS_FIELD_QUERIES = [
   'affiliation',
@@ -49,20 +26,6 @@ const WORKS_FIELD_QUERIES = [
   'translator',
 ];
 
-function nameOperations(spec) {
-  for (const [route, methods] of Object.entries(spec.paths || {})) {
-    if (!methods.get) {
-      continue;
-    }
-    const operationId = OPERATION_IDS[route];
-    if (!operationId) {
-      throw new Error(`No operationId for GET ${route}; add one to OPERATION_IDS`);
-    }
-    methods.get.operationId = operationId;
-  }
-}
-
-// The spec types the `{issn}` path parameter as an array, which the generator joins with commas.
 function fixPathParameters(spec) {
   for (const methods of Object.values(spec.paths || {})) {
     for (const operation of Object.values(methods)) {
@@ -178,7 +141,6 @@ function fixDefinitions(spec) {
 
 function transformSpec(spec) {
   const result = JSON.parse(JSON.stringify(spec));
-  nameOperations(result);
   fixPathParameters(result);
   addFieldQueries(result);
   replaceOneOf(result.definitions);

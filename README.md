@@ -30,15 +30,15 @@ const { works, journals, funders } = createCrossrefClient({
   headers: { 'User-Agent': 'my-app/1.0 (https://example.edu/my-app)' },
 });
 
-const { message } = await works.getWork({ doi: '10.1038/s41586-020-2649-2' });
-const results = await works.listWorks({ queryAuthor: 'Josiah Carberry', rows: 20, select: 'DOI,title' });
+const { message } = await works.worksDoiGet({ doi: '10.1038/s41586-020-2649-2' });
+const results = await works.worksGet({ queryAuthor: 'Josiah Carberry', rows: 20, select: 'DOI,title' });
 ```
 
 `createCrossrefClient` returns `works`, `funders`, `journals`, `licenses`, `members`, `prefixes` and `types`, plus the underlying `configuration` and a `health()` function. `url` defaults to `https://api.crossref.org`. Crossref asks clients to identify themselves, and requests that do so are served from the faster "polite" pool, so pass `mailto` (added as the `mailto` query parameter of every request unless the operation sets its own) and a descriptive `User-Agent` in `headers`. `plusToken` sends a Metadata Plus key in the `Crossref-Plus-API-Token` header. `fetchApi` replaces the global `fetch`. `health()` calls `/heartbeat` and rejects unless Crossref reports `overall-status: ok`.
 
 Every failed request rejects with a `CrossrefApiError`, whether Crossref answered with a non-2xx status or the request never reached it. It carries `method`, `url` and `message`, plus `status` and the response `body` for a response, or the network `code` (such as `ECONNREFUSED`) otherwise. The body is parsed JSON when Crossref sends JSON (for example the `validation-failure` message list on a 400) and text otherwise (a 404 is `Resource not found.`). The generated `ResponseError` and `FetchError` are not thrown by clients made this way. The generated `Configuration` and API classes are still exported if you want to build them yourself. Every model is exported by its generated name (`Work`) and also under a `Crossref` namespace (`Crossref.Work`).
 
-The works routes (`listWorks`, `listFunderWorks`, `listJournalWorks`, `listMemberWorks`, `listPrefixWorks` and `listTypeWorks`) accept the field queries Crossref supports, such as `queryAuthor`, `queryBibliographic` and `queryContainerTitle`, which are sent as `query.author` and so on.
+The works routes (`worksGet`, `fundersIdWorksGet`, `journalsIssnWorksGet`, `membersIdWorksGet`, `prefixesPrefixWorksGet` and `typesIdWorksGet`) accept the field queries Crossref supports, such as `queryAuthor`, `queryBibliographic` and `queryContainerTitle`, which are sent as `query.author` and so on.
 
 To read every result of a works or list route, pass a page function to `paginate`, which yields items lazily, or to `collect`, which returns them all. The helper uses Crossref's deep paging cursor, starting at `*` and following `next-cursor`, because `offset` is limited to 10,000 results. It stops on a page shorter than `rows`, or once it has `total-results` items. `rows` defaults to 100 and Crossref allows at most 1,000. The page function puts `cursor` and `rows` on the request:
 
@@ -46,10 +46,10 @@ To read every result of a works or list route, pass a page function to `paginate
 import { collect, paginate } from '@eresearchqut/crossref-api-client';
 
 const dois = await collect(
-  paginate((cursor, rows) => works.listWorks({ cursor, rows, filter: 'from-pub-date:2024', select: 'DOI' })),
+  paginate((cursor, rows) => works.worksGet({ cursor, rows, filter: 'from-pub-date:2024', select: 'DOI' })),
 );
 
-for await (const work of paginate((cursor, rows) => journals.listJournalWorks({ issn: '0028-0836', cursor, rows }), { rows: 500 })) {
+for await (const work of paginate((cursor, rows) => journals.journalsIssnWorksGet({ issn: '0028-0836', cursor, rows }), { rows: 500 })) {
   // break to stop requesting pages
 }
 ```
@@ -62,7 +62,6 @@ The spec is not committed. The build downloads it from `https://api.crossref.org
 
 Generation first runs `scripts/transformSpec.js`, which downloads the spec and writes `generated/spec.transformed.json` (git-ignored), and the client is generated from that. The generated `FromJSON` functions silently drop every field the spec does not name, so gaps in the spec become lost data. The transform fixes the spec where it disagrees with what api.crossref.org returns:
 
-- Operations have no `operationId` in the spec, so the generator would invent names from the paths. The transform names every operation (`listWorks`, `getWork`, `getJournal`, `listJournalWorks` and so on) and fails if a new path appears that it does not know.
 - The `{issn}` path parameter is declared as an array, and is changed to a string.
 - The spec does not list the `query.<field>` parameters. They are added to every works route, using the field list from the API's own validation message.
 - Nullable values use `x-oneOf`, which Swagger 2.0 does not support and the generator ignores. Each is replaced with the typed variant marked `x-nullable`.
@@ -73,6 +72,7 @@ Generation first runs `scripts/transformSpec.js`, which downloads the spec and w
 
 Other quirks of the generated code remain:
 
+- The spec has no `operationId`s, so the generator names each operation from its path and method, for example `worksGet` for `GET /works`, `worksDoiGet` for `GET /works/{doi}` and `journalsIssnWorksGet` for `GET /journals/{issn}/works`. Renaming a path parameter upstream would rename the operation.
 - Hyphenated JSON keys become underscores on the models (`message_type`, `total_results`, `next_cursor`, `date_time`, `date_parts`), while `DOI` and `ISSN` keep their case.
 - The spec's `Date` definition is generated as `ModelDate` to avoid shadowing the global `Date`.
 - `/heartbeat` is not in the spec, so `health()` calls it directly.
