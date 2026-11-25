@@ -64,7 +64,7 @@ The works routes (`worksGet`, `fundersIdWorksGet`, `journalsIssnWorksGet`, `memb
 
 ### Pagination
 
-To read every result of a works or list route, pass a page function to `paginate`, which yields items lazily, or to `collect`, which returns them all. The page function receives a `cursor` and `rows` to put on the request:
+To read every result of a works or list route, pass a page function to `paginate`, which yields items lazily. To get them all at once, pass the result of `paginate` to `collect`. The page function receives a `cursor` and `rows` to put on the request:
 
 ```ts
 import { collect, paginate } from '@eresearchqut/crossref-api-client';
