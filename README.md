@@ -8,7 +8,7 @@ OpenAPI client for the [Crossref REST API](https://api.crossref.org), generated 
 npm install @eresearchqut/crossref-api-client
 ```
 
-Releases are published to npm from `main`.
+Releases are published from `main` to both npm and GitHub Packages, so projects that already install `@eresearchqut` packages from GitHub Packages can depend on a normal version range such as `^1.0.0`.
 
 ### Prereleases
 

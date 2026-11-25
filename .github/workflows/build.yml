@@ -58,3 +58,45 @@ jobs:
       - name: Release
         run: npx semantic-release
         id: release
+      # @semantic-release/npm leaves the tarball it published to npm in release/
+      # (its tarballDir option), so GitHub Packages gets the identical package
+      # rather than a rebuild against a possibly newer Crossref spec.
+      - name: Check for a new release
+        id: tarball
+        run: |
+          if compgen -G "release/*.tgz" > /dev/null; then
+            echo "released=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Upload the release tarball
+        if: steps.tarball.outputs.released == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-tarball
+          path: release/*.tgz
+          if-no-files-found: error
+    outputs:
+      released: ${{ steps.tarball.outputs.released }}
+  # A `release: created` workflow (as in jest-testcontainers) would never run
+  # here, because events raised with GITHUB_TOKEN do not trigger workflows.
+  publish-gpr:
+    needs: publish-node
+    if: needs.publish-node.outputs.released == 'true'
+    runs-on:
+      - ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24.x
+          registry-url: https://npm.pkg.github.com
+          scope: "@eresearchqut"
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-tarball
+          path: release
+      - name: Publish to GitHub Packages
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm publish release/*.tgz
