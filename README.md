@@ -4,7 +4,15 @@ OpenAPI client for the [Crossref REST API](https://api.crossref.org), generated 
 
 ## Installation
 
-The package is published to GitHub Packages.
+```
+npm install @eresearchqut/crossref-api-client
+```
+
+Releases are published to npm from `main`.
+
+### Prereleases
+
+Prereleases of other branches are published to GitHub Packages by the manual `publish-prerelease` workflow, under a `pre-<branch>` dist tag. To install one:
 
 1. Create a GitHub personal access token (PAT) with the `read:packages` scope.
 2. Add an `.npmrc` file to your project's root directory:
@@ -15,10 +23,12 @@ The package is published to GitHub Packages.
    ```
    npm login --scope=@eresearchqut --registry=https://npm.pkg.github.com
    ```
-4. Install the package:
+4. Install the prerelease:
    ```
-   npm install @eresearchqut/crossref-api-client
+   npm install @eresearchqut/crossref-api-client@pre-<branch>
    ```
+
+While that `.npmrc` is in place, every `@eresearchqut` package installs from GitHub Packages rather than npm.
 
 ## Usage
 
