@@ -49,6 +49,17 @@ describe('createCrossrefClient', () => {
     await works.worksGet();
   });
 
+  test('plusToken replaces a token header in any casing', async () => {
+    await wiremock.register(
+      { method: 'GET', endpoint: '/works', headers: { 'Crossref-Plus-API-Token': 'Bearer new' } },
+      { status: 200, body: emptyWorks },
+    );
+
+    const { works } = createCrossrefClient({ url: origin, plusToken: 'new', headers: { 'crossref-plus-api-token': 'Bearer old' } });
+
+    await works.worksGet();
+  });
+
   test('health resolves when the heartbeat is ok and rejects otherwise', async () => {
     const { health } = createCrossrefClient({ url: origin, mailto: MAILTO });
 

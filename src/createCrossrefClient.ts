@@ -78,6 +78,12 @@ export function createCrossrefClient(options: CrossrefClientOptions = {}): Cross
 
   const requestHeaders: Record<string, string> = { ...headers };
   if (plusToken) {
+    // Fetch joins header names that differ only in case, which would send both tokens.
+    for (const name of Object.keys(requestHeaders)) {
+      if (name.toLowerCase() === 'crossref-plus-api-token') {
+        delete requestHeaders[name];
+      }
+    }
     requestHeaders['Crossref-Plus-API-Token'] = `Bearer ${plusToken}`;
   }
 
