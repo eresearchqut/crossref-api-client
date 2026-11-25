@@ -54,10 +54,8 @@ jobs:
           BRANCH: ${{ github.ref_name }}
           CROSSREF_SPEC_URL: ${{ inputs.spec_url }}
         run: |
-          slug=$(echo "$BRANCH" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g' | cut -c1-40 | sed -E 's/-+$//')
-          base=$(jq -r .version package.json | sed -E 's/-.*//')
-          version="$base-$slug.$(date -u +%Y%m%d%H%M%S)"
+          read -r version tag <<< "$(node scripts/prereleaseVersion.js "$BRANCH")"
           npm version "$version" --no-git-tag-version
-          npm publish --tag "pre-$slug"
-          echo "Published @eresearchqut/crossref-api-client@$version under pre-$slug" >> "$GITHUB_STEP_SUMMARY"
+          npm publish --tag "$tag"
+          echo "Published @eresearchqut/crossref-api-client@$version under $tag" >> "$GITHUB_STEP_SUMMARY"
           echo "Spec: ${CROSSREF_SPEC_URL:-default}" >> "$GITHUB_STEP_SUMMARY"

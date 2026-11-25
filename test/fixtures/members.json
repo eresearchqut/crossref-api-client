@@ -1,0 +1,2082 @@
+{
+    "status": "ok",
+    "message-type": "member-list",
+    "message-version": "1.0.0",
+    "message": {
+        "items-per-page": 3,
+        "query": {
+            "start-index": 0,
+            "search-terms": null
+        },
+        "total-results": 34553,
+        "items": [
+            {
+                "last-status-check-time": 1795475415726,
+                "primary-name": "Annals of Family Medicine, Inc.",
+                "counts": {
+                    "current-dois": 1952,
+                    "backfile-dois": 4007,
+                    "total-dois": 5959
+                },
+                "breakdowns": {
+                    "dois-by-issued-year": [
+                        [
+                            2023,
+                            1063
+                        ],
+                        [
+                            2024,
+                            710
+                        ],
+                        [
+                            2026,
+                            694
+                        ],
+                        [
+                            2025,
+                            548
+                        ],
+                        [
+                            2022,
+                            435
+                        ],
+                        [
+                            2018,
+                            162
+                        ],
+                        [
+                            2005,
+                            154
+                        ],
+                        [
+                            2015,
+                            150
+                        ],
+                        [
+                            2019,
+                            147
+                        ],
+                        [
+                            2017,
+                            146
+                        ],
+                        [
+                            2004,
+                            146
+                        ],
+                        [
+                            2020,
+                            142
+                        ],
+                        [
+                            2013,
+                            140
+                        ],
+                        [
+                            2008,
+                            137
+                        ],
+                        [
+                            2021,
+                            135
+                        ],
+                        [
+                            2010,
+                            134
+                        ],
+                        [
+                            2006,
+                            132
+                        ],
+                        [
+                            2014,
+                            131
+                        ],
+                        [
+                            2009,
+                            129
+                        ],
+                        [
+                            2016,
+                            127
+                        ],
+                        [
+                            2011,
+                            123
+                        ],
+                        [
+                            2007,
+                            120
+                        ],
+                        [
+                            2012,
+                            118
+                        ],
+                        [
+                            2003,
+                            36
+                        ]
+                    ]
+                },
+                "prefixes": [
+                    "10.1370"
+                ],
+                "coverage": {
+                    "affiliations-current": 0.0,
+                    "affiliation-ror-ids-backfile": 0.0,
+                    "similarity-checking-current": 1.0,
+                    "descriptions-current": 0.0,
+                    "ror-ids-current": 0.0,
+                    "funders-backfile": 0.0,
+                    "licenses-backfile": 0.0,
+                    "funders-current": 0.0,
+                    "affiliations-backfile": 0.0,
+                    "resource-links-backfile": 0.0,
+                    "orcids-backfile": 0.0,
+                    "funder-ror-ids-current": 0.0,
+                    "update-policies-current": 0.0,
+                    "ror-ids-backfile": 0.0,
+                    "orcids-current": 0.003073770491803279,
+                    "similarity-checking-backfile": 0.562016471175443,
+                    "references-backfile": 0.0,
+                    "descriptions-backfile": 0.0,
+                    "award-numbers-backfile": 0.0,
+                    "update-policies-backfile": 0.0,
+                    "licenses-current": 0.0,
+                    "award-numbers-current": 0.0,
+                    "abstracts-backfile": 0.0,
+                    "resource-links-current": 0.0,
+                    "affiliation-ror-ids-current": 0.0,
+                    "funder-ror-ids-backfile": 0.0,
+                    "abstracts-current": 0.0,
+                    "references-current": 0.0
+                },
+                "prefix": [
+                    {
+                        "name": "Annals of Family Medicine, Inc.",
+                        "value": "10.1370"
+                    }
+                ],
+                "id": 1,
+                "tokens": [
+                    "annals",
+                    "of",
+                    "family",
+                    "medicine",
+                    "inc"
+                ],
+                "counts-type": {
+                    "all": {
+                        "journal-article": 3460,
+                        "proceedings-article": 2499
+                    },
+                    "backfile": {
+                        "journal-article": 2808,
+                        "proceedings-article": 1199
+                    },
+                    "current": {
+                        "journal-article": 652,
+                        "proceedings-article": 1300
+                    }
+                },
+                "coverage-type": {
+                    "all": {
+                        "journal-article": {
+                            "last-status-check-time": 1795475415726,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.001734104046242775,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.4927745664739884,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415726,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 1.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        }
+                    },
+                    "backfile": {
+                        "journal-article": {
+                            "last-status-check-time": 1795475415726,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.375,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415726,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 1.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        }
+                    },
+                    "current": {
+                        "journal-article": {
+                            "last-status-check-time": 1795475415726,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.00920245398773006,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 1.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415726,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 1.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        }
+                    }
+                },
+                "flags": {
+                    "deposits-abstracts-current": false,
+                    "deposits-orcids-current": true,
+                    "deposits-affiliation-ror-ids-current": false,
+                    "deposits": true,
+                    "deposits-affiliations-backfile": false,
+                    "deposits-update-policies-backfile": false,
+                    "deposits-similarity-checking-backfile": true,
+                    "deposits-award-numbers-current": false,
+                    "deposits-resource-links-current": false,
+                    "deposits-ror-ids-current": false,
+                    "deposits-articles": true,
+                    "deposits-affiliations-current": false,
+                    "deposits-affiliation-ror-ids-backfile": false,
+                    "deposits-funders-current": false,
+                    "deposits-references-backfile": false,
+                    "deposits-funder-ror-ids-current": false,
+                    "deposits-ror-ids-backfile": false,
+                    "deposits-abstracts-backfile": false,
+                    "deposits-licenses-backfile": false,
+                    "deposits-award-numbers-backfile": false,
+                    "deposits-descriptions-current": false,
+                    "deposits-references-current": false,
+                    "deposits-resource-links-backfile": false,
+                    "deposits-descriptions-backfile": false,
+                    "deposits-orcids-backfile": false,
+                    "deposits-funders-backfile": false,
+                    "deposits-funder-ror-ids-backfile": false,
+                    "deposits-update-policies-current": false,
+                    "deposits-similarity-checking-current": true,
+                    "deposits-licenses-current": false
+                },
+                "location": "Leawood, KS, United States",
+                "names": [
+                    "Annals of Family Medicine, Inc."
+                ]
+            },
+            {
+                "last-status-check-time": 1795475415745,
+                "primary-name": "American Association of Petroleum Geologists AAPG/Datapages",
+                "counts": {
+                    "current-dois": 774,
+                    "backfile-dois": 32297,
+                    "total-dois": 33071
+                },
+                "breakdowns": {
+                    "dois-by-issued-year": [
+                        [
+                            2019,
+                            1132
+                        ],
+                        [
+                            2000,
+                            870
+                        ],
+                        [
+                            2018,
+                            793
+                        ],
+                        [
+                            2001,
+                            736
+                        ],
+                        [
+                            1993,
+                            699
+                        ],
+                        [
+                            1990,
+                            635
+                        ],
+                        [
+                            1981,
+                            633
+                        ],
+                        [
+                            1986,
+                            605
+                        ],
+                        [
+                            1991,
+                            603
+                        ],
+                        [
+                            1992,
+                            593
+                        ],
+                        [
+                            1994,
+                            590
+                        ],
+                        [
+                            1997,
+                            586
+                        ],
+                        [
+                            1999,
+                            566
+                        ],
+                        [
+                            2020,
+                            548
+                        ],
+                        [
+                            1984,
+                            547
+                        ],
+                        [
+                            1988,
+                            540
+                        ],
+                        [
+                            1995,
+                            532
+                        ],
+                        [
+                            2021,
+                            523
+                        ],
+                        [
+                            1996,
+                            513
+                        ],
+                        [
+                            1982,
+                            512
+                        ],
+                        [
+                            1977,
+                            496
+                        ],
+                        [
+                            1998,
+                            493
+                        ],
+                        [
+                            1979,
+                            481
+                        ],
+                        [
+                            1978,
+                            479
+                        ],
+                        [
+                            1985,
+                            444
+                        ],
+                        [
+                            1989,
+                            438
+                        ],
+                        [
+                            2023,
+                            428
+                        ],
+                        [
+                            2017,
+                            420
+                        ],
+                        [
+                            1983,
+                            418
+                        ],
+                        [
+                            1987,
+                            395
+                        ],
+                        [
+                            1972,
+                            394
+                        ],
+                        [
+                            1971,
+                            393
+                        ],
+                        [
+                            1968,
+                            390
+                        ],
+                        [
+                            2016,
+                            383
+                        ],
+                        [
+                            1974,
+                            382
+                        ],
+                        [
+                            1969,
+                            381
+                        ],
+                        [
+                            2024,
+                            376
+                        ],
+                        [
+                            2014,
+                            373
+                        ],
+                        [
+                            1973,
+                            372
+                        ],
+                        [
+                            2022,
+                            358
+                        ],
+                        [
+                            1980,
+                            354
+                        ],
+                        [
+                            1970,
+                            351
+                        ],
+                        [
+                            2015,
+                            336
+                        ],
+                        [
+                            2025,
+                            330
+                        ],
+                        [
+                            1975,
+                            323
+                        ],
+                        [
+                            2002,
+                            308
+                        ],
+                        [
+                            1965,
+                            287
+                        ],
+                        [
+                            2004,
+                            283
+                        ],
+                        [
+                            1958,
+                            281
+                        ],
+                        [
+                            1976,
+                            273
+                        ],
+                        [
+                            1959,
+                            250
+                        ],
+                        [
+                            1961,
+                            242
+                        ],
+                        [
+                            2012,
+                            239
+                        ],
+                        [
+                            1967,
+                            238
+                        ],
+                        [
+                            1956,
+                            238
+                        ],
+                        [
+                            2009,
+                            237
+                        ],
+                        [
+                            2003,
+                            235
+                        ],
+                        [
+                            1964,
+                            234
+                        ],
+                        [
+                            1962,
+                            232
+                        ],
+                        [
+                            1951,
+                            228
+                        ],
+                        [
+                            1963,
+                            226
+                        ],
+                        [
+                            2006,
+                            217
+                        ],
+                        [
+                            1957,
+                            217
+                        ],
+                        [
+                            1954,
+                            211
+                        ],
+                        [
+                            1966,
+                            204
+                        ],
+                        [
+                            2005,
+                            198
+                        ],
+                        [
+                            2013,
+                            193
+                        ],
+                        [
+                            1955,
+                            188
+                        ],
+                        [
+                            1929,
+                            182
+                        ],
+                        [
+                            1960,
+                            178
+                        ],
+                        [
+                            1953,
+                            178
+                        ],
+                        [
+                            2011,
+                            177
+                        ],
+                        [
+                            1941,
+                            167
+                        ],
+                        [
+                            1942,
+                            164
+                        ],
+                        [
+                            1939,
+                            163
+                        ],
+                        [
+                            1950,
+                            160
+                        ],
+                        [
+                            1936,
+                            158
+                        ],
+                        [
+                            1952,
+                            149
+                        ],
+                        [
+                            1948,
+                            149
+                        ],
+                        [
+                            1946,
+                            144
+                        ],
+                        [
+                            1934,
+                            144
+                        ],
+                        [
+                            1935,
+                            140
+                        ],
+                        [
+                            2007,
+                            137
+                        ],
+                        [
+                            1926,
+                            136
+                        ],
+                        [
+                            1947,
+                            132
+                        ],
+                        [
+                            1940,
+                            126
+                        ],
+                        [
+                            1930,
+                            125
+                        ],
+                        [
+                            1933,
+                            120
+                        ],
+                        [
+                            1945,
+                            118
+                        ],
+                        [
+                            1921,
+                            114
+                        ],
+                        [
+                            1949,
+                            113
+                        ],
+                        [
+                            1938,
+                            112
+                        ],
+                        [
+                            1927,
+                            112
+                        ],
+                        [
+                            1932,
+                            109
+                        ],
+                        [
+                            1931,
+                            109
+                        ],
+                        [
+                            1928,
+                            106
+                        ],
+                        [
+                            1925,
+                            103
+                        ],
+                        [
+                            2010,
+                            98
+                        ],
+                        [
+                            1937,
+                            97
+                        ],
+                        [
+                            1944,
+                            92
+                        ],
+                        [
+                            1943,
+                            90
+                        ],
+                        [
+                            2008,
+                            89
+                        ],
+                        [
+                            1924,
+                            75
+                        ],
+                        [
+                            1923,
+                            75
+                        ],
+                        [
+                            2026,
+                            68
+                        ],
+                        [
+                            1922,
+                            68
+                        ],
+                        [
+                            1920,
+                            34
+                        ],
+                        [
+                            1919,
+                            30
+                        ],
+                        [
+                            1917,
+                            15
+                        ],
+                        [
+                            1918,
+                            12
+                        ]
+                    ]
+                },
+                "prefixes": [
+                    "10.15530",
+                    "10.1306"
+                ],
+                "coverage": {
+                    "affiliations-current": 0.2674418604651163,
+                    "affiliation-ror-ids-backfile": 0.0,
+                    "similarity-checking-current": 0.2751937984496124,
+                    "descriptions-current": 0.0,
+                    "ror-ids-current": 0.0,
+                    "funders-backfile": 0.0,
+                    "licenses-backfile": 0.00114561723999133,
+                    "funders-current": 0.0,
+                    "affiliations-backfile": 0.3599405517540329,
+                    "resource-links-backfile": 0.0,
+                    "orcids-backfile": 0.0,
+                    "funder-ror-ids-current": 0.0,
+                    "update-policies-current": 0.0,
+                    "ror-ids-backfile": 0.0,
+                    "orcids-current": 0.0,
+                    "similarity-checking-backfile": 0.6798154627364771,
+                    "references-backfile": 0.2708301080595721,
+                    "descriptions-backfile": 0.0,
+                    "award-numbers-backfile": 0.0,
+                    "update-policies-backfile": 0.0,
+                    "licenses-current": 0.02325581395348837,
+                    "award-numbers-current": 0.0,
+                    "abstracts-backfile": 0.3946186952348515,
+                    "resource-links-current": 0.0,
+                    "affiliation-ror-ids-current": 0.0,
+                    "funder-ror-ids-backfile": 0.0,
+                    "abstracts-current": 0.2700258397932817,
+                    "references-current": 0.2428940568475452
+                },
+                "prefix": [
+                    {
+                        "name": "AAPG/Datapages",
+                        "value": "10.15530"
+                    },
+                    {
+                        "name": "AAPG/Datapages",
+                        "value": "10.1306"
+                    }
+                ],
+                "id": 2,
+                "tokens": [
+                    "american",
+                    "association",
+                    "of",
+                    "petroleum",
+                    "geologists",
+                    "aapg/datapages"
+                ],
+                "counts-type": {
+                    "all": {
+                        "monograph": 4,
+                        "journal-article": 23180,
+                        "other": 20,
+                        "book": 5,
+                        "proceedings-article": 4589,
+                        "book-chapter": 5096,
+                        "proceedings": 1,
+                        "book-series": 8,
+                        "edited-book": 393
+                    },
+                    "backfile": {
+                        "monograph": 4,
+                        "journal-article": 22967,
+                        "book": 5,
+                        "proceedings-article": 4028,
+                        "book-chapter": 4899,
+                        "proceedings": 1,
+                        "edited-book": 393
+                    },
+                    "current": {
+                        "journal-article": 213,
+                        "proceedings-article": 561
+                    }
+                },
+                "coverage-type": {
+                    "all": {
+                        "monograph": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.25,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "journal-article": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.439344262295082,
+                            "abstracts": 0.4644521138912856,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.002372735116479724,
+                            "references": 0.3448231233822261,
+                            "funders": 0.0,
+                            "similarity-checking": 0.8414150129421915,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "other": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "book": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.1059054260187405,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "book-chapter": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.3214285714285714,
+                            "abstracts": 0.4109105180533752,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.1997645211930926,
+                            "funders": 0.0,
+                            "similarity-checking": 0.4315149136577708,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "book-series": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "edited-book": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.02544529262086514,
+                            "abstracts": 0.2391857506361323,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.007633587786259542,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        }
+                    },
+                    "backfile": {
+                        "monograph": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.25,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "journal-article": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.4344058867070144,
+                            "abstracts": 0.459659511472983,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.001611007097139374,
+                            "references": 0.3398354160316977,
+                            "funders": 0.0,
+                            "similarity-checking": 0.8399442678625854,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "book": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.1206554121151936,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "book-chapter": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.3343539497856705,
+                            "abstracts": 0.4274341702388242,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.1922841396203307,
+                            "funders": 0.0,
+                            "similarity-checking": 0.4439681567666871,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "edited-book": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.02544529262086514,
+                            "abstracts": 0.2391857506361323,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.007633587786259542,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        }
+                    },
+                    "current": {
+                        "journal-article": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.971830985915493,
+                            "abstracts": 0.9812206572769953,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.08450704225352113,
+                            "references": 0.8826291079812207,
+                            "funders": 0.0,
+                            "similarity-checking": 1.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415745,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        }
+                    }
+                },
+                "flags": {
+                    "deposits-abstracts-current": true,
+                    "deposits-orcids-current": false,
+                    "deposits-affiliation-ror-ids-current": false,
+                    "deposits": true,
+                    "deposits-affiliations-backfile": true,
+                    "deposits-update-policies-backfile": false,
+                    "deposits-similarity-checking-backfile": true,
+                    "deposits-award-numbers-current": false,
+                    "deposits-resource-links-current": false,
+                    "deposits-ror-ids-current": false,
+                    "deposits-articles": true,
+                    "deposits-affiliations-current": true,
+                    "deposits-affiliation-ror-ids-backfile": false,
+                    "deposits-funders-current": false,
+                    "deposits-references-backfile": true,
+                    "deposits-funder-ror-ids-current": false,
+                    "deposits-ror-ids-backfile": false,
+                    "deposits-abstracts-backfile": true,
+                    "deposits-licenses-backfile": true,
+                    "deposits-award-numbers-backfile": false,
+                    "deposits-descriptions-current": false,
+                    "deposits-references-current": true,
+                    "deposits-resource-links-backfile": false,
+                    "deposits-descriptions-backfile": false,
+                    "deposits-orcids-backfile": false,
+                    "deposits-funders-backfile": false,
+                    "deposits-funder-ror-ids-backfile": false,
+                    "deposits-update-policies-current": false,
+                    "deposits-similarity-checking-current": true,
+                    "deposits-licenses-current": true
+                },
+                "location": "Tulsa, OK, United States",
+                "names": [
+                    "American Association of Petroleum Geologists AAPG/Datapages",
+                    "AAPG/Datapages"
+                ]
+            },
+            {
+                "last-status-check-time": 1795475415859,
+                "primary-name": "American Association of Physics Teachers (AAPT)",
+                "counts": {
+                    "current-dois": 1661,
+                    "backfile-dois": 43959,
+                    "total-dois": 45620
+                },
+                "breakdowns": {
+                    "dois-by-issued-year": [
+                        [
+                            1972,
+                            959
+                        ],
+                        [
+                            1973,
+                            835
+                        ],
+                        [
+                            1971,
+                            791
+                        ],
+                        [
+                            1978,
+                            770
+                        ],
+                        [
+                            1977,
+                            756
+                        ],
+                        [
+                            2020,
+                            735
+                        ],
+                        [
+                            1979,
+                            725
+                        ],
+                        [
+                            1976,
+                            722
+                        ],
+                        [
+                            1965,
+                            712
+                        ],
+                        [
+                            1984,
+                            709
+                        ],
+                        [
+                            1985,
+                            703
+                        ],
+                        [
+                            1983,
+                            702
+                        ],
+                        [
+                            1974,
+                            698
+                        ],
+                        [
+                            2015,
+                            697
+                        ],
+                        [
+                            1966,
+                            696
+                        ],
+                        [
+                            1970,
+                            681
+                        ],
+                        [
+                            1987,
+                            677
+                        ],
+                        [
+                            2014,
+                            674
+                        ],
+                        [
+                            1988,
+                            674
+                        ],
+                        [
+                            1980,
+                            663
+                        ],
+                        [
+                            2022,
+                            660
+                        ],
+                        [
+                            1986,
+                            653
+                        ],
+                        [
+                            2019,
+                            652
+                        ],
+                        [
+                            1975,
+                            645
+                        ],
+                        [
+                            2018,
+                            644
+                        ],
+                        [
+                            1989,
+                            643
+                        ],
+                        [
+                            1982,
+                            639
+                        ],
+                        [
+                            2021,
+                            638
+                        ],
+                        [
+                            1996,
+                            637
+                        ],
+                        [
+                            1968,
+                            631
+                        ],
+                        [
+                            1969,
+                            630
+                        ],
+                        [
+                            1990,
+                            626
+                        ],
+                        [
+                            1967,
+                            624
+                        ],
+                        [
+                            1981,
+                            622
+                        ],
+                        [
+                            2016,
+                            615
+                        ],
+                        [
+                            2010,
+                            613
+                        ],
+                        [
+                            1991,
+                            594
+                        ],
+                        [
+                            1999,
+                            589
+                        ],
+                        [
+                            2024,
+                            588
+                        ],
+                        [
+                            2023,
+                            583
+                        ],
+                        [
+                            2002,
+                            580
+                        ],
+                        [
+                            2006,
+                            576
+                        ],
+                        [
+                            2011,
+                            573
+                        ],
+                        [
+                            2025,
+                            571
+                        ],
+                        [
+                            2004,
+                            567
+                        ],
+                        [
+                            2003,
+                            566
+                        ],
+                        [
+                            2001,
+                            565
+                        ],
+                        [
+                            1963,
+                            560
+                        ],
+                        [
+                            2005,
+                            556
+                        ],
+                        [
+                            2012,
+                            555
+                        ],
+                        [
+                            1998,
+                            553
+                        ],
+                        [
+                            1997,
+                            552
+                        ],
+                        [
+                            1964,
+                            549
+                        ],
+                        [
+                            2009,
+                            548
+                        ],
+                        [
+                            1994,
+                            548
+                        ],
+                        [
+                            2000,
+                            543
+                        ],
+                        [
+                            1993,
+                            542
+                        ],
+                        [
+                            1995,
+                            540
+                        ],
+                        [
+                            2007,
+                            535
+                        ],
+                        [
+                            2026,
+                            502
+                        ],
+                        [
+                            1992,
+                            497
+                        ],
+                        [
+                            2008,
+                            480
+                        ],
+                        [
+                            2017,
+                            479
+                        ],
+                        [
+                            2013,
+                            471
+                        ],
+                        [
+                            1962,
+                            408
+                        ],
+                        [
+                            1961,
+                            374
+                        ],
+                        [
+                            1960,
+                            316
+                        ],
+                        [
+                            1953,
+                            278
+                        ],
+                        [
+                            1958,
+                            261
+                        ],
+                        [
+                            1959,
+                            260
+                        ],
+                        [
+                            1954,
+                            258
+                        ],
+                        [
+                            1951,
+                            256
+                        ],
+                        [
+                            1957,
+                            245
+                        ],
+                        [
+                            1952,
+                            244
+                        ],
+                        [
+                            1955,
+                            235
+                        ],
+                        [
+                            1956,
+                            227
+                        ],
+                        [
+                            1949,
+                            218
+                        ],
+                        [
+                            1950,
+                            200
+                        ],
+                        [
+                            1948,
+                            158
+                        ],
+                        [
+                            1938,
+                            133
+                        ],
+                        [
+                            1947,
+                            132
+                        ],
+                        [
+                            1946,
+                            125
+                        ],
+                        [
+                            1937,
+                            121
+                        ],
+                        [
+                            1944,
+                            119
+                        ],
+                        [
+                            1945,
+                            117
+                        ],
+                        [
+                            1939,
+                            116
+                        ],
+                        [
+                            1940,
+                            115
+                        ],
+                        [
+                            1942,
+                            109
+                        ],
+                        [
+                            1943,
+                            106
+                        ],
+                        [
+                            1941,
+                            105
+                        ],
+                        [
+                            1936,
+                            100
+                        ],
+                        [
+                            1935,
+                            73
+                        ],
+                        [
+                            1934,
+                            55
+                        ],
+                        [
+                            1933,
+                            43
+                        ]
+                    ]
+                },
+                "prefixes": [
+                    "10.1119"
+                ],
+                "coverage": {
+                    "affiliations-current": 0.7977122215532813,
+                    "affiliation-ror-ids-backfile": 0.0,
+                    "similarity-checking-current": 0.8952438290186635,
+                    "descriptions-current": 0.006020469596628537,
+                    "ror-ids-current": 0.001806140878988561,
+                    "funders-backfile": 0.002183853135876612,
+                    "licenses-backfile": 0.00263882253918424,
+                    "funders-current": 0.09452137266706803,
+                    "affiliations-backfile": 0.8062740280716122,
+                    "resource-links-backfile": 0.002570577128688096,
+                    "orcids-backfile": 0.03303077868013376,
+                    "funder-ror-ids-current": 0.001806140878988561,
+                    "update-policies-current": 0.8952438290186635,
+                    "ror-ids-backfile": 0.0,
+                    "orcids-current": 0.7633955448524985,
+                    "similarity-checking-backfile": 0.9616915762414978,
+                    "references-backfile": 0.1813735526285857,
+                    "descriptions-backfile": 0.0089174003048295,
+                    "award-numbers-backfile": 0.001842626083395892,
+                    "update-policies-backfile": 0.9472462976864806,
+                    "licenses-current": 0.08368452739313666,
+                    "award-numbers-current": 0.08007224563515954,
+                    "abstracts-backfile": 0.3591755954412066,
+                    "resource-links-current": 0.03371462974111981,
+                    "affiliation-ror-ids-current": 0.0,
+                    "funder-ror-ids-backfile": 0.0,
+                    "abstracts-current": 0.2450331125827815,
+                    "references-current": 0.6971703792895846
+                },
+                "prefix": [
+                    {
+                        "name": "American Association of Physics Teachers",
+                        "value": "10.1119"
+                    }
+                ],
+                "id": 3,
+                "tokens": [
+                    "american",
+                    "association",
+                    "of",
+                    "physics",
+                    "teachers",
+                    "aapt"
+                ],
+                "counts-type": {
+                    "all": {
+                        "peer-review": 1,
+                        "journal-article": 43852,
+                        "journal-volume": 3,
+                        "proceedings-article": 1284,
+                        "journal": 1,
+                        "component": 9,
+                        "proceedings": 15,
+                        "database": 1,
+                        "journal-issue": 7,
+                        "dataset": 464
+                    },
+                    "backfile": {
+                        "journal-article": 42354,
+                        "proceedings-article": 1135,
+                        "proceedings": 13,
+                        "journal-issue": 6,
+                        "dataset": 451
+                    },
+                    "current": {
+                        "peer-review": 1,
+                        "journal-article": 1498,
+                        "proceedings-article": 149,
+                        "proceedings": 2,
+                        "journal-issue": 1,
+                        "dataset": 10
+                    }
+                },
+                "coverage-type": {
+                    "all": {
+                        "peer-review": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 1.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "journal-article": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.8384566268357201,
+                            "abstracts": 0.3693332117121226,
+                            "orcids": 0.0348672808537809,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.005815014138465748,
+                            "references": 0.208223114111101,
+                            "funders": 0.005769406184438566,
+                            "similarity-checking": 0.9979476420687768,
+                            "funder-ror-ids": 6.841193104077351e-05,
+                            "award-numbers": 0.00488005108090851,
+                            "ror-ids": 6.841193104077351e-05,
+                            "update-policies": 0.9834671166651464,
+                            "resource-links": 0.003853872115296908,
+                            "descriptions": 0.0
+                        },
+                        "journal-volume": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.9221183800623053,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "journal": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "component": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "database": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "journal-issue": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.8571428571428571,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "dataset": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.8728448275862069
+                        }
+                    },
+                    "backfile": {
+                        "journal-article": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.8368276904188506,
+                            "abstracts": 0.3727865136704916,
+                            "orcids": 0.009727534589413042,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.002738820418378429,
+                            "references": 0.1882466827218208,
+                            "funders": 0.002266610001416631,
+                            "similarity-checking": 0.9981347688530009,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.001912452188695283,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.9831420881144638,
+                            "resource-links": 0.00266798885583416,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.9118942731277533,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "journal-issue": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.8333333333333333,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "dataset": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.869179600886918
+                        }
+                    },
+                    "current": {
+                        "peer-review": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 1.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "journal-article": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.8845126835781041,
+                            "abstracts": 0.2716955941255007,
+                            "orcids": 0.7456608811748999,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.09279038718291055,
+                            "references": 0.7730307076101469,
+                            "funders": 0.1048064085447263,
+                            "similarity-checking": 0.992656875834446,
+                            "funder-ror-ids": 0.002002670226969292,
+                            "award-numbers": 0.08878504672897196,
+                            "ror-ids": 0.002002670226969292,
+                            "update-policies": 0.992656875834446,
+                            "resource-links": 0.03738317757009346,
+                            "descriptions": 0.0
+                        },
+                        "proceedings-article": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 1.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "proceedings": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "journal-issue": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 1.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 0.0
+                        },
+                        "dataset": {
+                            "last-status-check-time": 1795475415859,
+                            "affiliations": 0.0,
+                            "abstracts": 0.0,
+                            "orcids": 0.0,
+                            "affiliation-ror-ids": 0.0,
+                            "licenses": 0.0,
+                            "references": 0.0,
+                            "funders": 0.0,
+                            "similarity-checking": 0.0,
+                            "funder-ror-ids": 0.0,
+                            "award-numbers": 0.0,
+                            "ror-ids": 0.0,
+                            "update-policies": 0.0,
+                            "resource-links": 0.0,
+                            "descriptions": 1.0
+                        }
+                    }
+                },
+                "flags": {
+                    "deposits-abstracts-current": true,
+                    "deposits-orcids-current": true,
+                    "deposits-affiliation-ror-ids-current": false,
+                    "deposits": true,
+                    "deposits-affiliations-backfile": true,
+                    "deposits-update-policies-backfile": true,
+                    "deposits-similarity-checking-backfile": true,
+                    "deposits-award-numbers-current": true,
+                    "deposits-resource-links-current": true,
+                    "deposits-ror-ids-current": true,
+                    "deposits-articles": true,
+                    "deposits-affiliations-current": true,
+                    "deposits-affiliation-ror-ids-backfile": false,
+                    "deposits-funders-current": true,
+                    "deposits-references-backfile": true,
+                    "deposits-funder-ror-ids-current": true,
+                    "deposits-ror-ids-backfile": false,
+                    "deposits-abstracts-backfile": true,
+                    "deposits-licenses-backfile": true,
+                    "deposits-award-numbers-backfile": true,
+                    "deposits-descriptions-current": true,
+                    "deposits-references-current": true,
+                    "deposits-resource-links-backfile": true,
+                    "deposits-descriptions-backfile": true,
+                    "deposits-orcids-backfile": true,
+                    "deposits-funders-backfile": true,
+                    "deposits-funder-ror-ids-backfile": false,
+                    "deposits-update-policies-current": true,
+                    "deposits-similarity-checking-current": true,
+                    "deposits-licenses-current": true
+                },
+                "location": "United States",
+                "names": [
+                    "American Association of Physics Teachers (AAPT)",
+                    "American Association of Physics Teachers"
+                ]
+            }
+        ]
+    }
+}

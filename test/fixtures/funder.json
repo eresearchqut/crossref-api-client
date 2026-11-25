@@ -1,0 +1,66 @@
+{
+    "status": "ok",
+    "message-type": "funder",
+    "message-version": "1.0.0",
+    "message": {
+        "hierarchy-names": {
+            "501100003921": "Department of Health, Disability and Ageing",
+            "501100000925": "National Health and Medical Research Council",
+            "501100001111": "Cancer Australia",
+            "501100001021": "Australian Sports Commission",
+            "100008999": "Australian Commission on Safety and Quality in Health Care",
+            "501100025520": "Medical Research Future Fund",
+            "501100020918": "National Mental Health Commission"
+        },
+        "replaced-by": [],
+        "work-count": 57298,
+        "name": "National Health and Medical Research Council",
+        "descendants": [],
+        "descendant-work-count": 57298,
+        "id": "501100000925",
+        "tokens": [
+            "national",
+            "health",
+            "and",
+            "medical",
+            "research",
+            "council",
+            "nhmrc",
+            "nhmrc",
+            "national",
+            "health",
+            "and",
+            "medical",
+            "research",
+            "council",
+            "national",
+            "health",
+            "and",
+            "medical",
+            "research",
+            "council",
+            "australian",
+            "government"
+        ],
+        "replaces": [],
+        "uri": "https://doi.org/10.13039/501100000925",
+        "hierarchy": {
+            "501100003921": {
+                "501100000925": {},
+                "501100001111": {},
+                "501100001021": {
+                    "more": true
+                },
+                "100008999": {},
+                "501100025520": {},
+                "501100020918": {}
+            }
+        },
+        "alt-names": [
+            "NHMRC",
+            "NHMRC National Health and Medical Research Council",
+            "National Health and Medical Research Council, Australian Government"
+        ],
+        "location": "Australia"
+    }
+}
