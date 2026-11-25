@@ -37,8 +37,6 @@ jobs:
       id-token: write # for npm trusted publishing and provenance
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # Publishing to npm uses trusted publishing (OIDC). NPM_TOKEN is only a fallback for when no trusted publisher is configured, such as the package's first release.
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
