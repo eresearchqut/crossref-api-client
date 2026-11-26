@@ -1,5 +1,6 @@
 dist
 generated
 node_modules
+release
 .env
 .idea

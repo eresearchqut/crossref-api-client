@@ -57,7 +57,12 @@
         }
       ],
       "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
+      [
+        "@semantic-release/npm",
+        {
+          "tarballDir": "release"
+        }
+      ],
       "@semantic-release/git",
       "@semantic-release/github"
     ]
